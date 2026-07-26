@@ -1,8 +1,8 @@
 <div align="center">
 
-# Soumya Debnath — Full-Stack & AI Engineer
+# Soumya Debnath — Full-Stack, AI & Systems Engineer
 
-### Building production-grade AI systems · Open to roles in 🇳🇿 New Zealand & 🇸🇬 Singapore
+### Creator of 10 Zero-Server Open-Source Infrastructure Products
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--debnath-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
 [![GitHub followers](https://img.shields.io/github/followers/itsoumya-d?label=Follow&style=social)](https://github.com/itsoumya-d)
@@ -11,103 +11,51 @@
 
 ---
 
+## ⚡ Category-Defining Developer Infrastructure & SaaS Alternatives
+
+> High-performance, zero-server, privacy-first software replacing expensive proprietary cloud APIs.
+
+| Project | Replaces | Key Innovation | Live Website | Repository |
+|:--------|:---------|:---------------|:-------------|:-----------|
+| **⚡ [AllRTC](https://github.com/itsoumya-d/allrtc)** | Cloudflare Stream, AWS IVS ($5K-$25K/mo) | P2P Swarm Live Video Streaming | [Live Demo](https://itsoumya-d.github.io/allrtc/) | [`itsoumya-d/allrtc`](https://github.com/itsoumya-d/allrtc) |
+| **👻 [GhostSearch](https://github.com/itsoumya-d/ghostsearch)** | Algolia ($50K+/yr), Elasticsearch | Sub-millisecond Client-Side Search (<1ms) | [Live Demo](https://itsoumya-d.github.io/ghostsearch/) | [`itsoumya-d/ghostsearch`](https://github.com/itsoumya-d/ghostsearch) |
+| **🔐 [PeerVault](https://github.com/itsoumya-d/peervault)** | WeTransfer, S3 Transfer ($0.09/GB) | Browser-to-Browser E2E Encrypted Transfer | [Live Demo](https://itsoumya-d.github.io/peervault/) | [`itsoumya-d/peervault`](https://github.com/itsoumya-d/peervault) |
+| **🔄 [SyncForge](https://github.com/itsoumya-d/syncforge)** | Firebase ($15K/mo), Supabase | CRDT Offline-First Real-Time Database | [Live Demo](https://itsoumya-d.github.io/syncforge/) | [`itsoumya-d/syncforge`](https://github.com/itsoumya-d/syncforge) |
+| **📊 [PulseNet](https://github.com/itsoumya-d/pulsenet)** | Google Analytics 360, Mixpanel | Zero-Cookie Differential Privacy Analytics | [Live Demo](https://itsoumya-d.github.io/pulsenet/) | [`itsoumya-d/pulsenet`](https://github.com/itsoumya-d/pulsenet) |
+| **🔑 [MeshAuth](https://github.com/itsoumya-d/meshauth)** | Auth0 ($18K/yr), Okta ($5/user/mo) | Passwordless Biometric WebAuthn/Passkeys | [Live Demo](https://itsoumya-d.github.io/meshauth/) | [`itsoumya-d/meshauth`](https://github.com/itsoumya-d/meshauth) |
+| **🧠 [EdgeInfer](https://github.com/itsoumya-d/edgeinfer)** | OpenAI API ($200K+/yr), SageMaker | On-Device WebGPU & WASM AI Inference | [Live Demo](https://itsoumya-d.github.io/edgeinfer/) | [`itsoumya-d/edgeinfer`](https://github.com/itsoumya-d/edgeinfer) |
+| **⚡ [SwarmCompute](https://github.com/itsoumya-d/swarmcompute)** | AWS Lambda ($96K/yr), CF Workers | Distributed Browser WASM Compute Mesh | [Live Demo](https://itsoumya-d.github.io/swarmcompute/) | [`itsoumya-d/swarmcompute`](https://github.com/itsoumya-d/swarmcompute) |
+| **🎮 [SyncPlay](https://github.com/itsoumya-d/syncplay)** | Photon Engine ($36K/yr), PlayFab | P2P WebRTC Multiplayer Game Engine | [Live Demo](https://itsoumya-d.github.io/syncplay/) | [`itsoumya-d/syncplay`](https://github.com/itsoumya-d/syncplay) |
+| **📨 [ZeroQ](https://github.com/itsoumya-d/zeroq)** | Apache Kafka ($120K/yr), AWS SQS | Serverless P2P Message Queue & Pub/Sub | [Live Demo](https://itsoumya-d.github.io/zeroq/) | [`itsoumya-d/zeroq`](https://github.com/itsoumya-d/zeroq) |
+
+---
+
 ## 🧑‍💻 About Me
 
-I am a Full-Stack Software Engineer specialising in **AI-powered SaaS products**, **cross-platform mobile development**, and **cybersecurity tooling**. I have shipped **10+ production-ready applications** across web (Next.js 14, TypeScript, Supabase) and mobile (Flutter/Dart, React Native/Expo) — many with deep AI integrations using Gemini AI and the Anthropic Claude API.
+I am a Full-Stack & Systems Engineer specializing in **high-performance browser engines**, **distributed P2P protocols**, **WebRTC/WASM**, and **agentic AI systems**. I have architected and shipped 10+ production-grade zero-server developer infrastructure suites.
 
-I am actively seeking **Senior Full-Stack / AI Engineer** roles in **New Zealand** and **Singapore** where I can contribute to high-impact, globally distributed teams.
-
-- 🔭 Currently building **Greybox** — an AI-powered game design studio with 3D character generation and multi-engine export (Godot 4 + Unreal Engine 5)
-- 📱 Shipped **CTrackAI** — live on both **Apple App Store** and **Google Play Store** (free nutrition tracker with AI food recognition)
-- 🛡️ Won **Quantum Sprint 2026** (Best Cybersecurity Tool) with **VulnHunter** — AI-powered OWASP scanner
-- 🎓 MCA (Master of Computer Applications) graduate
-- 🌏 Open to relocation · Available immediately
+- 📧 **Email**: [soumyadebnath1661@gmail.com](mailto:soumyadebnath1661@gmail.com)
+- 📞 **Phone / WhatsApp**: [+91 7031648617](tel:+917031648617)
+- 💼 **LinkedIn**: [linkedin.com/in/soumya-debnath-83a68a237](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Core Engineering Expertise
 
-| Layer | Technologies |
-|---|---|
-| **Frontend** | Next.js 14, React 18, TypeScript, JavaScript, Tailwind CSS, HTML/CSS |
-| **Backend** | Node.js, FastAPI (Python), Supabase, PostgreSQL, REST APIs |
-| **Mobile** | Flutter, Dart, React Native, Expo, Kotlin |
-| **AI/ML** | Anthropic Claude API, Google Gemini AI, TensorFlow, LLM integration, Agentic AI |
-| **DevSecOps** | OWASP Top 10, GRC, SOC 2, ISO 27001, Docker, GitHub Actions |
-| **Tools** | Git, GitHub, VS Code, Figma, Prisma ORM, Razorpay/Stripe |
+| Area | Technologies & Architecture |
+|:-----|:----------------------------|
+| **P2P & Distributed Systems** | WebRTC DataChannels, Go Signaling Relays, CRDTs (Lamport Vector Clocks), P2P Swarm Topologies |
+| **Browser Compute Engines** | WebAssembly (WASM), WebGPU, ONNX Runtime Web, FlexSearch, Web Crypto API |
+| **Frontend Engineering** | TypeScript, React, Next.js, GSAP ScrollTrigger, Custom CSS Design Systems |
+| **Backend & Cloud Systems** | Go, Node.js, Python, PostgreSQL, IndexedDB, Docker |
 
 ---
 
-## 🚀 Featured Projects
+## 📜 Business Source License (BSL 1.1)
 
-### 🔐 [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — Agentic GRC & Continuous Trust Platform
-> TypeScript · Next.js 14 · Gemini AI · SOC 2 / ISO 27001 automation
+All 10 infrastructure products are available under the **Business Source License 1.1 (BSL 1.1)**.
+- Free for personal evaluation, academic research, and open-source contributions.
+- Production and commercial enterprise use requires a paid commercial license.
+- Commercial inquiries: [soumyadebnath1661@gmail.com](mailto:soumyadebnath1661@gmail.com)
 
-Autonomous AI agents continuously monitor and verify compliance controls across AWS, GitHub, and Okta. Built for enterprise security teams.
-
-**Highlights:** Real-time compliance posture · Autonomous control verification · Audit trail generation · 6 GitHub stars
-
----
-
-### 🛡️ [VulnHunter](https://github.com/itsoumya-d/vulnhunter) — AI OWASP Scanner ⚡ Quantum Sprint 2026 Winner
-> Python · FastAPI · React 18 · Anthropic Claude · Docker · MIT
-
-Paste any GitHub repo URL → full OWASP Top 10 vulnerability report in under 30 seconds. Parallel batch analysis of 40 files with weighted risk scoring (0–100).
-
----
-
-### 🎓 [CyberMentor](https://github.com/itsoumya-d/cybermentor) — AI Security Education ⚡ NextDev Hackathon 2026
-> Python · FastAPI · React 18 · Anthropic Claude · Docker · MIT
-
-Interactive security platform with 15 OWASP challenges. AI mentor reviews exploit attempts and fix submissions line-by-line. Socratic learning, no passive video content.
-
----
-
-### 📱 CTrackAI — AI Nutrition Tracker (App Store + Google Play)
-> Flutter · Dart · Gemini AI · Firebase
-
-Solo-built consumer health app with AI food recognition (photo/voice/barcode). Solves the database problem for non-Western foods. 5.0 stars.
-
----
-
-### 🎮 Greybox Game Studio — AI Game Design Platform *(Private — In Development)*
-> TypeScript · Next.js · Claude API · 3D Generation · Godot 4 · Unreal Engine 5
-
-AI-powered studio with wizard-driven level creation, 3D character generation, and multi-engine export with native plugins for Godot 4 and Unreal Engine 5.
-
----
-
-### 🤖 [FieldLens](https://github.com/itsoumya-d/fieldlens__) — AI Coaching for Tradespeople
-> React Native · Expo · TypeScript · AI
-
-Real-time job-site coaching — safety compliance, skill guidance, task management, all hands-free on mobile.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=itsoumya-d&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=itsoumya-d&layout=compact&theme=dark&hide_border=true)
-
-</div>
-
----
-
-## 📬 Let's Connect
-
-| | |
-|---|---|
-| 💼 LinkedIn | [linkedin.com/in/soumya-debnath-83a68a237](https://www.linkedin.com/in/soumya-debnath-83a68a237/) |
-| 🎯 Seeking | Senior Full-Stack Engineer · AI Engineer · Mobile Engineer |
-| 🌏 Target Markets | New Zealand (NZD 130k+) · Singapore (SGD 120k+) |
-| ✈️ Relocation | Open to relocate · Visa sponsorship welcome |
-
----
-
-<div align="center">
-
-*"Ship fast, learn faster — every project here was built to solve a real problem."*
-
-</div>
+© 2024-2026 Soumya Debnath. All Rights Reserved.
