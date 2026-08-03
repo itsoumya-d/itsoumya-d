@@ -22,8 +22,18 @@
       "repositoryUrl": {
         "url": "https://github.com/itsoumya-d/syncforge"
       },
-      "licenses": ["spdx:AGPL-3.0-or-later"],
-      "tags": ["crdt", "local-first", "offline-first", "webrtc", "typescript", "developer-tools", "distributed-systems"]
+      "licenses": [
+        "spdx:AGPL-3.0-or-later"
+      ],
+      "tags": [
+        "crdt",
+        "local-first",
+        "offline-first",
+        "webrtc",
+        "typescript",
+        "developer-tools",
+        "distributed-systems"
+      ]
     },
     {
       "guid": "peervault",
@@ -35,8 +45,18 @@
       "repositoryUrl": {
         "url": "https://github.com/itsoumya-d/peervault"
       },
-      "licenses": ["spdx:AGPL-3.0-or-later"],
-      "tags": ["privacy", "encryption", "webrtc", "peer-to-peer", "file-sharing", "typescript", "security"]
+      "licenses": [
+        "spdx:AGPL-3.0-or-later"
+      ],
+      "tags": [
+        "privacy",
+        "encryption",
+        "webrtc",
+        "peer-to-peer",
+        "file-sharing",
+        "typescript",
+        "security"
+      ]
     },
     {
       "guid": "edgeinfer",
@@ -48,8 +68,18 @@
       "repositoryUrl": {
         "url": "https://github.com/itsoumya-d/edgeinfer"
       },
-      "licenses": ["spdx:AGPL-3.0-or-later"],
-      "tags": ["machine-learning", "on-device-ai", "webgpu", "webassembly", "onnx", "privacy", "typescript"]
+      "licenses": [
+        "spdx:AGPL-3.0-or-later"
+      ],
+      "tags": [
+        "machine-learning",
+        "on-device-ai",
+        "webgpu",
+        "webassembly",
+        "onnx",
+        "privacy",
+        "typescript"
+      ]
     },
     {
       "guid": "heros",
@@ -61,8 +91,17 @@
       "repositoryUrl": {
         "url": "https://github.com/itsoumya-d/HEROS"
       },
-      "licenses": ["spdx:MIT"],
-      "tags": ["security", "developer-tools", "ai-agents", "mcp", "nodejs", "threat-modelling"]
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "security",
+        "developer-tools",
+        "ai-agents",
+        "mcp",
+        "nodejs",
+        "threat-modelling"
+      ]
     }
   ],
   "funding": {
@@ -78,11 +117,13 @@
         "guid": "maintainer-time-3mo",
         "status": "active",
         "name": "Three months of maintainer time",
-        "description": "The bottleneck is not infrastructure cost, which is close to zero for browser-native software. It is unpaid time. I am currently unemployed and job-hunting, which means the work happens in whatever hours are left over.\n\nThis plan funds three months of focused full-time work with a specific, checkable scope:\n\n1. SyncForge: an outbox and anti-entropy layer so operations dropped in transit are recoverable rather than lost permanently, which is the single largest correctness gap remaining after the audit. Plus fixing an O(n-squared) single-document write path currently measuring 1.64ms per operation at 4000 writes.\n\n2. PeerVault: configurable TURN relay support so peers behind symmetric NAT can actually connect, and resumable transfers. Both are documented limitations today.\n\n3. EdgeInfer: a real device and browser support matrix, tested rather than asserted, with graceful degradation paths.\n\n4. Publishing the audit methodology itself as a reusable harness, so other maintainers can run convergence and fault-injection testing against their own projects. I think this is the most transferable output.\n\nDeliverables are public commits and a written report at the end, in the same format as the audit I already published.",
+        "description": "Funds three months of full-time work. Deliverables: (1) SyncForge - outbox and anti-entropy layer so dropped operations are recoverable, plus fixing an O(n^2) write path; (2) PeerVault - TURN relay support for peers behind symmetric NAT, and resumable transfers; (3) EdgeInfer - a tested device/browser support matrix with graceful degradation; (4) publishing the audit harness so other maintainers can run convergence testing. Output: public commits and a written report.",
         "amount": 300000,
         "currency": "INR",
         "frequency": "one-time",
-        "channels": ["bank-in"]
+        "channels": [
+          "bank-in"
+        ]
       },
       {
         "guid": "any-support",
@@ -92,7 +133,9 @@
         "amount": 0,
         "currency": "INR",
         "frequency": "one-time",
-        "channels": ["bank-in"]
+        "channels": [
+          "bank-in"
+        ]
       }
     ],
     "history": [
