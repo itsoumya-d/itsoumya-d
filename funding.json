@@ -1,0 +1,108 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Soumya Debnath",
+    "email": "soumyadebnath1619@gmail.com",
+    "description": "Independent software engineer based in Kolkata, India, completing an MCA in 2026. I build browser-native infrastructure in TypeScript and Go, published under AGPL-3.0 and MIT, with a focus on removing the server from architectures that do not need one: peer-to-peer encrypted file transfer, local-first CRDT sync, on-device inference, and agent-safety tooling.\n\nWhat I would like to be judged on is not download counts, which are currently zero, but on method. In July 2026 I commissioned an independent external audit of ten of my own libraries and published the findings in full, including the parts that were unflattering. It found a concurrency bug losing 90 percent of writes, remotely triggerable prototype pollution, silent file corruption that raised no error, and documentation that described behaviour my code did not implement. I fixed all of them and published the report rather than quietly patching. I also relicensed the entire suite from Business Source License 1.1 to AGPL-3.0 after concluding that a source-available licence forbidding production use was the reason nobody could adopt the work.\n\nSeparately I ship consumer software: CTrackAI, an AI nutrition tracker live on the App Store in 11 languages, and Preeo, a women's health app that stores health data encrypted on-device with no account. Both are profitable at small scale on near-zero infrastructure cost. I also won Best Cybersecurity Tool at Quantum Sprint 2026 for an OWASP scanner.\n\nI am currently unemployed and have never received a grant, investment or institutional support of any kind.",
+    "webpageUrl": {
+      "url": "https://github.com/itsoumya-d"
+    }
+  },
+  "projects": [
+    {
+      "guid": "syncforge",
+      "name": "SyncForge",
+      "description": "A local-first CRDT sync engine for the browser, written in TypeScript with a Go signalling server. It lets a web application keep working offline and reconcile automatically when several people edit the same data concurrently, without a central database arbitrating writes.\n\nThe part I care about is correctness rather than features. Convergence is verified by property-based fuzzing: 3, 5 and 7 replicas, up to 60 mixed set/delete/increment operations, randomised per-replica delivery order, over 1000 seeds, with zero divergences. All five CRDT types pass commutativity, associativity and idempotence over 5000 seeded states each. That harness came out of the independent audit described in the entity bio, which also caught a last-write-wins tie-break bug that was silently dropping 198 of 200 back-to-back writes, non-deterministically.\n\nHonest positioning: this is a young project with no external users, in a space that already contains mature FOSS alternatives (Yjs, Automerge, Loro). It is not a replacement for them. What it has that is genuinely uncommon is a published, reproducible convergence-verification harness, which is applicable beyond this codebase.",
+      "webpageUrl": {
+        "url": "https://github.com/itsoumya-d/syncforge"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/itsoumya-d/syncforge"
+      },
+      "licenses": ["spdx:AGPL-3.0-or-later"],
+      "tags": ["crdt", "local-first", "offline-first", "webrtc", "typescript", "developer-tools", "distributed-systems"]
+    },
+    {
+      "guid": "peervault",
+      "name": "PeerVault",
+      "description": "Zero-server, end-to-end encrypted file transfer directly between two browsers over WebRTC data channels. AES-256-GCM with a fresh 96-bit IV per chunk; the symmetric key lives only in the URL fragment, which browsers never transmit to a server, so the signalling relay never sees it.\n\nThe motivation is that sending a large file today means WeTransfer, Dropbox or Google Drive: an account, a copy on somebody else's disk, and a scan of the contents. There is no technical reason two browsers in the same room need a datacentre round trip to exchange a file.\n\nThe independent audit found real defects here and they are fixed: an unserialised async handler that silently truncated transfers, and an assembler that counted chunk arrivals rather than distinct indices and would emit a corrupted file with no error raised. The audit also retracted a false post-quantum claim I had made in the README that the code did not support. Known remaining limitations are documented: no TURN relay configured, so peers behind symmetric NAT cannot connect, and transfers are not resumable.",
+      "webpageUrl": {
+        "url": "https://github.com/itsoumya-d/peervault"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/itsoumya-d/peervault"
+      },
+      "licenses": ["spdx:AGPL-3.0-or-later"],
+      "tags": ["privacy", "encryption", "webrtc", "peer-to-peer", "file-sharing", "typescript", "security"]
+    },
+    {
+      "guid": "edgeinfer",
+      "name": "EdgeInfer",
+      "description": "Browser-based machine learning inference over onnxruntime-web, with WebGPU acceleration and a WASM fallback, so models run entirely on the user's device with no API call and no data leaving the machine.\n\nStated plainly, because the audit forced me to: this is a wrapper, not a from-scratch engine. It implements no ONNX operators and no WGSL shaders of its own. What it does provide is the device-detection, fallback and error-boundary layer that is genuinely fiddly to get right, and which the audit showed I had got wrong in several places: a bare module specifier that made the documented CDN install impossible in any browser, rank-2 tensors being passed to NCHW vision models, a requestAdapter() call that hung indefinitely with no timeout, and an executionProvider field reporting WebGPU while WASM was actually executing. All fixed and verified against five real ONNX models.\n\nOn-device inference is the part of the AI stack that is most aligned with digital-commons values: no per-query cost, no telemetry, works offline, and works on a bad connection.",
+      "webpageUrl": {
+        "url": "https://github.com/itsoumya-d/edgeinfer"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/itsoumya-d/edgeinfer"
+      },
+      "licenses": ["spdx:AGPL-3.0-or-later"],
+      "tags": ["machine-learning", "on-device-ai", "webgpu", "webassembly", "onnx", "privacy", "typescript"]
+    },
+    {
+      "guid": "heros",
+      "name": "HEROS",
+      "description": "An agent-safe infrastructure toolkit for the situation where an autonomous agent, rather than a human, is driving a CLI or an MCP server. It provides JSON-only contracts, stable machine-readable error codes, JSON Schema validation, authentication, explicit approval challenges for destructive operations, idempotent writes, and audit receipts, plus file-locking and atomic-write hardening.\n\nIt ships an OWASP Agentic Top 10 threat model, which is the framing that matters: as agents gain write access to real systems, the safety surface is the tool layer, not the model. Very little FOSS tooling exists for this yet, and most of what exists assumes a trusted caller.\n\nThis is early and has no external users. I am including it because it is the project in my portfolio with the least crowded surrounding space, and because the security framing connects to the OWASP scanner work that won Best Cybersecurity Tool at Quantum Sprint 2026.",
+      "webpageUrl": {
+        "url": "https://github.com/itsoumya-d/HEROS"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/itsoumya-d/HEROS"
+      },
+      "licenses": ["spdx:MIT"],
+      "tags": ["security", "developer-tools", "ai-agents", "mcp", "nodejs", "threat-modelling"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-in",
+        "type": "bank",
+        "description": "Indian bank account, IDFC FIRST Bank. Domestic transfers via NEFT/IMPS/UPI; international transfers supported via SWIFT. Account details shared privately on request rather than published here."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "maintainer-time-3mo",
+        "status": "active",
+        "name": "Three months of maintainer time",
+        "description": "The bottleneck is not infrastructure cost, which is close to zero for browser-native software. It is unpaid time. I am currently unemployed and job-hunting, which means the work happens in whatever hours are left over.\n\nThis plan funds three months of focused full-time work with a specific, checkable scope:\n\n1. SyncForge: an outbox and anti-entropy layer so operations dropped in transit are recoverable rather than lost permanently, which is the single largest correctness gap remaining after the audit. Plus fixing an O(n-squared) single-document write path currently measuring 1.64ms per operation at 4000 writes.\n\n2. PeerVault: configurable TURN relay support so peers behind symmetric NAT can actually connect, and resumable transfers. Both are documented limitations today.\n\n3. EdgeInfer: a real device and browser support matrix, tested rather than asserted, with graceful degradation paths.\n\n4. Publishing the audit methodology itself as a reusable harness, so other maintainers can run convergence and fault-injection testing against their own projects. I think this is the most transferable output.\n\nDeliverables are public commits and a written report at the end, in the same format as the audit I already published.",
+        "amount": 300000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": ["bank-in"]
+      },
+      {
+        "guid": "any-support",
+        "status": "active",
+        "name": "Any amount",
+        "description": "Partial support toward the same scope, prioritised in the order listed above.",
+        "amount": 0,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": ["bank-in"]
+      }
+    ],
+    "history": [
+      {
+        "year": 2026,
+        "income": 0,
+        "expenses": 0,
+        "currency": "INR",
+        "description": "No grants, investment, sponsorship or institutional funding received to date for any of these projects. Infrastructure costs are near zero because the software runs in the browser; the real cost is unpaid maintainer time."
+      }
+    ]
+  }
+}
