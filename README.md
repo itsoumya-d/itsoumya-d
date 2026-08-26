@@ -87,6 +87,18 @@ These are **prototypes, not production libraries** — no external users. I list
 
 ---
 
+## 🧭 Positioning: why this portfolio looks the way it does
+
+The 2026 hiring market is reorganising around exactly the problems these repos attack:
+
+- Forward-Deployed Engineer postings on Indeed grew **729% in one year** (643 → 5,330, April 2025 → April 2026); OpenAI, Meta, Anthropic and Google Cloud all built dedicated FDE teams ([skai.io](https://skai.io/blog/why-forward-deployed-engineering-is-enterprise-ais-newest-fastest-growing-role)).
+- Agentic-AI job postings grew **~280% year-over-year**, and ~64% of enterprises deployed AI agents *before* feeling organisationally ready — i.e., before governance existed for them ([F5 Hiring / Stanford AI Index data](https://f5hiringsolutions.com/blog/agentic-ai-job-postings-2026)).
+- The two fastest-growing enterprise titles are Forward-Deployed Engineer and Agent Manager — roles about shipping *and operating* agent systems inside real constraints, not training models ([ekas.io analysis](https://ekas.io/blog/enterprise-ai-hiring-split)).
+
+That is the shape of this portfolio: two shipped consumer apps (operating real products solo), an agent-governance platform (CertiFlow), agent-safety infrastructure (HEROS, mapped to OWASP Agentic Top 10), an MCP server for UI motion (Motion MCP), and ten audited browser-infrastructure prototypes. Building the infrastructure agents need — and proving it survives an audit — is the skill those roles test for.
+
+---
+
 ## 📬 Contact
 
 **[soumyadebnath1619@gmail.com](mailto:soumyadebnath1619@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/soumya-debnath-83a68a237/)**
