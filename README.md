@@ -2,105 +2,129 @@
 
 # Soumya Debnath
 
-### Software Engineer — Mobile, Full-Stack & Applied AI
-
-**I ship and operate real products.** Two consumer apps live on the App Store, built solo end to end — product, architecture, AI pipeline, localisation, monetisation and release operations.
+### Founding AI Product Engineer &middot; Forward-Deployed Software Engineer
+**Building Autonomous Agent Infrastructure, Enterprise AI Systems & Production Mobile Apps**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--debnath-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
+[![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
 [![Email](https://img.shields.io/badge/Email-soumyadebnath1619%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:soumyadebnath1619@gmail.com)
 
-Kolkata, India · Open to relocation and remote · MCA 2026
+Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; MCA (Computer Science)
 
 </div>
 
 ---
 
-## 📱 Live in the App Store
+## 📱 Shipped Consumer Products (Live on App Store & Google Play)
 
 ### CTrackAI — AI Calorie & Nutrition Tracker
-**Flutter · Dart · Gemini · Firebase**
+**Flutter · Dart · Gemini Vision · Firebase · In-App Purchases**  
 [App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) · [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)
 
-Shipped March 2026 and maintained since — currently v1.3, **localised into 11 languages**, rated **4.9/5** (small review base, 9 ratings).
+* **Solo-built and shipped end-to-end:** Architecture, multimodal AI pipeline, 11-language localization, App Store/Play release operations, and unit economics.
+* **Beyond database hits:** Low-latency Gemini vision pipeline recognizes real-world uncurated meals (dal, jollof rice, pho, regional mixed dishes).
+* **Feature suite:** Barcode scanning, voice logging, 20+ micronutrient analytics, Apple Health / Health Connect sync, fasting timers, hydration tracking, and streak mechanics.
+* **Economics:** Ad & subscription model designed to completely self-fund AI inference bills; holds a **4.9/5 rating** on the App Store.
 
-Most nutrition apps are built around a food database, which means roughly three billion people eat food the app cannot recognise. CTrackAI takes the visual route instead: point the camera at dal, jollof rice, pho or mole and get calories and macros back from a Gemini vision pipeline. Barcode scanning, voice and manual entry, 20+ nutrient analytics, Apple Health, fasting and hydration tracking, streaks.
-
-I built and run all of it — the AI pipeline, the localisation, the rewarded-ad and subscription economics that make the API costs work, and every store release.
-
-### Preeo — Cycle & Health Companion
-**Cross-platform mobile · on-device AI · encrypted health data**
+### Preeo — Privacy-First Cycle & Health Companion
+**Cross-Platform Mobile · On-Device SQLite Encryption · Biometric Auth**  
 [App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion)
 
-Launched July 2026. **No account required, health data encrypted on-device.** Nine condition-specific journeys — typical cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, teens — instead of one generic flow. 100+ symptom inputs, BBT charting, HealthKit and Health Connect, biometric protection, time-limited doctor sharing.
+* **Zero-knowledge architecture:** No account required. All health data is encrypted on-device with biometric lock protection.
+* **Condition-specific journeys:** 9 distinct health journeys (cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, adolescent health) with 100+ clinical symptom inputs.
+* **Integrations:** Apple HealthKit & Android Health Connect sync with cryptographically time-limited doctor sharing.
 
 ---
 
-## 🏆 Recognition
+## 🤖 Flagship Agent Infrastructure & Applied AI Systems
 
-- **Best Cybersecurity Tool — Quantum Sprint 2026** for [VulnHunter](https://github.com/itsoumya-d/vulnhunter): paste a GitHub repo URL, get an OWASP Top 10 report in under 30 seconds. Analyses up to 40 files in parallel batches, returns CWE-tagged findings with line-level patches and a weighted 0–100 risk score.
-- **Finalist — NextDev Hackathon 2026** for [CyberMentor](https://github.com/itsoumya-d/cybermentor): 15 OWASP exploit challenges with Claude-based Socratic review of attempted fixes.
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│                             AGENT INFRASTRUCTURE STACK                                   │
+├───────────────────────────────┬───────────────────────────────┬──────────────────────────┤
+│ AutoPilot FDE 2.0             │ Motion MCP                    │ HEROS                    │
+│ Autonomous Business Process   │ Codebase-Aware Motion Engine  │ Agent-Native Action      │
+│ Discovery & LangGraph Agents  │ 64 MCP Tools · 230+ Tests     │ Safety & Contracts       │
+├───────────────────────────────┼───────────────────────────────┼──────────────────────────┤
+│ CertiFlow AI                  │ HostShift                     │ Mobile Design System     │
+│ Autonomous GRC & Trust        │ Cross-Platform Generative UI  │ Whole-Codebase Scanner   │
+│ Continuous Audit Automation   │ Benchmark (NeurIPS 2026 track)│ Multi-Framework Codex    │
+└───────────────────────────────┴───────────────────────────────┴──────────────────────────┘
+```
+
+### 1. [AutoPilot FDE 2.0](https://github.com/itsoumya-d/autopilot-fde) — Autonomous Forward-Deployed Engineering Agent
+*Python 3.12 · FastAPI · Next.js 15 · LangGraph · Shannon Entropy · Dual-Transport MCP*
+
+* **Workflow-Mining Pipeline:** Ingests unstructured Slack, WhatsApp, email, and call transcripts, extracts organizational activities via Bayesian parsing, and constructs directed process graphs.
+* **Graph Entropy Scoring:** Formulates an Automation Potential Score (APS) using transition entropy to pinpoint operational bottlenecks, then runs 1,000-event pre-deployment Monte Carlo simulations.
+* **Self-Deploying State Machines:** Automatically compiles typed LangGraph state machines with Human-in-the-Loop review gates.
+* **Dual MCP Support:** Ships stdio and Streamable-HTTP (`POST /mcp`) transports compatible with Claude Code, Cursor, and Codex CLI. Evaluated across 158 multi-turn interaction runs across 8 enterprise departments.
+
+### 2. [Motion MCP](https://github.com/itsoumya-d/motion-mcp) — Codebase-Aware Motion Engine for Coding Agents
+*TypeScript 5.7 · Model Context Protocol · SceneDoc Format · Kimodo.cpp Diffusion*
+
+* **64 MCP Tools & 230+ Tests:** Plugs into Cursor, Claude Code, or Codex CLI to turn existing codebases into animated, living products without rewrites or proprietary runtimes.
+* **Framework-Native Diff Staging:** Scans routes and component trees, models interactive state machines, compiles open SceneDoc specifications, and generates native code for React, React Native, Flutter, Unity, and Three.js/R3F.
+* **3D Diffusion Bridge:** Features natural-language text-to-3D skeletal animation diffusion across 22 SMPL-X standard joints with retargeting for Mixamo and Unity Mecanim.
+
+### 3. [HEROS](https://github.com/itsoumya-d/HEROS) — Agent-Native Infrastructure & Safety Primitives
+*Zero-lang Primitives · Node.js / ESM SDK · MCP-Native Contracts · OWASP Agentic Top 10*
+
+* **Contract-First Agent Execution:** Deterministic JSON-only outputs, stable machine-readable error codes, schema validation, idempotent writes, and auditable receipts so agents never hallucinate text execution branches.
+* **Core Primitives:**
+  * `@heros/agentic`: Installable SDK surface for explicit, authenticated, auditable agent website actions.
+  * `forge`: Agent-safe database migration risk gate scoring schema modifications before execution.
+  * `ledger`: Accounting receipt primitive with idempotency keys to prevent duplicate actions.
+
+### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — Agentic GRC & Continuous Trust Platform
+*Next.js 14 · TypeScript · Gemini Computer Use · Server-Sent Events (SSE) · RBAC*
+
+* **Continuous Compliance Automation:** Autonomous agents verify AWS S3 encryption, IAM MFA enforcement, GitHub branch protection, and Okta MFA policies 24/7.
+* **Live SSE Dashboards:** Real-time compliance score ring with zero-polling updates, automated evidence parsing, and scoped Admin/User/Auditor access controls.
+
+### 5. [HostShift](https://github.com/itsoumya-d/hostshift) — Cross-Platform Generative UI Portability Benchmark
+*Python 3.11 · AGPL-3.0 · 221 Passing Assertions · NeurIPS 2026 Workshop Track*
+
+* **Empirical Research Benchmark:** Measures whether LLM-generated interfaces survive a change of host across 5 targets: Web (Chromium), iOS (SwiftUI), Android (Jetpack Compose), Flutter (Dart), and Terminal (Textual).
+* **State-Based Oracle:** Evaluates 100 tasks across 8 categories using ordered tree-edit distance, host-lock metrics, and clustered bootstrap statistics.
+
+### 6. [Mobile-Native Design System](https://github.com/itsoumya-d/mobile-native-design-system) — Codebase-Aware Codex Plugin
+*Python · Flutter · React Native · SwiftUI · Jetpack Compose*
+
+* Whole-codebase analyzer reconstructing routes, screen state, and design tokens. Enforces 7 progressively disclosed skills and a 30-rule evidence registry for guarded, one-screen-at-a-time native implementation.
 
 ---
 
-## 🔧 Selected engineering work
+## 🧪 Browser-Native Infrastructure Suite (10 Audited Prototypes)
+*TypeScript · Go · WebRTC · WASM · WebGPU · WebCrypto · CRDTs*
 
-**[CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai)** — agentic GRC platform. *Next.js · TypeScript · Gemini · SSE · RBAC*
-Autonomous compliance checks against AWS S3 encryption, AWS IAM MFA, GitHub branch protection and Okta MFA, with live SSE dashboards, evidence analysis and Admin/User/Auditor scopes. My most substantial single codebase.
-
-**[Motion MCP](https://github.com/itsoumya-d/motion-mcp)** — codebase-aware motion generation. *TypeScript · Model Context Protocol*
-A 22-tool MCP server that scans an existing app, models Rive-like state machines, ranks high-value interactions, and stages framework-native animation diffs — applying changes only after approval.
-
-**[HEROS](https://github.com/itsoumya-d/HEROS)** — agent-safe infrastructure toolkit. *Node.js · MCP*
-JSON-only contracts, stable error codes, schema validation, approval challenges, idempotent writes, audit receipts, file-locking and atomic-write hardening, plus an OWASP Agentic Top 10 threat model.
-
-**[Mobile-Native Design System](https://github.com/itsoumya-d/mobile-native-design-system)** — *Python · Flutter · React Native · SwiftUI · Compose*
-A plugin that reconstructs routes, state, data boundaries and design language before proposing changes. Seven focused skills, a 30-rule evidence registry, guarded one-screen-at-a-time implementation across four native frameworks.
+A research suite exploring serverless edge computing:
+* **Commissioned Independent Security Audit:** Discovered and remediated concurrency write losses, prototype pollution, and silent data corruption; published full disclosure findings.
+* **Verified Convergence:** CRDT convergence verified across **1,000+ randomized fuzz seeds with zero divergences**.
+* **Projects:** [AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
 
 ---
 
-## 🧪 Browser-native infrastructure — 10 prototypes, independently audited
+## 🏆 Honors & Recognition
 
-*TypeScript · Go · WebRTC · WASM · WebGPU · WebCrypto · CRDTs · AGPL-3.0*
-
-Ten SDK prototypes exploring what becomes possible when you remove the server: peer-to-peer encrypted file transfer, CRDT sync, swarm video relay, on-device analytics, distributed WASM tasks, passkeys, browser inference.
-
-**I commissioned an independent external audit of all ten and published what it found — including my own mistakes.** It surfaced a concurrency bug losing 90% of writes, remotely triggerable prototype pollution, silent file corruption, and documentation claims my code did not support. I fixed them and shipped the fixes.
-
-What held up afterwards: CRDT convergence verified across **1000+ randomised fuzz seeds with zero divergences**, and genuine AV1 encoding through WebCodecs.
-
-These are **prototypes, not production libraries** — no external users. I list them because the audit-and-repair cycle is the part I would want a team to judge me on.
-
-[AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
+* **Best Cybersecurity Tool — Quantum Sprint 2026** for [VulnHunter](https://github.com/itsoumya-d/vulnhunter): High-speed OWASP security scanner analyzing up to 40 source files in parallel; generates CWE-tagged vulnerability reports with line-level automated remediation patches.
+* **Finalist — NextDev Hackathon 2026** for [CyberMentor](https://github.com/itsoumya-d/cybermentor): Interactive security challenge platform featuring Claude-powered Socratic mentoring on vulnerability remediation.
 
 ---
 
-## 🛠️ Stack
+## 🛠️ Technical Arsenal
 
-| | |
+| Category | Core Stack & Tooling |
 |:--|:--|
-| **Mobile** | Flutter, Dart, React Native, Expo, Riverpod, HealthKit / Health Connect, App Store Connect, Play Console |
-| **Frontend** | TypeScript, React, Next.js, Tailwind |
-| **Backend** | Go, Python (FastAPI), Node.js, PostgreSQL, Supabase, Firebase, Edge Functions, Docker |
-| **Applied AI** | Gemini, Claude, OpenAI Vision, MCP servers, tool calling, structured outputs, evaluation |
-| **Browser systems** | WebRTC DataChannels, WebAssembly, WebGPU, WebCrypto, CRDTs, IndexedDB, WebAuthn, ONNX Runtime Web |
-| **Security** | OWASP Top 10, threat modelling, SOC 2 / ISO 27001 control automation |
+| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini 1.5, Claude 3.5, OpenAI Vision, Tool Calling, Structured Outputs, Process Mining, Monte Carlo Simulation |
+| **Full-Stack & Real-Time** | TypeScript, Next.js 15, React, Python (FastAPI), Node.js, REST APIs, Server-Sent Events (SSE), WebSockets, PostgreSQL, Supabase, Redis |
+| **Mobile Engineering** | Flutter, Dart, React Native, Expo, HealthKit, Health Connect, Biometric Authentication, SQLite Encryption, App Store Connect, Play Console |
+| **DevOps & Security** | Docker, GitHub Actions CI/CD, OWASP Agentic Top 10, Threat Modeling, SOC 2 / ISO 27001 Controls, Linux, Git |
 
 ---
 
-## 🧭 Positioning: why this portfolio looks the way it does
+## 📬 Connect
 
-The 2026 hiring market is reorganising around exactly the problems these repos attack:
-
-- Forward-Deployed Engineer postings on Indeed grew **729% in one year** (643 → 5,330, April 2025 → April 2026); OpenAI, Meta, Anthropic and Google Cloud all built dedicated FDE teams ([skai.io](https://skai.io/blog/why-forward-deployed-engineering-is-enterprise-ais-newest-fastest-growing-role)).
-- Agentic-AI job postings grew **~280% year-over-year**, and ~64% of enterprises deployed AI agents *before* feeling organisationally ready — i.e., before governance existed for them ([F5 Hiring / Stanford AI Index data](https://f5hiringsolutions.com/blog/agentic-ai-job-postings-2026)).
-- The two fastest-growing enterprise titles are Forward-Deployed Engineer and Agent Manager — roles about shipping *and operating* agent systems inside real constraints, not training models ([ekas.io analysis](https://ekas.io/blog/enterprise-ai-hiring-split)).
-
-That is the shape of this portfolio: two shipped consumer apps (operating real products solo), an agent-governance platform (CertiFlow), agent-safety infrastructure (HEROS, mapped to OWASP Agentic Top 10), an MCP server for UI motion (Motion MCP), and ten audited browser-infrastructure prototypes. Building the infrastructure agents need — and proving it survives an audit — is the skill those roles test for.
-
----
-
-## 📬 Contact
-
-**[soumyadebnath1619@gmail.com](mailto:soumyadebnath1619@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/soumya-debnath-83a68a237/)**
-
-Open to software engineering roles — mobile, full-stack, or applied AI. Kolkata-based, open to relocation or remote. Completing an MCA in 2026.
+* **Email:** [soumyadebnath1619@gmail.com](mailto:soumyadebnath1619@gmail.com)
+* **LinkedIn:** [linkedin.com/in/soumya-debnath-83a68a237](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
+* **GitHub:** [github.com/itsoumya-d](https://github.com/itsoumya-d)
