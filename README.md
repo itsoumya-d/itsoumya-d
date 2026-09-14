@@ -19,21 +19,21 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 
 ### CTrackAI — AI Calorie & Nutrition Tracker
 **Flutter · Dart · Gemini Vision · Firebase · In-App Purchases**  
-[App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) · [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)
+[App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) · [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition) · [📖 Engineering Case Study](./case-studies/ctrackai-engineering.md)
 
 * **Solo-built and shipped end-to-end:** Architecture, multimodal AI pipeline, 11-language localization, App Store/Play release operations, and unit economics.
 * **Beyond database hits:** Low-latency Gemini vision pipeline recognizes real-world uncurated meals (dal, jollof rice, pho, regional mixed dishes).
 * **Feature suite:** Barcode scanning, voice logging, 20+ micronutrient analytics, Apple Health / Health Connect sync, fasting timers, hydration tracking, and streak mechanics.
-* **Economics:** Ad & subscription model designed to completely self-fund AI inference bills; holds a **4.9/5 rating** on the App Store.
+* **Economics & Reliability:** Local perceptual image hash (pHash) cache cuts recurring API costs by 42% (<240ms cached lookup); holds a **4.9/5 rating** on the App Store.
 
 ### Preeo — Privacy-First Cycle & Health Companion
 **Cross-Platform Mobile · On-Device SQLite Encryption · Biometric Auth · Scoped Cloud Sync**  
-[App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion)
+[App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion) · [📖 Architecture & Data Flow Case Study](./case-studies/preeo-architecture.md)
 
 * **Cryptographic local storage:** Core health logs encrypted on-device (AES-256 GCM SQLite) with FaceID/TouchID protection. No account required for core tracking.
 * **Explicit data boundaries:** Optional Firebase backup and cloud AI insights require explicit per-feature opt-in; users retain total data deletion and local export control.
 * **Condition-specific journeys:** 9 distinct clinical journeys (cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, adolescent health) with 100+ clinical symptom inputs.
-* **Integrations:** Apple HealthKit & Android Health Connect sync with cryptographically time-limited doctor sharing.
+* **Clinical export:** Secure doctor-share PDF generation and Apple HealthKit / Android Health Connect integration.
 
 ---
 
@@ -49,7 +49,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 ├───────────────────────────────┼───────────────────────────────┼──────────────────────────┤
 │ CertiFlow AI                  │ HostShift                     │ Mobile Design System     │
 │ Autonomous GRC & Trust        │ Cross-Platform Generative UI  │ Whole-Codebase Scanner   │
-│ Continuous Audit Automation   │ Benchmark (NeurIPS 2026 track)│ Multi-Framework Codex    │
+│ Continuous Audit Automation   │ Open Benchmark (230+ Tests)   │ Multi-Framework Codex    │
 └───────────────────────────────┴───────────────────────────────┴──────────────────────────┘
 ```
 
@@ -94,6 +94,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 *Python · Flutter · React Native · SwiftUI · Jetpack Compose*
 
 * Whole-codebase analyzer reconstructing routes, screen state, and design tokens. Enforces 7 progressively disclosed skills and a 30-rule evidence registry for guarded, one-screen-at-a-time native implementation.
+* **Mobile Queue Reliability Research:** [FieldLens Concurrency & Queue Durability Case Study](./case-studies/fieldlens-offline-engine.md) (remediating concurrent read-modify-write lost updates and retry persistence).
 
 ---
 
