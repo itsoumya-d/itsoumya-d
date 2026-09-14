@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
 [![Email](https://img.shields.io/badge/Email-soumyadebnath1619%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:soumyadebnath1619@gmail.com)
 
-Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; MCA (Computer Science)
+Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years Production Delivery & Systems Architecture
 
 </div>
 
@@ -27,11 +27,12 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; MCA (Compu
 * **Economics:** Ad & subscription model designed to completely self-fund AI inference bills; holds a **4.9/5 rating** on the App Store.
 
 ### Preeo — Privacy-First Cycle & Health Companion
-**Cross-Platform Mobile · On-Device SQLite Encryption · Biometric Auth**  
+**Cross-Platform Mobile · On-Device SQLite Encryption · Biometric Auth · Scoped Cloud Sync**  
 [App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion)
 
-* **Zero-knowledge architecture:** No account required. All health data is encrypted on-device with biometric lock protection.
-* **Condition-specific journeys:** 9 distinct health journeys (cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, adolescent health) with 100+ clinical symptom inputs.
+* **Cryptographic local storage:** Core health logs encrypted on-device (AES-256 GCM SQLite) with FaceID/TouchID protection. No account required for core tracking.
+* **Explicit data boundaries:** Optional Firebase backup and cloud AI insights require explicit per-feature opt-in; users retain total data deletion and local export control.
+* **Condition-specific journeys:** 9 distinct clinical journeys (cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, adolescent health) with 100+ clinical symptom inputs.
 * **Integrations:** Apple HealthKit & Android Health Connect sync with cryptographically time-limited doctor sharing.
 
 ---
@@ -76,17 +77,18 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; MCA (Compu
   * `forge`: Agent-safe database migration risk gate scoring schema modifications before execution.
   * `ledger`: Accounting receipt primitive with idempotency keys to prevent duplicate actions.
 
-### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — Agentic GRC & Continuous Trust Platform
+### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — Autonomous GRC & Agent Telemetry Simulator *(Prototype)*
 *Next.js 14 · TypeScript · Gemini Computer Use · Server-Sent Events (SSE) · RBAC*
 
-* **Continuous Compliance Automation:** Autonomous agents verify AWS S3 encryption, IAM MFA enforcement, GitHub branch protection, and Okta MFA policies 24/7.
+* **Autonomous Audit Automation (Prototype):** Demonstrates autonomous agents continuously inspecting compliance controls across AWS, GitHub, and Okta via Gemini Computer Use workflows.
+* **Zero-Cloud Demo Architecture:** Runs on simulated AWS telemetry and in-memory audit logs for zero-dependency local evaluation and immediate reviewer verification.
 * **Live SSE Dashboards:** Real-time compliance score ring with zero-polling updates, automated evidence parsing, and scoped Admin/User/Auditor access controls.
 
 ### 5. [HostShift](https://github.com/itsoumya-d/hostshift) — Cross-Platform Generative UI Portability Benchmark
-*Python 3.11 · AGPL-3.0 · 221 Passing Assertions · NeurIPS 2026 Workshop Track*
+*Python 3.11 · AGPL-3.0 · 230 Passing Tests (84% Coverage) · Open Benchmark Suite*
 
-* **Empirical Research Benchmark:** Measures whether LLM-generated interfaces survive a change of host across 5 targets: Web (Chromium), iOS (SwiftUI), Android (Jetpack Compose), Flutter (Dart), and Terminal (Textual).
-* **State-Based Oracle:** Evaluates 100 tasks across 8 categories using ordered tree-edit distance, host-lock metrics, and clustered bootstrap statistics.
+* **Empirical UI Portability Benchmark:** Evaluates whether LLM-generated UI code preserves visual and functional semantics across 5 targets: Web (Chromium), iOS (SwiftUI), Android (Jetpack Compose), Flutter (Dart), and Terminal (Textual).
+* **Rigorous Validation Gates:** Combines AST-level syntax conformance checkers with isolated render oracles. Measured across 100 test tasks using tree-edit distance and bootstrap statistics.
 
 ### 6. [Mobile-Native Design System](https://github.com/itsoumya-d/mobile-native-design-system) — Codebase-Aware Codex Plugin
 *Python · Flutter · React Native · SwiftUI · Jetpack Compose*
@@ -95,20 +97,20 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; MCA (Compu
 
 ---
 
-## 🧪 Browser-Native Infrastructure Suite (10 Audited Prototypes)
+## 🧪 Browser-Native Infrastructure Suite (10 Edge Prototypes)
 *TypeScript · Go · WebRTC · WASM · WebGPU · WebCrypto · CRDTs*
 
-A research suite exploring serverless edge computing:
-* **Commissioned Independent Security Audit:** Discovered and remediated concurrency write losses, prototype pollution, and silent data corruption; published full disclosure findings.
-* **Verified Convergence:** CRDT convergence verified across **1,000+ randomized fuzz seeds with zero divergences**.
+An experimental research suite exploring client-side P2P systems and distributed edge execution:
+* **Fuzz-Tested CRDT Convergence:** State convergence verified across **1,000+ randomized fuzz seeds with zero unhandled state divergences**.
+* **Documented Network Boundaries:** Explicitly documented NAT/TURN relay requirements, local computational quotas, and cryptographic fallback semantics.
 * **Projects:** [AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
 
 ---
 
-## 🏆 Honors & Recognition
+## 🏆 Featured Tools & Hackathon Prototypes
 
-* **Best Cybersecurity Tool — Quantum Sprint 2026** for [VulnHunter](https://github.com/itsoumya-d/vulnhunter): High-speed OWASP security scanner analyzing up to 40 source files in parallel; generates CWE-tagged vulnerability reports with line-level automated remediation patches.
-* **Finalist — NextDev Hackathon 2026** for [CyberMentor](https://github.com/itsoumya-d/cybermentor): Interactive security challenge platform featuring Claude-powered Socratic mentoring on vulnerability remediation.
+* **[VulnHunter](https://github.com/itsoumya-d/vulnhunter):** High-speed AST & regex security scanner analyzing up to 40 source files in parallel; outputs CWE-tagged reports with automated line-level remediation patches.
+* **[CyberMentor](https://github.com/itsoumya-d/cybermentor):** Interactive FastAPI security tutor featuring Socratic Claude-assisted hints and vulnerability walkthroughs.
 
 ---
 
