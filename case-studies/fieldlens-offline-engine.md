@@ -1,85 +1,46 @@
-# FieldLens Concurrency & Queue Reliability Case Study 📱🛠️
-### Eliminating Read-Modify-Write Races and Persisting Retries in Offline Mobile Workflows
+# FieldLens Offline Queue Source Review 📱
 
-[![TypeScript](https://img.shields.io/badge/Language-TypeScript%205-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Verification](https://img.shields.io/badge/Audit_Verification-5_Passing_Tests-brightgreen.svg)](#-verification-receipts)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+## Scope & Evidence
 
----
+FieldLens is a mobile AI-coaching prototype for tradespeople. This note reviews its public offline queue and proposes reliability improvements. It does not claim that the proposed fixes have shipped.
 
-## 📌 Executive Summary
+* [Public repository](https://github.com/itsoumya-d/fieldlens__)
+* [Reviewed implementation: lib/offline.ts](https://github.com/itsoumya-d/fieldlens__/blob/72fb0fc9de033992d6ca7938a01c03eb9ce5188e/lib/offline.ts)
+* Reviewed revision: `72fb0fc9de033992d6ca7938a01c03eb9ce5188e`, on 8 October 2026
 
-* **Context:** Field operations mobile copilot used by frontline technicians in zero-connectivity environments (basements, remote industrial sites).
-* **Core Problem:** The 14 September 2026 technical audit reproduced data loss during concurrent offline mutations and un-persisted retry metadata on failed sync attempts.
-* **Engineering Fix:** Implemented sequential promise-mutex locking, atomic read-modify-write persistence, idempotency key deduplication, and a quarantine Dead Letter Queue (DLQ).
+The module stores queued operations in AsyncStorage, checks connectivity and calls a supplied synchronization handler. It also includes cached reads and reconnect hooks.
 
----
+## Findings From Source Inspection
 
-## 🔍 The Audit Reproduction (14 September 2026)
+### Concurrent read-modify-write operations
 
-Using an isolated test harness over `lib/offline.ts`:
-1. **Concurrent Enqueue Race:** Two concurrent `enqueueOperation` calls yielded only **1** persisted record instead of **2**.
-2. **Lost Retry Counts:** Calling `processQueue` with a failing handler left `retries` at **0** in storage despite reporting a failed execution.
+`enqueueOperation` reads the queue, appends an operation and writes the entire array. `dequeueOperation` follows a similar read/filter/write pattern. There is no shared serialization mechanism around these operations in the reviewed file.
 
-```
-CONCURRENT RACE IN UNGUARDED IMPLEMENTATION:
-Call A: Read queue [X] ──────────┐ (Slow write)
-Call B: Read queue [X] ────┐     │
-Call B: Write [X, B] ◄─────┘     ▼
-Call A: Write [X, A] ◄─────────── Overwrites Call B! Result: B is LOST!
-```
+Two callers can read the same earlier state and overwrite each other's changes. This is a source-level race analysis, not a recorded device-level reproduction.
 
----
+### Retry metadata persistence
 
-## 🛠️ The Architecture & Mutex Solution
+`processQueue` increments `retries` on objects in its initially loaded array. When a handler fails, the final persistence block calls `getQueue` again and writes that newly loaded array without merging the increments. The intended retry updates can therefore be lost.
 
-```
-SERIALIZED ATOMIC MUTEX IMPLEMENTATION:
-Call A: ──► [queueMutex Lock] ──► Read [X] ──► Write [X, A] ──► Release Lock
-                                                                     │
-Call B: ──► [Waits on Lock] ─────────────────────────────────────────┼──► Read [X, A] ──► Write [X, A, B]
-                                                                     ▼
-                                                          Result: Both Persist!
-```
+### Missing recovery mechanisms
 
-### Key Implementation Primitives
+The reviewed queue does not implement the promise mutex, idempotency-key deduplication or dead-letter queue previously described in this case study. Those mechanisms belong in a proposed remediation plan until implemented and tested.
 
-1. **Sequential Promise-Chain Mutex:**
-   ```typescript
-   private async executeWithLock<T>(task: () => Promise<T>): Promise<T> {
-     return new Promise((resolve, reject) => {
-       this.queueMutex = this.queueMutex.then(async () => {
-         try {
-           const res = await task();
-           resolve(res);
-         } catch (err) {
-           reject(err);
-         }
-       });
-     });
-   }
-   ```
-2. **Persisted Retry Metadata on Failure:**
-   During `processQueue`, failed items are cloned with `retries: op.retries + 1` and `lastAttemptAt: new Date().toISOString()`, and saved back to persistent storage in the same atomic lock cycle.
-3. **Quarantine Dead Letter Queue (DLQ):**
-   Operations that repeatedly fail beyond `maxRetries` (5) are moved to `@fieldlens_offline_dlq_v2`, preventing a permanent sync loop from blocking subsequent healthy work orders.
+## Proposed Remediation
 
----
+1. Serialize queue mutations within a clearly defined execution context. A JavaScript promise mutex can coordinate one runtime; it does not by itself guarantee cross-process or crash-safe transactions.
+2. Persist retry metadata against the latest queue state without losing operations added while a handler is running.
+3. Introduce stable operation identifiers and define server-side idempotency behavior before claiming duplicate-safe delivery.
+4. Define bounded retries, backoff, a recoverable dead-letter state and a user-visible recovery path.
+5. Specify how storage errors, malformed queue data, restarts and interrupted writes are handled.
 
-## 🧪 Verification Receipts (Ran via `bun test`)
+## Verification Required Before Claiming a Fix
 
-```
-bun test v1.1.5 (b257a309)
+* Concurrent enqueue operations both remain persisted.
+* Failed handlers persist retry counts across a reload.
+* Processing and enqueueing concurrently do not discard new work.
+* Duplicate delivery follows the documented idempotency contract.
+* Exhausted retries can be inspected and recovered.
+* Restart, storage-error and interrupted-write behavior is exercised.
 
-tests/offline.test.ts:
-(pass) FieldLens Offline Queue Reliability > Audit Receipt 1: Two concurrent enqueueOperation calls both persist (no lost update) [4.35ms]
-(pass) FieldLens Offline Queue Reliability > Audit Receipt 2: processQueue with failing handler increments and persists retries [0.52ms]
-(pass) FieldLens Offline Queue Reliability > Restart & Process Crash Durability: New instance inherits persisted state [0.22ms]
-(pass) FieldLens Offline Queue Reliability > Idempotency: Duplicate mutation key returns existing operation without double-write [0.25ms]
-(pass) FieldLens Offline Queue Reliability > Dead Letter Queue: Operations exceeding maxRetries move to DLQ [0.44ms]
-
- 5 pass
- 0 fail
- 28 expect() calls
-Ran 5 tests across 1 files. [100.00ms]
-```
+No queue-specific test run or device test was performed for this documentation update. The previous five-test transcript is removed because it is not backed by a corresponding implementation and test file in the reviewed public revision.

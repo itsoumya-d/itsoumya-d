@@ -3,126 +3,108 @@
 # Soumya Debnath
 
 ### Founding AI Product Engineer &middot; Forward-Deployed Software Engineer
-**Building Autonomous Agent Infrastructure, Enterprise AI Systems & Production Mobile Apps**
+**Building Applied AI Systems, Developer Tools & Shipped Mobile Apps**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--debnath-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
 [![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
 [![Email](https://img.shields.io/badge/Email-soumyadebnath1619%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:soumyadebnath1619@gmail.com)
 
-Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years Production Delivery & Systems Architecture
+Kolkata, India &middot; Open to Relocation & Remote (Global)
 
 </div>
 
 ---
 
-## 📱 Shipped Consumer Products (Live on App Store & Google Play)
+## 📱 Shipped Consumer Products
 
 ### CTrackAI — AI Calorie & Nutrition Tracker
-**Flutter · Dart · Gemini Vision · Firebase · In-App Purchases**  
-[App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) · [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition) · [📖 Engineering Case Study](./case-studies/ctrackai-engineering.md)
+**Flutter · Dart · AI-Assisted Food Logging**
 
-* **Solo-built and shipped end-to-end:** Architecture, multimodal AI pipeline, 11-language localization, App Store/Play release operations, and unit economics.
-* **Beyond database hits:** Low-latency Gemini vision pipeline recognizes real-world uncurated meals (dal, jollof rice, pho, regional mixed dishes).
-* **Feature suite:** Barcode scanning, voice logging, 20+ micronutrient analytics, Apple Health / Health Connect sync, fasting timers, hydration tracking, and streak mechanics.
-* **Economics & Reliability:** Local perceptual image hash (pHash) cache cuts recurring API costs by 42% (<240ms cached lookup); holds a **4.9/5 rating** on the App Store.
+[App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) · [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition) · [📖 Product & Engineering Overview](./case-studies/ctrackai-engineering.md)
 
-### Preeo — Privacy-First Cycle & Health Companion
-**Cross-Platform Mobile · On-Device SQLite Encryption · Biometric Auth · Scoped Cloud Sync**  
-[App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion) · [📖 Architecture & Data Flow Case Study](./case-studies/preeo-architecture.md)
+* **Built and shipped:** A consumer nutrition app available on iOS and Android.
+* **Published feature set:** Photo-based food logging, barcode scanning, macro tracking, meal planning, fasting and hydration tracking.
+* **Evidence:** Store listings and release history are public. Performance, reliability and cost-reduction figures are omitted until a reproducible measurement report is available.
 
-* **Cryptographic local storage:** Core health logs encrypted on-device (AES-256 GCM SQLite) with FaceID/TouchID protection. No account required for core tracking.
-* **Explicit data boundaries:** Optional Firebase backup and cloud AI insights require explicit per-feature opt-in; users retain total data deletion and local export control.
-* **Condition-specific journeys:** 9 distinct clinical journeys (cycles, PCOS, fertility, pregnancy, perimenopause, endometriosis, PMDD, birth control, adolescent health) with 100+ clinical symptom inputs.
-* **Clinical export:** Secure doctor-share PDF generation and Apple HealthKit / Android Health Connect integration.
+### Preeo — Cycle & Health Companion
+**Cross-Platform Mobile · Cycle Tracking · Health Reports**
+
+[App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion) · [📖 Product & Data Boundary Overview](./case-studies/preeo-architecture.md)
+
+* **Built and shipped:** A consumer cycle-tracking app available on iOS and Android.
+* **Published feature set:** Cycle and symptom logging, BBT charts, health integrations and reports for sharing with a healthcare provider.
+* **Scope:** An informational wellness product. Store descriptions establish the advertised features, not clinical validation or independently verified security guarantees.
 
 ---
 
-## 🤖 Flagship Agent Infrastructure & Applied AI Systems
+## 🤖 Agent Infrastructure & Applied AI Projects
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             AGENT INFRASTRUCTURE STACK                                   │
-├───────────────────────────────┬───────────────────────────────┬──────────────────────────┤
-│ AutoPilot FDE 2.0             │ Motion MCP                    │ HEROS                    │
-│ Autonomous Business Process   │ Codebase-Aware Motion Engine  │ Agent-Native Action      │
-│ Discovery & LangGraph Agents  │ 64 MCP Tools · 230+ Tests     │ Safety & Contracts       │
-├───────────────────────────────┼───────────────────────────────┼──────────────────────────┤
-│ CertiFlow AI                  │ HostShift                     │ Mobile Design System     │
-│ Autonomous GRC & Trust        │ Cross-Platform Generative UI  │ Whole-Codebase Scanner   │
-│ Continuous Audit Automation   │ Open Benchmark (230+ Tests)   │ Multi-Framework Codex    │
-└───────────────────────────────┴───────────────────────────────┴──────────────────────────┘
-```
+These repositories cover developer tools, research and prototypes. Their linked documentation describes setup and project-specific limitations; they should not be read as evidence of customer deployments.
 
-### 1. [AutoPilot FDE 2.0](https://github.com/itsoumya-d/autopilot-fde) — Autonomous Forward-Deployed Engineering Agent
-*Python 3.12 · FastAPI · Next.js 15 · LangGraph · Shannon Entropy · Dual-Transport MCP*
+### 1. [AutoPilot FDE 2.0](https://github.com/itsoumya-d/autopilot-fde) — Workflow Discovery & Agent Prototype
+*Python · FastAPI · Next.js · MCP*
 
-* **Workflow-Mining Pipeline:** Ingests unstructured Slack, WhatsApp, email, and call transcripts, extracts organizational activities via Bayesian parsing, and constructs directed process graphs.
-* **Graph Entropy Scoring:** Formulates an Automation Potential Score (APS) using transition entropy to pinpoint operational bottlenecks, then runs 1,000-event pre-deployment Monte Carlo simulations.
-* **Self-Deploying State Machines:** Automatically compiles typed LangGraph state machines with Human-in-the-Loop review gates.
-* **Dual MCP Support:** Ships stdio and Streamable-HTTP (`POST /mcp`) transports compatible with Claude Code, Cursor, and Codex CLI. Evaluated across 158 multi-turn interaction runs across 8 enterprise departments.
+* Explores communication ingestion, process graphs, automation scoring and workflow generation.
+* Includes local evaluation and simulation tooling. Enterprise deployment, customer adoption and multi-department production performance are not established by the portfolio.
 
-### 2. [Motion MCP](https://github.com/itsoumya-d/motion-mcp) — Codebase-Aware Motion Engine for Coding Agents
-*TypeScript 5.7 · Model Context Protocol · SceneDoc Format · Kimodo.cpp Diffusion*
+### 2. [Motion MCP](https://github.com/itsoumya-d/motion-mcp) — Codebase-Aware Motion Tooling
+*TypeScript · Model Context Protocol · SceneDoc*
 
-* **64 MCP Tools & 230+ Tests:** Plugs into Cursor, Claude Code, or Codex CLI to turn existing codebases into animated, living products without rewrites or proprietary runtimes.
-* **Framework-Native Diff Staging:** Scans routes and component trees, models interactive state machines, compiles open SceneDoc specifications, and generates native code for React, React Native, Flutter, Unity, and Three.js/R3F.
-* **3D Diffusion Bridge:** Features natural-language text-to-3D skeletal animation diffusion across 22 SMPL-X standard joints with retargeting for Mixamo and Unity Mecanim.
+* Scans application structure, represents motion in SceneDoc and stages generated changes for review.
+* Explores framework-native motion generation and a skeletal-animation bridge. Test coverage and target-specific support are documented in the repository; support for a target does not imply every generated interaction has been runtime-validated.
 
 ### 3. [HEROS](https://github.com/itsoumya-d/HEROS) — Agent-Native Infrastructure & Safety Primitives
-*Zero-lang Primitives · Node.js / ESM SDK · MCP-Native Contracts · OWASP Agentic Top 10*
+*Zero-lang Primitives · Node.js / ESM SDK · MCP-Native Contracts*
 
-* **Contract-First Agent Execution:** Deterministic JSON-only outputs, stable machine-readable error codes, schema validation, idempotent writes, and auditable receipts so agents never hallucinate text execution branches.
-* **Core Primitives:**
-  * `@heros/agentic`: Installable SDK surface for explicit, authenticated, auditable agent website actions.
-  * `forge`: Agent-safe database migration risk gate scoring schema modifications before execution.
-  * `ledger`: Accounting receipt primitive with idempotency keys to prevent duplicate actions.
+* Provides structured agent actions, schema validation, machine-readable errors and auditable receipts.
+* Includes the `@heros/agentic` web SDK, `forge` migration-risk tooling and `ledger` accounting-receipt primitives. These controls reduce execution ambiguity; they are not a guarantee against all agent errors.
 
-### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — Autonomous GRC & Agent Telemetry Simulator *(Prototype)*
-*Next.js 14 · TypeScript · Gemini Computer Use · Server-Sent Events (SSE) · RBAC*
+### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — GRC & Agent Telemetry Simulator *(Prototype)*
+*Next.js · TypeScript · Server-Sent Events*
 
-* **Autonomous Audit Automation (Prototype):** Demonstrates autonomous agents continuously inspecting compliance controls across AWS, GitHub, and Okta via Gemini Computer Use workflows.
-* **Zero-Cloud Demo Architecture:** Runs on simulated AWS telemetry and in-memory audit logs for zero-dependency local evaluation and immediate reviewer verification.
-* **Live SSE Dashboards:** Real-time compliance score ring with zero-polling updates, automated evidence parsing, and scoped Admin/User/Auditor access controls.
+* Demonstrates compliance-agent workflows and live telemetry dashboards.
+* Uses simulated cloud telemetry and an in-memory audit store. It does not establish live compliance certification or enterprise audit outcomes.
 
-### 5. [HostShift](https://github.com/itsoumya-d/hostshift) — Cross-Platform Generative UI Portability Benchmark
-*Python 3.11 · AGPL-3.0 · 230 Passing Tests (84% Coverage) · Open Benchmark Suite*
+### 5. [HostShift](https://github.com/itsoumya-d/hostshift) — Cross-Platform UI Portability Research
+*Python · UI Specifications · Renderers · Evaluation Harness*
 
-* **Empirical UI Portability Benchmark:** Evaluates whether LLM-generated UI code preserves visual and functional semantics across 5 targets: Web (Chromium), iOS (SwiftUI), Android (Jetpack Compose), Flutter (Dart), and Terminal (Textual).
-* **Rigorous Validation Gates:** Combines AST-level syntax conformance checkers with isolated render oracles. Measured across 100 test tasks using tree-edit distance and bootstrap statistics.
+* Investigates whether generated interfaces preserve task behavior across Web, SwiftUI, Compose and Textual hosts.
+* Separates offline/synthetic pipeline checks from device-backed experiments. See the repository's status section before interpreting benchmark results.
 
 ### 6. [Mobile-Native Design System](https://github.com/itsoumya-d/mobile-native-design-system) — Codebase-Aware Codex Plugin
 *Python · Flutter · React Native · SwiftUI · Jetpack Compose*
 
-* Whole-codebase analyzer reconstructing routes, screen state, and design tokens. Enforces 7 progressively disclosed skills and a 30-rule evidence registry for guarded, one-screen-at-a-time native implementation.
-* **Mobile Queue Reliability Research:** [FieldLens Concurrency & Queue Durability Case Study](./case-studies/fieldlens-offline-engine.md) (remediating concurrent read-modify-write lost updates and retry persistence).
+* Organizes codebase analysis, screen planning, design tokens and reviewable native implementation workflows.
+* **Mobile queue reliability review:** [FieldLens Source Review & Proposed Remediation](./case-studies/fieldlens-offline-engine.md), covering concurrent queue writes and retry persistence. The proposed fixes are not presented as completed work.
 
 ---
 
-## 🧪 Browser-Native Infrastructure Suite (10 Edge Prototypes)
+## 🧪 Browser-Native Infrastructure Suite (Edge Prototypes)
 *TypeScript · Go · WebRTC · WASM · WebGPU · WebCrypto · CRDTs*
 
-An experimental research suite exploring client-side P2P systems and distributed edge execution:
-* **Fuzz-Tested CRDT Convergence:** State convergence verified across **1,000+ randomized fuzz seeds with zero unhandled state divergences**.
-* **Documented Network Boundaries:** Explicitly documented NAT/TURN relay requirements, local computational quotas, and cryptographic fallback semantics.
+An experimental suite exploring client-side P2P systems and distributed edge execution:
+
+* **Seeded testing:** [SyncForge's property and regression tests](https://github.com/itsoumya-d/syncforge/blob/b08435c22b35fffebb1afa99b3a697e92e481cde/tests/crdt-properties.test.mjs) exercise merge laws and replica delivery scenarios. This is bounded test coverage, not proof of convergence under every network or failure condition.
+* **Deployment constraints:** Browser capabilities, signaling, NAT/TURN relays and local resource limits need project-specific evaluation.
 * **Projects:** [AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
 
 ---
 
 ## 🏆 Featured Tools & Hackathon Prototypes
 
-* **[VulnHunter](https://github.com/itsoumya-d/vulnhunter):** High-speed AST & regex security scanner analyzing up to 40 source files in parallel; outputs CWE-tagged reports with automated line-level remediation patches.
-* **[CyberMentor](https://github.com/itsoumya-d/cybermentor):** Interactive FastAPI security tutor featuring Socratic Claude-assisted hints and vulnerability walkthroughs.
+* **[VulnHunter](https://github.com/itsoumya-d/vulnhunter):** A source-analysis security scanner prototype with vulnerability reports and suggested remediation.
+* **[CyberMentor](https://github.com/itsoumya-d/cybermentor):** An interactive security-learning prototype with AI-assisted hints and vulnerability walkthroughs.
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Stack
 
-| Category | Core Stack & Tooling |
+| Category | Stack & Tooling |
 |:--|:--|
-| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini 1.5, Claude 3.5, OpenAI Vision, Tool Calling, Structured Outputs, Process Mining, Monte Carlo Simulation |
-| **Full-Stack & Real-Time** | TypeScript, Next.js 15, React, Python (FastAPI), Node.js, REST APIs, Server-Sent Events (SSE), WebSockets, PostgreSQL, Supabase, Redis |
-| **Mobile Engineering** | Flutter, Dart, React Native, Expo, HealthKit, Health Connect, Biometric Authentication, SQLite Encryption, App Store Connect, Play Console |
-| **DevOps & Security** | Docker, GitHub Actions CI/CD, OWASP Agentic Top 10, Threat Modeling, SOC 2 / ISO 27001 Controls, Linux, Git |
+| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini, Claude, OpenAI, Tool Calling, Structured Outputs |
+| **Full-Stack & Real-Time** | TypeScript, Next.js, React, Python (FastAPI), Node.js, REST APIs, Server-Sent Events, WebSockets, PostgreSQL, Supabase, Redis |
+| **Mobile Engineering** | Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console |
+| **Development & Delivery** | Docker, GitHub Actions, Linux, Git, Testing, Threat Modeling |
 
 ---
 
