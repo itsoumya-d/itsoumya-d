@@ -1,46 +1,37 @@
-# FieldLens Offline Queue Source Review 📱
+# FieldLens Queue Repair & Validation 📱
 
-## Scope & Evidence
+## Status & Evidence
 
-FieldLens is a mobile AI-coaching prototype for tradespeople. This note reviews its public offline queue and proposes reliability improvements. It does not claim that the proposed fixes have shipped.
+FieldLens is a mobile AI-coaching prototype for tradespeople. The earlier source review identified lost concurrent writes and retry counts. Those repairs are now implemented and merged; release readiness remains a separate question.
 
-* [Public repository](https://github.com/itsoumya-d/fieldlens__)
-* [Reviewed implementation: lib/offline.ts](https://github.com/itsoumya-d/fieldlens__/blob/72fb0fc9de033992d6ca7938a01c03eb9ce5188e/lib/offline.ts)
-* Reviewed revision: `72fb0fc9de033992d6ca7938a01c03eb9ce5188e`, on 8 October 2026
+Public repository status checked on **8 October 2026**:
 
-The module stores queued operations in AsyncStorage, checks connectivity and calls a supplied synchronization handler. It also includes cached reads and reconnect hooks.
+* **Merged:** [queue repair, PR #6](https://github.com/itsoumya-d/fieldlens__/pull/6), [shared sync handler, PR #7](https://github.com/itsoumya-d/fieldlens__/pull/7), and [Expo SDK 55 runtime baseline, PR #8](https://github.com/itsoumya-d/fieldlens__/pull/8).
+* **Current main snapshot:** [`bdf00a8`](https://github.com/itsoumya-d/fieldlens__/tree/bdf00a84c096862e051d2a87fa45a57d26a7f071), containing those changes.
+* **Separate draft:** [browser voice restoration, PR #9](https://github.com/itsoumya-d/fieldlens__/pull/9), tested at `d4daac4`; not part of that main snapshot.
 
-## Findings From Source Inspection
+## The Failure and Repair
 
-### Concurrent read-modify-write operations
+The [original implementation](https://github.com/itsoumya-d/fieldlens__/blob/72fb0fc9de033992d6ca7938a01c03eb9ce5188e/lib/offline.ts) independently read and rewrote the queue. Concurrent callers could overwrite each other's work, and a fresh final read discarded retry increments.
 
-`enqueueOperation` reads the queue, appends an operation and writes the entire array. `dequeueOperation` follows a similar read/filter/write pattern. There is no shared serialization mechanism around these operations in the reviewed file.
+The merged [storage-only queue core](https://github.com/itsoumya-d/fieldlens__/blob/bdf00a84c096862e051d2a87fa45a57d26a7f071/lib/offlineQueue.ts) serializes complete read/modify/write operations within one shared instance. After a remote attempt, it rereads the latest queue under the lock before persisting success or a retry. New enqueues and explicit removals survive. Overlapping sync calls share one pass.
 
-Two callers can read the same earlier state and overwrite each other's changes. This is a source-level race analysis, not a recorded device-level reproduction.
+A merged [dispatch factory](https://github.com/itsoumya-d/fieldlens__/blob/bdf00a84c096862e051d2a87fa45a57d26a7f071/lib/offlineSync.ts) handles create, update and delete for both reconnect and banner entry points. Update/delete require a usable row ID; provider failures remain queued for retry. Storage failures reject instead of silently replacing unreadable work.
 
-### Retry metadata persistence
+## Reproducible Evidence
 
-`processQueue` increments `retries` on objects in its initially loaded array. When a handler fails, the final persistence block calls `getQueue` again and writes that newly loaded array without merging the increments. The intended retry updates can therefore be lost.
+The [focused test guide](https://github.com/itsoumya-d/fieldlens__/blob/bdf00a84c096862e051d2a87fa45a57d26a7f071/tests/README.md) documents `npm run test:offline` on Node 24 without provider credentials or dependency installation.
 
-### Missing recovery mechanisms
+* PR #6 records a red/green comparison: 16 failures against the pre-fix algorithm, then all 23 queue cases passing with the repair.
+* PR #7 adds dispatch and shared-wiring regressions, bringing the focused suite to 31 cases.
+* [PR #9's offline CI](https://github.com/itsoumya-d/fieldlens__/actions/runs/37794950989) and [runtime CI](https://github.com/itsoumya-d/fieldlens__/actions/runs/37794951062) passed at `d4daac4247870bae9b9d0b390a280d21f4b92b64`. Its 200 provider-free tests include the queue suite plus recorder/upload and Jest coverage; app/helper typechecks and static web export also passed.
 
-The reviewed queue does not implement the promise mutex, idempotency-key deduplication or dead-letter queue previously described in this case study. Those mechanisms belong in a proposed remediation plan until implemented and tested.
+Queue tests use JSON-backed in-memory storage and controlled promises. They exercise persisted retries across queue reconstruction, concurrent mutations, overlapping sync, malformed data and interrupted local acknowledgements. Recorder tests use fake browser boundaries and synthetic bytes. These results are tied to the referenced revisions, not a fresh test run performed for this case-study update.
 
-## Proposed Remediation
+## Remaining Boundaries
 
-1. Serialize queue mutations within a clearly defined execution context. A JavaScript promise mutex can coordinate one runtime; it does not by itself guarantee cross-process or crash-safe transactions.
-2. Persist retry metadata against the latest queue state without losing operations added while a handler is running.
-3. Introduce stable operation identifiers and define server-side idempotency behavior before claiming duplicate-safe delivery.
-4. Define bounded retries, backoff, a recoverable dead-letter state and a user-visible recovery path.
-5. Specify how storage errors, malformed queue data, restarts and interrupted writes are handled.
-
-## Verification Required Before Claiming a Fix
-
-* Concurrent enqueue operations both remain persisted.
-* Failed handlers persist retry counts across a reload.
-* Processing and enqueueing concurrently do not discard new work.
-* Duplicate delivery follows the documented idempotency contract.
-* Exhausted retries can be inspected and recovered.
-* Restart, storage-error and interrupted-write behavior is exercised.
-
-No queue-specific test run or device test was performed for this documentation update. The previous five-test transcript is removed because it is not backed by a corresponding implementation and test file in the reviewed public revision.
+* The lock coordinates one queue instance in one JavaScript runtime. It does not coordinate browser tabs, processes or independently created instances.
+* Remote success and local acknowledgement are not atomic. An interrupted acknowledgement can produce a repeated send; a regression explicitly demonstrates that window. Server-side idempotency, bounded retry/backoff and a recoverable dead-letter flow remain future work.
+* Fake-client success does not establish affected rows, authorization or Supabase RLS correctness. Real AsyncStorage, device crash durability, account isolation and end-to-end reconnects remain unvalidated.
+* The [merged runtime baseline](https://github.com/itsoumya-d/fieldlens__/blob/bdf00a84c096862e051d2a87fa45a57d26a7f071/docs/runtime-baseline.md) documents the unresolved web biometric startup lock and dependency-security findings. A static export is not a demonstrated usable web app.
+* The [draft browser-recorder notes](https://github.com/itsoumya-d/fieldlens__/blob/d4daac4247870bae9b9d0b390a280d21f4b92b64/docs/web-voice-recording.md) describe stream cleanup and MIME handling, but actual browser permission/codec behavior, native devices and live transcription/provider behavior are unverified. No release or deployment is established by these checks.

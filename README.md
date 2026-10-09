@@ -37,6 +37,18 @@ Kolkata, India &middot; Open to Relocation & Remote (Global)
 
 ---
 
+## 🔎 Selected Proof of Work
+
+Public source and CI checked on **8 October 2026**. “Merged” means included in the repository, not deployed to users. CI links below cover the cited revisions.
+
+* **Queue reliability · FieldLens:** Merged same-runtime serialization, persisted retries and shared create/update/delete dispatch. The [case study](./case-studies/fieldlens-offline-engine.md) links source, regression evidence and remaining delivery limits. Browser recording is a separate draft; a working web app is not yet demonstrated.
+* **Reviewable developer tooling · Motion MCP:** A [runnable, credential-free patch walkthrough](https://github.com/itsoumya-d/motion-mcp/blob/9f1787443c959b39866225eecd40d1fe052675d2/examples/patch-review/README.md) demonstrates import inspection, text-anchor insertion, repeatability and guarded no-ops. [Merged PR #2](https://github.com/itsoumya-d/motion-mcp/pull/2) · [Node 22/24 CI](https://github.com/itsoumya-d/motion-mcp/actions/runs/37775446846). Hand-written fixtures; no live AI or semantic code-review claim.
+* **Measurement integrity · HostShift:** [Merged PR #2](https://github.com/itsoumya-d/hostshift/pull/2) prevents conflicting artifact overwrites and requires the task's requested contact message. [Python 3.11–3.14 CI](https://github.com/itsoumya-d/hostshift/actions/runs/37782677973) passed at `deee566`. This validates harness behavior, not live-model or native-device benchmark results.
+* **Cross-platform tooling · Mobile-Native Design System:** The [token-parity fixture](https://github.com/itsoumya-d/mobile-native-design-system/blob/7b2bb97ebc968e9e52b4dce85b1743f1df658d27/fixtures/token-parity/README.md) detects edited output even after its stored hash is refreshed. [Draft PR #4](https://github.com/itsoumya-d/mobile-native-design-system/pull/4) has passing [core](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316900), [Android](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316947) and [Apple](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786317099) checks at `7b2bb97`. Compiler/reference-app fixtures, not physical-device certification.
+* **Full-stack maintenance · AutoPilot FDE:** Merged [API error-contract/CI repairs](https://github.com/itsoumya-d/autopilot-fde/pull/2) and a [Next.js dependency security patch](https://github.com/itsoumya-d/autopilot-fde/pull/3). [Backend Python matrix and frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/37775763497) passed at `45cd4cd`. The workflow-discovery product remains a prototype; no live deployment or comprehensive security audit is claimed.
+
+---
+
 ## 🤖 Agent Infrastructure & Applied AI Projects
 
 These repositories cover developer tools, research and prototypes. Their linked documentation describes setup and project-specific limitations; they should not be read as evidence of customer deployments.
@@ -75,7 +87,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 *Python · Flutter · React Native · SwiftUI · Jetpack Compose*
 
 * Organizes codebase analysis, screen planning, design tokens and reviewable native implementation workflows.
-* **Mobile queue reliability review:** [FieldLens Source Review & Proposed Remediation](./case-studies/fieldlens-offline-engine.md), covering concurrent queue writes and retry persistence. The proposed fixes are not presented as completed work.
+* **Mobile queue reliability:** [FieldLens Queue Repair & Validation](./case-studies/fieldlens-offline-engine.md), covering merged concurrent-write/retry fixes, deterministic regression tests and the remaining runtime boundaries.
 
 ---
 
