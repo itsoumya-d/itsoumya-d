@@ -15,6 +15,13 @@ Kolkata, India &middot; Open to Relocation & Remote (Global)
 
 ---
 
+## Start Here
+
+* **Shipped Flutter apps:** [CTrackAI](./case-studies/ctrackai-engineering.md) and [Preeo](./case-studies/preeo-architecture.md). The store links below lead to published iOS/Android products; their commercial source is not included here.
+* **React/TypeScript frontend:** [Cognition (`aeo_geo`)](https://github.com/itsoumya-d/aeo_geo), the audit-dashboard project linked in my CVs. [Main CI](https://github.com/itsoumya-d/aeo_geo/actions/runs/34338373525) verifies typechecking, unit tests and build. The full audit flow needs backend/provider setup. A credential-free report-editor demo is proposed in [open PR #3](https://github.com/itsoumya-d/aeo_geo/pull/3); its browser workflow currently has a [keyboard-reorder failure](https://github.com/itsoumya-d/aeo_geo/actions/runs/37789771619), so it is not presented as verified main-branch functionality.
+* **Local full-stack prototype:** [AutoPilot FDE quick start and walkthrough](https://github.com/itsoumya-d/autopilot-fde/blob/6f2986f96a604a74f0851e6bab4dda97edb59755/README.md#quick-start). Python 3.12+, Node 22 and local dependencies run a FastAPI/Next.js demo seeded with synthetic messages, without external accounts or model API keys. Live connectors and hosted deployment need separate validation.
+* **Dependency-free engineering exercise:** [FieldLens queue tests](https://github.com/itsoumya-d/fieldlens__/blob/b035fc284c1c8c93f20839af1f27b4bf68317bf3/tests/README.md) run on Node 24 without provider credentials or app-package installation. The [case study](./case-studies/fieldlens-offline-engine.md) explains the concurrency decision and delivery limits.
+
 ## 📱 Shipped Consumer Products
 
 ### CTrackAI — AI Calorie & Nutrition Tracker
@@ -27,7 +34,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global)
 * **Evidence:** Store listings and release history are public. Performance, reliability and cost-reduction figures are omitted until a reproducible measurement report is available.
 
 ### Preeo — Cycle & Health Companion
-**Cross-Platform Mobile · Cycle Tracking · Health Reports**
+**Flutter · Dart · Cycle Tracking · Health Reports**
 
 [App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) · [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion) · [📖 Product & Data Boundary Overview](./case-studies/preeo-architecture.md)
 
@@ -39,13 +46,13 @@ Kolkata, India &middot; Open to Relocation & Remote (Global)
 
 ## 🔎 Selected Proof of Work
 
-Public source and CI checked on **8 October 2026**. “Merged” means included in the repository, not deployed to users. CI links below cover the cited revisions.
+Public source and CI checked on **9 October 2026**. “Merged” means included in the repository, not deployed to users. CI links below cover the cited revisions.
 
-* **Queue reliability · FieldLens:** Merged same-runtime serialization, persisted retries and shared create/update/delete dispatch. The [case study](./case-studies/fieldlens-offline-engine.md) links source, regression evidence and remaining delivery limits. Browser recording is a separate draft; a working web app is not yet demonstrated.
+* **Queue reliability · FieldLens:** Merged same-runtime serialization, persisted retries and shared create/update/delete dispatch. The [case study](./case-studies/fieldlens-offline-engine.md) links source, regression evidence and remaining delivery limits. Browser recording is now [merged in PR #9](https://github.com/itsoumya-d/fieldlens__/pull/9). Main has passing provider-free runtime/queue checks, but its EAS build fails without Expo authentication and the web biometric startup blocker remains.
 * **Reviewable developer tooling · Motion MCP:** A [runnable, credential-free patch walkthrough](https://github.com/itsoumya-d/motion-mcp/blob/9f1787443c959b39866225eecd40d1fe052675d2/examples/patch-review/README.md) demonstrates import inspection, text-anchor insertion, repeatability and guarded no-ops. [Merged PR #2](https://github.com/itsoumya-d/motion-mcp/pull/2) · [Node 22/24 CI](https://github.com/itsoumya-d/motion-mcp/actions/runs/37775446846). Hand-written fixtures; no live AI or semantic code-review claim.
-* **Measurement integrity · HostShift:** [Merged PR #2](https://github.com/itsoumya-d/hostshift/pull/2) prevents conflicting artifact overwrites and requires the task's requested contact message. [Python 3.11–3.14 CI](https://github.com/itsoumya-d/hostshift/actions/runs/37782677973) passed at `deee566`. This validates harness behavior, not live-model or native-device benchmark results.
-* **Cross-platform tooling · Mobile-Native Design System:** The [token-parity fixture](https://github.com/itsoumya-d/mobile-native-design-system/blob/7b2bb97ebc968e9e52b4dce85b1743f1df658d27/fixtures/token-parity/README.md) detects edited output even after its stored hash is refreshed. [Draft PR #4](https://github.com/itsoumya-d/mobile-native-design-system/pull/4) has passing [core](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316900), [Android](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316947) and [Apple](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786317099) checks at `7b2bb97`. Compiler/reference-app fixtures, not physical-device certification.
-* **Full-stack maintenance · AutoPilot FDE:** Merged [API error-contract/CI repairs](https://github.com/itsoumya-d/autopilot-fde/pull/2) and a [Next.js dependency security patch](https://github.com/itsoumya-d/autopilot-fde/pull/3). [Backend Python matrix and frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/37775763497) passed at `45cd4cd`. The workflow-discovery product remains a prototype; no live deployment or comprehensive security audit is claimed.
+* **Measurement integrity · HostShift:** Merged [fail-closed criteria validation](https://github.com/itsoumya-d/hostshift/pull/5) and [unavailable/partial-calibration reporting](https://github.com/itsoumya-d/hostshift/pull/6). Combined-main [Python 3.11–3.14 CI](https://github.com/itsoumya-d/hostshift/actions/runs/37921645160) passed at `f8860a2`. The synthetic-demo short-budget correction remains [draft PR #7](https://github.com/itsoumya-d/hostshift/pull/7). These checks validate evaluation tooling, not live-model or native-device benchmark outcomes.
+* **Cross-platform tooling · Mobile-Native Design System:** The [token-parity fixture](https://github.com/itsoumya-d/mobile-native-design-system/blob/7b2bb97ebc968e9e52b4dce85b1743f1df658d27/fixtures/token-parity/README.md) detects edited output even after its stored hash is refreshed. [Merged PR #4](https://github.com/itsoumya-d/mobile-native-design-system/pull/4) has passing [core](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316900), [Android](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316947) and [Apple](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786317099) checks at `7b2bb97`. Compiler/reference-app fixtures, not physical-device certification.
+* **Full-stack maintenance · AutoPilot FDE:** Merged [API error-contract/CI repairs](https://github.com/itsoumya-d/autopilot-fde/pull/2) and a [Next.js dependency security patch](https://github.com/itsoumya-d/autopilot-fde/pull/3). [Current-main backend Python matrix and frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/37883736388) passed at `6f2986f`. Generated-workflow follow-up [PR #5](https://github.com/itsoumya-d/autopilot-fde/pull/5) remains open. The workflow-discovery product remains a prototype; no live deployment or comprehensive security audit is claimed.
 
 ---
 
