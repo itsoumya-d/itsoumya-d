@@ -2,8 +2,10 @@
 
 # Soumya Debnath
 
-### Founding AI Product Engineer &middot; Forward-Deployed Software Engineer
-**Building Applied AI Systems, Developer Tools & Shipped Mobile Apps**
+### Founding AI Product Engineer &middot; Senior AI Software Engineer &middot; Forward-Deployed Engineer
+**Building Applied AI Systems, Document Intelligence, Developer Tools & Shipped Mobile Apps**
+
+**LLM Features &middot; Document Extraction &middot; Retrieval &middot; Evals &middot; Python &middot; C#/.NET &middot; React/TypeScript**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-soumya--debnath-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
 [![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
@@ -39,13 +41,15 @@ Kolkata, India &middot; Open to Relocation & Remote (Global)
 
 ## 🔎 Selected Proof of Work
 
-Public source and CI checked on **8 October 2026**. “Merged” means included in the repository, not deployed to users. CI links below cover the cited revisions.
+Public source and CI checked on **29 October 2026**. “Merged” means included in the repository, not deployed to users. Open PRs are labelled Open; green CI is not a deployment claim.
 
 * **Queue reliability · FieldLens:** Merged same-runtime serialization, persisted retries and shared create/update/delete dispatch. The [case study](./case-studies/fieldlens-offline-engine.md) links source, regression evidence and remaining delivery limits. Browser recording is a separate draft; a working web app is not yet demonstrated.
 * **Reviewable developer tooling · Motion MCP:** A [runnable, credential-free patch walkthrough](https://github.com/itsoumya-d/motion-mcp/blob/9f1787443c959b39866225eecd40d1fe052675d2/examples/patch-review/README.md) demonstrates import inspection, text-anchor insertion, repeatability and guarded no-ops. [Merged PR #2](https://github.com/itsoumya-d/motion-mcp/pull/2) · [Node 22/24 CI](https://github.com/itsoumya-d/motion-mcp/actions/runs/37775446846). Hand-written fixtures; no live AI or semantic code-review claim.
 * **Measurement integrity · HostShift:** [Merged PR #2](https://github.com/itsoumya-d/hostshift/pull/2) prevents conflicting artifact overwrites and requires the task's requested contact message. [Python 3.11–3.14 CI](https://github.com/itsoumya-d/hostshift/actions/runs/37782677973) passed at `deee566`. This validates harness behavior, not live-model or native-device benchmark results.
 * **Cross-platform tooling · Mobile-Native Design System:** The [token-parity fixture](https://github.com/itsoumya-d/mobile-native-design-system/blob/7b2bb97ebc968e9e52b4dce85b1743f1df658d27/fixtures/token-parity/README.md) detects edited output even after its stored hash is refreshed. [Draft PR #4](https://github.com/itsoumya-d/mobile-native-design-system/pull/4) has passing [core](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316900), [Android](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786316947) and [Apple](https://github.com/itsoumya-d/mobile-native-design-system/actions/runs/37786317099) checks at `7b2bb97`. Compiler/reference-app fixtures, not physical-device certification.
 * **Full-stack maintenance · AutoPilot FDE:** Merged [API error-contract/CI repairs](https://github.com/itsoumya-d/autopilot-fde/pull/2) and a [Next.js dependency security patch](https://github.com/itsoumya-d/autopilot-fde/pull/3). [Backend Python matrix and frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/37775763497) passed at `45cd4cd`. The workflow-discovery product remains a prototype; no live deployment or comprehensive security audit is claimed.
+* **Document extraction evaluation · AutoPilot FDE:** Open [PR #13](https://github.com/itsoumya-d/autopilot-fde/pull/13) adds a provider-agnostic eval harness for schema validity, field accuracy, exact-match rate, p50/p95 latency, and cost per call. [Backend 3.12–3.14 + frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/40786952085) passed at `bb3f324`. The default fixture proves the harness, not a live model.
+* **Production .NET integration · Fuel Integration Hub:** Open [PR #3](https://github.com/itsoumya-d/factory-monitor/pull/3) adds a .NET 10 / ASP.NET Core service with 31 tests, HMAC webhooks, idempotency, transactional outbox, reconciliation, and a signed smoke harness. [All 18 checks](https://github.com/itsoumya-d/factory-monitor/pull/3/checks) passed at `bf67c22`; not merged or deployed.
 
 ---
 
@@ -57,7 +61,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 *Python · FastAPI · Next.js · MCP*
 
 * Explores communication ingestion, process graphs, automation scoring and workflow generation.
-* Includes local evaluation and simulation tooling. Enterprise deployment, customer adoption and multi-department production performance are not established by the portfolio.
+* Includes local evaluation and simulation tooling, structured invoice extraction with deterministic validation, and a provider-agnostic document-extraction eval harness ([PR #13](https://github.com/itsoumya-d/autopilot-fde/pull/13)). Enterprise deployment, customer adoption and multi-department production performance are not established by the portfolio.
 
 ### 2. [Motion MCP](https://github.com/itsoumya-d/motion-mcp) — Codebase-Aware Motion Tooling
 *TypeScript · Model Context Protocol · SceneDoc*
@@ -113,10 +117,11 @@ An experimental suite exploring client-side P2P systems and distributed edge exe
 
 | Category | Stack & Tooling |
 |:--|:--|
-| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini, Claude, OpenAI, Tool Calling, Structured Outputs |
+| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini, Claude, OpenAI, Tool Calling, Structured Outputs, Document Extraction, Retrieval, Evals |
 | **Full-Stack & Real-Time** | TypeScript, Next.js, React, Python (FastAPI), Node.js, REST APIs, Server-Sent Events, WebSockets, PostgreSQL, Supabase, Redis |
 | **Mobile Engineering** | Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console |
-| **Development & Delivery** | Docker, GitHub Actions, Linux, Git, Testing, Threat Modeling |
+| **.NET & Enterprise Integration** | C#, .NET 10, ASP.NET Core Minimal APIs, EF Core 10, SQL Server/T-SQL, SQLite, REST APIs, webhooks, HMAC, idempotency, transactional outbox, xUnit |
+| **Development & Delivery** | Docker, GitHub Actions CI/CD, Azure Container Apps, Bicep, Linux, Git, Testing, Threat Modeling |
 
 ---
 
@@ -125,3 +130,11 @@ An experimental suite exploring client-side P2P systems and distributed edge exe
 * **Email:** [soumyadebnath1619@gmail.com](mailto:soumyadebnath1619@gmail.com)
 * **LinkedIn:** [linkedin.com/in/soumya-debnath-83a68a237](https://www.linkedin.com/in/soumya-debnath-83a68a237/)
 * **GitHub:** [github.com/itsoumya-d](https://github.com/itsoumya-d)
+
+### Verified credentials
+
+* **Anthropic Building with the Claude API** — [verify](https://academy.claude.com/badges/f1de3ec2-3d44-48a9-a1fe-3d05f9f1122a) — credential `f1de3ec2-3d44-48a9-a1fe-3d05f9f1122a`
+* **HackerRank SQL (Intermediate)** — [verify](https://www.hackerrank.com/certificates/c5a80e6adda0) — credential `c5a80e6adda0`
+* **Anthropic Claude Code in Action** — [verify](https://academy.claude.com/badges/fd1a399f-5fe9-4635-977c-440cab5eb62c) — credential `fd1a399f-5fe9-4635-977c-440cab5eb62c`
+* **Anthropic Model Context Protocol: Advanced Topics** — [verify](https://academy.claude.com/badges/2cc5045b-85c1-43cd-aeb8-e0ea7f3dac59) — credential `2cc5045b-85c1-43cd-aeb8-e0ea7f3dac59`
+* **Anthropic Teaching AI Fluency** — [verify](https://academy.claude.com/badges/236d54cb-6398-4302-8726-f037c92a3e51) — credential `236d54cb-6398-4302-8726-f037c92a3e51`
