@@ -62,6 +62,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 * Explores communication ingestion, process graphs, automation scoring and workflow generation.
 * Includes local evaluation and simulation tooling, structured invoice extraction with deterministic validation, and a provider-agnostic document-extraction eval harness ([PR #13](https://github.com/itsoumya-d/autopilot-fde/pull/13)). Enterprise deployment, customer adoption and multi-department production performance are not established by the portfolio.
+* Agent-first delivery: Claude Code/Codex used with AGENTS.md, test-first prompts and review checkpoints; the eval harness measures schema validity, field accuracy, p50/p95 latency and cost per call.
 
 ### 2. [Motion MCP](https://github.com/itsoumya-d/motion-mcp) — Codebase-Aware Motion Tooling
 *TypeScript · Model Context Protocol · SceneDoc*
