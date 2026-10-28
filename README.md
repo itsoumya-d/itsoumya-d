@@ -11,7 +11,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
 [![Email](https://img.shields.io/badge/Email-soumyadebnath1619%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:soumyadebnath1619@gmail.com)
 
-Kolkata, India &middot; Open to Relocation & Remote (Global)
+Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 6+ Years Commercial Delivery &middot; 9 Years Hands-On
 
 </div>
 
