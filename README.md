@@ -11,7 +11,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-itsoumya--d-181717?style=for-the-badge&logo=github)](https://github.com/itsoumya-d)
 [![Email](https://img.shields.io/badge/Email-soumyadebnath1619%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:soumyadebnath1619@gmail.com)
 
-Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 6+ Years Commercial Delivery &middot; 9 Years Hands-On
+Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years Professional Delivery &middot; Coding since 2017
 
 </div>
 
@@ -43,6 +43,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 6+ Years C
 
 Public source and CI checked on **29 October 2026**. “Merged” means included in the repository, not deployed to users. Open PRs are labelled Open; green CI is not a deployment claim.
 
+* **LLM platform · llm-control-plane:** Provider-agnostic LLM gateway and evaluation control plane with ordered failover, per-tenant rate limits, cost attribution, PII redaction, SHA-256 hash-chained audit log, versioned eval datasets, deterministic scorers, Prometheus metrics and a FastAPI adapter. **45 tests, 93% coverage**, green CI on Python 3.9/3.11/3.12. [Source](https://github.com/itsoumya-d/llm-control-plane) · [Architecture](https://github.com/itsoumya-d/llm-control-plane/blob/main/docs/ARCHITECTURE.md)
 * **Rust/Python spatial systems · Shado / Factory Monitor:** 13-crate Rust 2024 workspace, 434 tests, 7/7 CI jobs, typed spatial contracts, REST/WebSocket APIs, TimescaleDB, and ERP/MES integrations (OPC UA, Modbus, ONVIF). [Source](https://github.com/itsoumya-d/factory-monitor)
 * **Queue reliability · FieldLens:** Merged same-runtime serialization, persisted retries and shared create/update/delete dispatch. The [case study](./case-studies/fieldlens-offline-engine.md) links source, regression evidence and remaining delivery limits. Browser recording is a separate draft; a working web app is not yet demonstrated.
 * **Reviewable developer tooling · Motion MCP:** A [runnable, credential-free patch walkthrough](https://github.com/itsoumya-d/motion-mcp/blob/9f1787443c959b39866225eecd40d1fe052675d2/examples/patch-review/README.md) demonstrates import inspection, text-anchor insertion, repeatability and guarded no-ops. [Merged PR #2](https://github.com/itsoumya-d/motion-mcp/pull/2) · [Node 22/24 CI](https://github.com/itsoumya-d/motion-mcp/actions/runs/37775446846). Hand-written fixtures; no live AI or semantic code-review claim.
