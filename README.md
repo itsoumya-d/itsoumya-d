@@ -52,6 +52,7 @@ Public source and CI checked on **29 October 2026**. “Merged” means included
 * **Full-stack maintenance · AutoPilot FDE:** Merged [API error-contract/CI repairs](https://github.com/itsoumya-d/autopilot-fde/pull/2) and a [Next.js dependency security patch](https://github.com/itsoumya-d/autopilot-fde/pull/3). [Backend Python matrix and frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/37775763497) passed at `45cd4cd`. The workflow-discovery product remains a prototype; no live deployment or comprehensive security audit is claimed.
 * **Document extraction evaluation · AutoPilot FDE:** Open [PR #13](https://github.com/itsoumya-d/autopilot-fde/pull/13) adds a provider-agnostic eval harness for schema validity, field accuracy, exact-match rate, p50/p95 latency, and cost per call. [Backend 3.12–3.14 + frontend CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/40786952085) passed at `bb3f324`. The default fixture proves the harness, not a live model.
 * **Media feed ingestion · AutoPilot FDE:** Open [PR #14](https://github.com/itsoumya-d/autopilot-fde/pull/14) adds an RSS 2.0/Atom parser with deduplication, since filtering, and UTC normalization. [Backend 3.12–3.14, frontend and runtime CI](https://github.com/itsoumya-d/autopilot-fde/actions/runs/40793732144) passed at `586d3fd`; 15 tests and 100% module coverage.
+* **Applied ML · ComplaintGraph:** Frozen DistilBERT embeddings + logistic regression on the public `app_reviews` dataset, **0.690 accuracy / 0.689 macro F1** on 2,880/720 reviews, TF-IDF/KMeans complaint themes with evidence quotes, a FastAPI surface, pytest coverage and a GitHub Actions smoke-training job. The [Intercom Conversations gap report](https://github.com/itsoumya-d/complaintgraph/blob/main/reports/intercom_gap_report.md) analyses 284 public reviews; it is an independent analysis, not an official company document. [Source](https://github.com/itsoumya-d/complaintgraph)
 * **Production .NET integration · Fuel Integration Hub:** Open [PR #3](https://github.com/itsoumya-d/factory-monitor/pull/3) adds a .NET 10 / ASP.NET Core service with 31 tests, HMAC webhooks, idempotency, transactional outbox, reconciliation, and a signed smoke harness. [All 18 checks](https://github.com/itsoumya-d/factory-monitor/pull/3/checks) passed at `bf67c22`; not merged or deployed.
 
 ---
@@ -99,6 +100,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
+### 7. [ComplaintGraph](https://github.com/itsoumya-d/complaintgraph) — Public-Review Complaint Mining
+*Hugging Face Transformers · DistilBERT · TF-IDF/KMeans · FastAPI*
+
+* Trains a frozen-encoder DistilBERT + logistic regression baseline on the public `app_reviews` dataset; **0.690 accuracy / 0.689 macro F1** on 2,880 train / 720 eval reviews.
+* Clusters negative reviews into themes with top terms and evidence quotes, then generates a Markdown gap report with suggested experiments.
+* Includes `/themes` and `/score` FastAPI endpoints, pytest coverage and CI smoke training.
+* [Independent Intercom Conversations report](https://github.com/itsoumya-d/complaintgraph/blob/main/reports/intercom_gap_report.md) — 284 public reviews, five complaint themes; not an official company document.
+
+---
+
 ## 🧪 Browser-Native Infrastructure Suite (Edge Prototypes)
 *TypeScript · Go · WebRTC · WASM · WebGPU · WebCrypto · CRDTs*
 
@@ -121,7 +132,7 @@ An experimental suite exploring client-side P2P systems and distributed edge exe
 
 | Category | Stack & Tooling |
 |:--|:--|
-| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini, Claude, OpenAI, Tool Calling, Structured Outputs, Document Extraction, Retrieval, Evals |
+| **Applied AI & Agents** | LangGraph, Model Context Protocol (MCP), Gemini, Claude, OpenAI, Tool Calling, Structured Outputs, Document Extraction, Retrieval, Evals, Hugging Face Transformers, DistilBERT, TF-IDF/KMeans |
 | **Full-Stack & Real-Time** | TypeScript, Next.js, React, Python (FastAPI), Node.js, REST APIs, Server-Sent Events, WebSockets, PostgreSQL, Supabase, Redis |
 | **Mobile Engineering** | Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console |
 | **.NET & Enterprise Integration** | C#, .NET 10, ASP.NET Core Minimal APIs, EF Core 10, SQL Server/T-SQL, SQLite, REST APIs, webhooks, HMAC, idempotency, transactional outbox, xUnit |
