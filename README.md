@@ -176,7 +176,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 15. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 15. [Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler) — Reference-Driven UI Compiler
+*Node.js · Mobbin search_screens contract · React 19/TS/Tailwind source generation · accessibility invariants*
+
+* Compiles PRD/surface intents into five production-shaped SaaS surfaces: KYC stepper, tiered paywall, keyboard-first dashboard, agentic chat with citation drill-through, and usage-billing ledger.
+* Queries a Mobbin `search_screens`-style adapter, extracts layout tokens/microcopy, writes local reference boards, and emits React/TS/Tailwind component source with focus-visible, 44px targets, ARIA labels, and reduced-motion rules.
+* **10 tests** pass; all five surfaces compile to components, tokens, and boards. The live Mobbin MCP was unavailable, so a clearly labelled fixture adapter is used; Playwright/axe/Lighthouse and hosting are explicitly not claimed.
+
+---
+
+### 16. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
