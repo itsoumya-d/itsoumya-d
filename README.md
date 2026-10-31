@@ -122,7 +122,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 9. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 9. [Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE) — Verbal Reflexion & Training-Free GRPO
+*Python · Actor/Evaluator/Self-Reflection · AST-filtered tests · sandboxed execution · verbal priors*
+
+* Implements the three Reflexion models with a bounded episodic memory (Ω=3), generates up to six AST/syntax-filtered tests per issue, and executes them in an isolated Python/Rust sandbox (optional Docker network isolation).
+* Adds training-free group-relative prior distillation: sample a group of trajectories, normalise rewards, and write successful/failed contrasts into a weighted natural-language prior bank — no model weights change.
+* **40 unit tests** pass, including sandbox timeouts, Rust execution, Reflexion vs. no-reflection controls, and TF-GRPO prior guidance. The measured toy mechanism ablation is `base 0.00 / -TestGen 0.00 / -Reflection 0.00 / full 1.00 / +TF-GRPO 1.00`; HumanEval Rust and SWE-bench Lite model runs are explicitly pending, not claimed.
+
+---
+
+### 10. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
