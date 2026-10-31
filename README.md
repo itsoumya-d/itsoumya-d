@@ -50,7 +50,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 - **[heros-migration-500](https://huggingface.co/datasets/itssoumyad/heros-migration-500)** — 500-case PostgreSQL migration dataset.
 - **[graphrag-questions-100](https://huggingface.co/datasets/itssoumyad/graphrag-questions-100)** — 100 sensemaking questions.
 
-Full test counts, headline metrics, and boundaries: **[EVIDENCE.md](./EVIDENCE.md)**. Collection: **[HEROS AI Systems Portfolio](https://huggingface.co/collections/itssoumyad/heros-ai-systems-portfolio-6ae5978d7b5be2d991c1934b)**.
+Full test counts, headline metrics, and boundaries: **[EVIDENCE.md](./EVIDENCE.md)**. Collection: **[HEROS AI Systems Portfolio](https://huggingface.co/collections/itssoumyad/heros-ai-systems-portfolio-6ae5978d7b5be2d991c1934b)**. Release audit: **[AUDIT.md](./AUDIT.md)**.
 
 These are free **static** Spaces. Hugging Face requires a PRO subscription for Gradio/Docker Spaces on `cpu-basic`, so no GPU/Gradio demo is claimed. Model-weight publication and ZeroGPU demos remain pending.
 

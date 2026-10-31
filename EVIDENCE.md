@@ -4,7 +4,8 @@ Public source, measured local evidence, and live static demos. "Boundary" states
 what is **not** claimed. Last updated 2026-10-31.
 
 **Portfolio hub:** https://huggingface.co/spaces/itssoumyad/portfolio  
-**HF Collection:** https://huggingface.co/collections/itssoumyad/heros-ai-systems-portfolio-6ae5978d7b5be2d991c1934b
+**HF Collection:** https://huggingface.co/collections/itssoumyad/heros-ai-systems-portfolio-6ae5978d7b5be2d991c1934b  
+**Release audit:** [AUDIT.md](./AUDIT.md)
 
 | Project | Source | Live demo | Tests | Headline evidence | Boundary |
 |---|---|---|---|---|---|
