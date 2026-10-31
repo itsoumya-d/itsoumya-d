@@ -39,6 +39,19 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 
 ---
 
+## 🌐 Live Demos, Datasets & Portfolio Hub
+
+- **[HEROS AI Systems Portfolio](https://huggingface.co/spaces/itssoumyad/portfolio)** — live index of all ten systems.
+- **[HEROS-RL Migration Reward Lab](https://huggingface.co/spaces/itssoumyad/heros-rl)** — browser reward scorer.
+- **[Reflexion-SWE Repair Loop](https://huggingface.co/spaces/itssoumyad/reflexion-swe)** — actor/evaluator/reflection trace.
+- **[GraphRAG CodeAudit Explorer](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)** — local/global query demo.
+- **[heros-migration-500](https://huggingface.co/datasets/itssoumyad/heros-migration-500)** — 500-case PostgreSQL migration dataset.
+- **[graphrag-questions-100](https://huggingface.co/datasets/itssoumyad/graphrag-questions-100)** — 100 sensemaking questions.
+
+These are free **static** Spaces. Hugging Face requires a PRO subscription for Gradio/Docker Spaces on `cpu-basic`, so no GPU/Gradio demo is claimed. Model-weight publication and ZeroGPU demos remain pending.
+
+---
+
 ## 🔎 Selected Proof of Work
 
 Public source and CI checked on **31 October 2026**. “Merged” means included in the repository, not deployed to users. Open PRs are labelled Open; green CI is not a deployment claim.
@@ -119,6 +132,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Implements critic-free Group Relative Policy Optimization for rewriting hazardous PostgreSQL migrations as expand-and-contract plans, with a deterministic format reward, a SQL safety audit, and an optional forge risk gate.
 * Ships a reproducible **500-case** migration dataset, Pass@1 / cons@64 evaluators, and TRL + Unsloth training scripts for `DeepSeek-R1-Distill-Qwen-1.5B`.
 * **33 unit tests** pass; a 5-seed toy ablation shows `G=1` has zero advantage (no learning) while `G=4/8/16/32` solve the validation task. The 1.5B GPU runs are explicitly pending, not claimed.
+* [Live reward lab](https://huggingface.co/spaces/itssoumyad/heros-rl) · [Dataset](https://huggingface.co/datasets/itssoumyad/heros-migration-500)
 
 ---
 
@@ -128,6 +142,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Implements the three Reflexion models with a bounded episodic memory (Ω=3), generates up to six AST/syntax-filtered tests per issue, and executes them in an isolated Python/Rust sandbox (optional Docker network isolation).
 * Adds training-free group-relative prior distillation: sample a group of trajectories, normalise rewards, and write successful/failed contrasts into a weighted natural-language prior bank — no model weights change.
 * **40 unit tests** pass, including sandbox timeouts, Rust execution, Reflexion vs. no-reflection controls, and TF-GRPO prior guidance. The measured toy mechanism ablation is `base 0.00 / -TestGen 0.00 / -Reflection 0.00 / full 1.00 / +TF-GRPO 1.00`; HumanEval Rust and SWE-bench Lite model runs are explicitly pending, not claimed.
+* [Live repair-loop demo](https://huggingface.co/spaces/itssoumyad/reflexion-swe)
 
 ---
 
@@ -137,6 +152,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Extracts entities, typed edges, and security/privacy claims from a repository, builds a weighted knowledge graph, partitions it into hierarchical communities, and generates bottom-up community reports with risks, dependencies, and recommended actions.
 * Implements local entity-neighbourhood search and global map-reduce community search, plus a flat hashed-embedding RAG baseline sharing the same text units.
 * **15 tests** pass; 100 synthetic sensemaking questions scored by a deterministic rubric: GraphRAG **7.58** vs flat RAG **7.07**, winning **64/100** (empowerment 4.01 vs 2.28, directness 7.72 vs 7.40). This is a reproducible harness result, not the paper's LLM-judge replication; Oracle/HF 3D explorer and real Leiden are explicitly not deployed.
+* [Live explorer](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit) · [Questions dataset](https://huggingface.co/datasets/itssoumyad/graphrag-questions-100)
 
 ---
 
