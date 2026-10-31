@@ -158,7 +158,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 13. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 13. [RouteLLM-Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway) — Calibrated Cost-Latency-Quality Router
+*Node.js · Bradley–Terry routing · semantic cache · OpenAI/Anthropic SSE · Pareto harness*
+
+* Routes each prompt between a fast and a frontier model using a trained Bradley–Terry `σ(θᵀφ(q))` router, with a semantic cache (cosine ≥0.94 + numeric guard), JSON-schema fallback to the frontier model, and drift diagnostics.
+* Exposes OpenAI-compatible `/v1/chat/completions` (streaming) and Anthropic-compatible `/v1/messages`, with routing/cost/cache metadata.
+* **12 tests** pass. Synthetic 250-question harness: **98.38% accuracy retention** of always-frontier with **69.40% cost reduction** (threshold 0.74; router+cache 97.20% vs 98.80%). This is mock-provider evidence, not an MMLU-Pro/GSM8K run.
+
+---
+
+### 14. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
