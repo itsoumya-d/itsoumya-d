@@ -131,7 +131,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 10. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 10. [GraphRAG-CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit) — Local-to-Global GraphRAG for Code Audits
+*Python · AST extraction · weighted knowledge graph · Louvain/Leiden · local + global retrieval · deterministic judge*
+
+* Extracts entities, typed edges, and security/privacy claims from a repository, builds a weighted knowledge graph, partitions it into hierarchical communities, and generates bottom-up community reports with risks, dependencies, and recommended actions.
+* Implements local entity-neighbourhood search and global map-reduce community search, plus a flat hashed-embedding RAG baseline sharing the same text units.
+* **15 tests** pass; 100 synthetic sensemaking questions scored by a deterministic rubric: GraphRAG **7.58** vs flat RAG **7.07**, winning **64/100** (empowerment 4.01 vs 2.28, directness 7.72 vs 7.40). This is a reproducible harness result, not the paper's LLM-judge replication; Oracle/HF 3D explorer and real Leiden are explicitly not deployed.
+
+---
+
+### 11. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
