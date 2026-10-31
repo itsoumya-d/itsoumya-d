@@ -41,7 +41,7 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 
 ## 🔎 Selected Proof of Work
 
-Public source and CI checked on **29 October 2026**. “Merged” means included in the repository, not deployed to users. Open PRs are labelled Open; green CI is not a deployment claim.
+Public source and CI checked on **31 October 2026**. “Merged” means included in the repository, not deployed to users. Open PRs are labelled Open; green CI is not a deployment claim.
 
 * **LLM platform · llm-control-plane:** Provider-agnostic LLM gateway and evaluation control plane with ordered failover, per-tenant rate limits, cost attribution, PII redaction, SHA-256 hash-chained audit log, versioned eval datasets, deterministic scorers, Prometheus metrics and a FastAPI adapter. **45 tests, 93% coverage**, green CI on Python 3.9/3.11/3.12. [Source](https://github.com/itsoumya-d/llm-control-plane) · [Architecture](https://github.com/itsoumya-d/llm-control-plane/blob/main/docs/ARCHITECTURE.md)
 * **Rust/Python spatial systems · Shado / Factory Monitor:** 13-crate Rust 2024 workspace, 434 tests, 7/7 CI jobs, typed spatial contracts, REST/WebSocket APIs, TimescaleDB, and ERP/MES integrations (OPC UA, Modbus, ONVIF). [Source](https://github.com/itsoumya-d/factory-monitor)
@@ -80,6 +80,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 * Provides structured agent actions, schema validation, machine-readable errors and auditable receipts.
 * Includes the `@heros/agentic` web SDK, `forge` migration-risk tooling and `ledger` accounting-receipt primitives. These controls reduce execution ambiguity; they are not a guarantee against all agent errors.
+* **Cross-platform MCP bridge (`packages/mcp`):** one Node process exposes forge + ledger over stdio and Streamable HTTP (MCP 2025-11-25), with HMAC API-key auth, human approval nonces, per-tool rate limits, atomic state writes, and symlink-safe locks. **19 MCP tests** plus the full repo suite pass on macOS, Linux, and Windows CI.
 
 ### 4. [CertiFlow AI](https://github.com/itsoumya-d/certiflow-ai) — GRC & Agent Telemetry Simulator *(Prototype)*
 *Next.js · TypeScript · Server-Sent Events*
@@ -112,7 +113,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 8. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 8. [HEROS-RL](https://github.com/itsoumya-d/HEROS-RL) — Critic-Free GRPO for Migration Safety
+*Python · PyTorch · TRL / Unsloth · PostgreSQL · GRPO*
+
+* Implements critic-free Group Relative Policy Optimization for rewriting hazardous PostgreSQL migrations as expand-and-contract plans, with a deterministic format reward, a SQL safety audit, and an optional forge risk gate.
+* Ships a reproducible **500-case** migration dataset, Pass@1 / cons@64 evaluators, and TRL + Unsloth training scripts for `DeepSeek-R1-Distill-Qwen-1.5B`.
+* **33 unit tests** pass; a 5-seed toy ablation shows `G=1` has zero advantage (no learning) while `G=4/8/16/32` solve the validation task. The 1.5B GPU runs are explicitly pending, not claimed.
+
+---
+
+### 9. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
@@ -129,6 +139,8 @@ These repositories cover developer tools, research and prototypes. Their linked 
 An experimental suite exploring client-side P2P systems and distributed edge execution:
 
 * **Seeded testing:** [SyncForge's property and regression tests](https://github.com/itsoumya-d/syncforge/blob/b08435c22b35fffebb1afa99b3a697e92e481cde/tests/crdt-properties.test.mjs) exercise merge laws and replica delivery scenarios. This is bounded test coverage, not proof of convergence under every network or failure condition.
+* **Post-quantum P2P transport:** [PeerVault](https://github.com/itsoumya-d/peervault) now runs a hybrid **ML-KEM-768 + P-256** handshake from a from-scratch Rust/wasm core, binds the full 21-byte frame header as AES-GCM AAD, and passes **100/100 NIST KAT vectors**, Node/OpenSSL interop, and **69 tests**.
+* **Edge inference:** [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) is MIT-licensed, auto-casts ONNX inputs to int64 when the model declares it, and passes **78 tests**.
 * **Deployment constraints:** Browser capabilities, signaling, NAT/TURN relays and local resource limits need project-specific evaluation.
 * **Projects:** [AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
 
