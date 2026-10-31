@@ -45,6 +45,8 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 - **[HEROS-RL Migration Reward Lab](https://huggingface.co/spaces/itssoumyad/heros-rl)** — browser reward scorer.
 - **[Reflexion-SWE Repair Loop](https://huggingface.co/spaces/itssoumyad/reflexion-swe)** — actor/evaluator/reflection trace.
 - **[GraphRAG CodeAudit Explorer](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)** — local/global query demo.
+- **[edgeinfer-v2](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)** · **[peervault PQC](https://huggingface.co/spaces/itssoumyad/peervault-pqc)** · **[HEROS-Firewall](https://huggingface.co/spaces/itssoumyad/heros-firewall)** — retrieval/PQC/security evidence pages.
+- **[PerfBench roofline](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)** · **[RouteLLM Pareto](https://huggingface.co/spaces/itssoumyad/routellm-gateway)** · **[Mobbin boards](https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler)** · **[HEROS Cloud PLLB](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)** — evidence dashboards.
 - **[heros-migration-500](https://huggingface.co/datasets/itssoumyad/heros-migration-500)** — 500-case PostgreSQL migration dataset.
 - **[graphrag-questions-100](https://huggingface.co/datasets/itssoumyad/graphrag-questions-100)** — 100 sensemaking questions.
 
@@ -162,6 +164,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Three transformer kernels — fused RMSNorm+residual, fused in-place RoPE, and group-wise INT4 dequant+GEMV — each in three iterations: scalar baseline, unrolled/blocked, then NEON `float32x4_t`/WGSL vectorization.
 * Correctness tests compare every iteration against the scalar reference. Measured Apple Silicon speedups: RMSNorm **3.09×**, RoPE **2.35×**, INT4 GEMV **11.83×** over scalar; copy bandwidth 66.31 GB/s; roofline CSV/SVG committed.
 * WGSL sources and a WebGPU harness are included but were not executed; OCI Ampere `perf stat` is scripted, not claimed. Memory-roof caveats (cache-resident RoPE, instruction-bound GEMV) are documented.
+* [Live roofline](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)
 
 ---
 
@@ -171,6 +174,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Inline MCP proxy that evaluates every `tools/call` against deterministic ASI01–ASI10 policies, blocks tool misuse, scope abuse, exfiltration chains, memory poisoning, and resource exhaustion, and forwards allowed calls downstream.
 * Destructive/high-cost calls require an HMAC-signed, expiring, single-use human approval bound to the exact tool+argument hash. Every decision emits a hash-chained receipt with a Merkle root and inclusion proof; idempotency returns cached responses.
 * **16 tests** pass. Red team: **1,000 adversarial payloads, 200 benign**, FNR **0.0000**, FPR **0.0000**, p99 policy latency **0.103 ms**. The React/SSE dashboard and OCI k3s deployment are explicitly not built; Mobbin/cloud access was unavailable.
+* [Live evidence page](https://huggingface.co/spaces/itssoumyad/heros-firewall)
 
 ---
 
@@ -180,6 +184,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Routes each prompt between a fast and a frontier model using a trained Bradley–Terry `σ(θᵀφ(q))` router, with a semantic cache (cosine ≥0.94 + numeric guard), JSON-schema fallback to the frontier model, and drift diagnostics.
 * Exposes OpenAI-compatible `/v1/chat/completions` (streaming) and Anthropic-compatible `/v1/messages`, with routing/cost/cache metadata.
 * **12 tests** pass. Synthetic 250-question harness: **98.38% accuracy retention** of always-frontier with **69.40% cost reduction** (threshold 0.74; router+cache 97.20% vs 98.80%). This is mock-provider evidence, not an MMLU-Pro/GSM8K run.
+* [Live Pareto page](https://huggingface.co/spaces/itssoumyad/routellm-gateway)
 
 ---
 
@@ -189,6 +194,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Composes the HEROS workflow studio around a human-readable policy bottleneck: execute a batch, synthesise explicit risk rules from failures, require human approval, then run the next episode under those rules. No model weights are updated.
 * Emits per-step SHA-256 receipts with a Merkle root for every workflow; exposes execution, policy, approval, pricing, and evaluation endpoints.
 * **6 tests** pass. 50-workflow simulation: completion **70% → 100%** on held-out workflows after 4 approved PLLB rules (+30 points), 100% receipt coverage. Voice/audio, Mobbin UI, OCI/Oracle, billing, and the $200k ARR claim are explicitly not deployed.
+* [Live evidence page](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)
 
 ---
 
@@ -198,6 +204,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * Compiles PRD/surface intents into five production-shaped SaaS surfaces: KYC stepper, tiered paywall, keyboard-first dashboard, agentic chat with citation drill-through, and usage-billing ledger.
 * Queries a Mobbin `search_screens`-style adapter, extracts layout tokens/microcopy, writes local reference boards, and emits React/TS/Tailwind component source with focus-visible, 44px targets, ARIA labels, and reduced-motion rules.
 * **10 tests** pass; all five surfaces compile to components, tokens, and boards. The live Mobbin MCP was unavailable, so a clearly labelled fixture adapter is used; Playwright/axe/Lighthouse and hosting are explicitly not claimed.
+* [Live reference boards](https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler)
 
 ---
 
@@ -219,6 +226,7 @@ An experimental suite exploring client-side P2P systems and distributed edge exe
 
 * **Seeded testing:** [SyncForge's property and regression tests](https://github.com/itsoumya-d/syncforge/blob/b08435c22b35fffebb1afa99b3a697e92e481cde/tests/crdt-properties.test.mjs) exercise merge laws and replica delivery scenarios. This is bounded test coverage, not proof of convergence under every network or failure condition.
 * **Post-quantum P2P transport:** [PeerVault](https://github.com/itsoumya-d/peervault) now runs a hybrid **ML-KEM-768 + P-256** handshake from a from-scratch Rust/wasm core, binds the full 21-byte frame header as AES-GCM AAD, and passes **100/100 NIST KAT vectors**, Node/OpenSSL interop, and **75 tests**. It also ships a versioned `MeshNode` for syncing edgeinfer vectors and Reflexion memories over encrypted DataChannel control messages (local AES-GCM throughput ~1.4 GB/s encrypt / ~1.0 GB/s decrypt).
+* [Live evidence page](https://huggingface.co/spaces/itssoumyad/peervault-pqc)
 * **Edge inference:** [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) v2 is MIT-licensed with auto int64 ONNX casting, a two-stage Matryoshka RAG index (INT8 d=64 scan → FP32 d=768 re-rank, IndexedDB persistence), and gamma=5 speculative decoding with residual resampling and cache-aware truncation. **95 tests** pass. Synthetic 100k-chunk benchmark: p50 25.1 ms coarse+re-rank, Recall@10 0.725 → 1.000 across d=64→768; mock speculative acceptance 68.4% at 0.45 target calls/token. These are synthetic/mock results, not MTEB or WebGPU measurements.
 * **Deployment constraints:** Browser capabilities, signaling, NAT/TURN relays and local resource limits need project-specific evaluation.
 * **Projects:** [AllRTC](https://github.com/itsoumya-d/allrtc) · [GhostSearch](https://github.com/itsoumya-d/ghostsearch) · [PeerVault](https://github.com/itsoumya-d/peervault) · [SyncForge](https://github.com/itsoumya-d/syncforge) · [PulseNet](https://github.com/itsoumya-d/pulsenet) · [MeshAuth](https://github.com/itsoumya-d/meshauth) · [EdgeInfer](https://github.com/itsoumya-d/edgeinfer) · [SwarmCompute](https://github.com/itsoumya-d/swarmcompute) · [SyncPlay](https://github.com/itsoumya-d/syncplay) · [ZeroQ](https://github.com/itsoumya-d/zeroq)
