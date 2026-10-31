@@ -140,7 +140,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 11. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 11. [Anthropic-PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench) — AI-Resistant Kernel Optimization
+*C · ARMv8.2-A NEON · WebGPU WGSL · roofline analysis*
+
+* Three transformer kernels — fused RMSNorm+residual, fused in-place RoPE, and group-wise INT4 dequant+GEMV — each in three iterations: scalar baseline, unrolled/blocked, then NEON `float32x4_t`/WGSL vectorization.
+* Correctness tests compare every iteration against the scalar reference. Measured Apple Silicon speedups: RMSNorm **3.09×**, RoPE **2.35×**, INT4 GEMV **11.83×** over scalar; copy bandwidth 66.31 GB/s; roofline CSV/SVG committed.
+* WGSL sources and a WebGPU harness are included but were not executed; OCI Ampere `perf stat` is scripted, not claimed. Memory-roof caveats (cache-resident RoPE, instruction-bound GEMV) are documented.
+
+---
+
+### 12. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
