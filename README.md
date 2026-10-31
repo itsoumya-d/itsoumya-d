@@ -149,7 +149,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 12. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 12. [HEROS-Firewall](https://github.com/itsoumya-d/HEROS-Firewall) — MCP Agentic Security Proxy
+*Node.js · MCP stdio · OWASP ASI01–ASI10 · HMAC approvals · Merkle receipts · red team*
+
+* Inline MCP proxy that evaluates every `tools/call` against deterministic ASI01–ASI10 policies, blocks tool misuse, scope abuse, exfiltration chains, memory poisoning, and resource exhaustion, and forwards allowed calls downstream.
+* Destructive/high-cost calls require an HMAC-signed, expiring, single-use human approval bound to the exact tool+argument hash. Every decision emits a hash-chained receipt with a Merkle root and inclusion proof; idempotency returns cached responses.
+* **16 tests** pass. Red team: **1,000 adversarial payloads, 200 benign**, FNR **0.0000**, FPR **0.0000**, p99 policy latency **0.103 ms**. The React/SSE dashboard and OCI k3s deployment are explicitly not built; Mobbin/cloud access was unavailable.
+
+---
+
+### 13. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
