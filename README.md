@@ -167,7 +167,16 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 14. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 14. [HEROS-Cloud-SaaS](https://github.com/itsoumya-d/HEROS-Cloud-SaaS) — PLLB Governance Studio
+*Python · Policy Learning with a Language Bottleneck · workflow receipts · approval policy · API*
+
+* Composes the HEROS workflow studio around a human-readable policy bottleneck: execute a batch, synthesise explicit risk rules from failures, require human approval, then run the next episode under those rules. No model weights are updated.
+* Emits per-step SHA-256 receipts with a Merkle root for every workflow; exposes execution, policy, approval, pricing, and evaluation endpoints.
+* **6 tests** pass. 50-workflow simulation: completion **70% → 100%** on held-out workflows after 4 approved PLLB rules (+30 points), 100% receipt coverage. Voice/audio, Mobbin UI, OCI/Oracle, billing, and the $200k ARR claim are explicitly not deployed.
+
+---
+
+### 15. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.
