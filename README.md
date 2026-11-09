@@ -29,23 +29,33 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 | [Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE) | Training-free Reflexion and group-relative verbal-prior code repair with AST-filtered tests and isolated sandbox execution. | 0 | 2026-10-31 |
 | [GraphRAG-CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit) | Local-to-global hierarchical GraphRAG for codebases and compliance audits, with local/global search and a measured flat-RAG baseline. | 0 | 2026-11-04 |
 | [HEROS](https://github.com/itsoumya-d/HEROS) | Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. | 0 | 2026-11-07 |
+| [llm-control-plane](https://github.com/itsoumya-d/llm-control-plane) | Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability | 0 | 2026-11-04 |
+| [Anthropic-PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench) | Three-iteration NEON/WGSL transformer kernel optimization suite with correctness tests, roofline analysis, and measured ARM64 benchmarks. | 0 | 2026-11-04 |
+| [edgeinfer](https://github.com/itsoumya-d/edgeinfer) | Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine | 0 | 2026-11-09 |
+| [RouteLLM-Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway) | Calibrated multi-model LLM router with semantic cache, schema fallback, streaming APIs, and a measured cost-accuracy Pareto harness. | 0 | 2026-11-04 |
+| [HEROS-Firewall](https://github.com/itsoumya-d/HEROS-Firewall) | Inline MCP security proxy for OWASP ASI01-ASI10 with HMAC human approvals, Merkle audit receipts, and a 1,000-payload red-team suite. | 0 | 2026-10-31 |
+| [HEROS-Cloud-SaaS](https://github.com/itsoumya-d/HEROS-Cloud-SaaS) | PLLB-governed workflow studio composition layer with cryptographic receipts, policy approval, API, and measured completion improvement. | 0 | 2026-10-31 |
+| [Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler) | Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests. | 0 | 2026-10-31 |
+| [peervault](https://github.com/itsoumya-d/peervault) | Zero-server WebRTC DataChannel E2EE file transfer protocol | 0 | 2026-11-04 |
+| [autopilot-fde](https://github.com/itsoumya-d/autopilot-fde) | AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer — Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents. | 0 | 2026-10-29 |
+| [rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe) | CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). | 0 | 2026-11-09 |
 
 🟢/🔴 Latest CI runs (auto-synced)
 
-[HEROS-RL: n/a](https://github.com/itsoumya-d/HEROS-RL/actions)
-[Reflexion-SWE: n/a](https://github.com/itsoumya-d/Reflexion-SWE/actions)
-[GraphRAG-CodeAudit: n/a](https://github.com/itsoumya-d/GraphRAG-CodeAudit/actions)
-[HEROS: n/a](https://github.com/itsoumya-d/HEROS/actions)
-[llm-control-plane: n/a](https://github.com/itsoumya-d/llm-control-plane/actions)
-[Anthropic-PerfBench: n/a](https://github.com/itsoumya-d/Anthropic-PerfBench/actions)
-[edgeinfer: n/a](https://github.com/itsoumya-d/edgeinfer/actions)
-[RouteLLM-Gateway: n/a](https://github.com/itsoumya-d/RouteLLM-Gateway/actions)
-[HEROS-Firewall: n/a](https://github.com/itsoumya-d/HEROS-Firewall/actions)
-[HEROS-Cloud-SaaS: n/a](https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions)
-[Mobbin-UI-Compiler: n/a](https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions)
-[peervault: n/a](https://github.com/itsoumya-d/peervault/actions)
-[autopilot-fde: n/a](https://github.com/itsoumya-d/autopilot-fde/actions)
-[rlvr-bias-probe: n/a](https://github.com/itsoumya-d/rlvr-bias-probe/actions)
+[HEROS-RL: success](https://github.com/itsoumya-d/HEROS-RL/actions)
+[Reflexion-SWE: success](https://github.com/itsoumya-d/Reflexion-SWE/actions)
+[GraphRAG-CodeAudit: success](https://github.com/itsoumya-d/GraphRAG-CodeAudit/actions)
+[HEROS: success](https://github.com/itsoumya-d/HEROS/actions)
+[llm-control-plane: success](https://github.com/itsoumya-d/llm-control-plane/actions)
+[Anthropic-PerfBench: success](https://github.com/itsoumya-d/Anthropic-PerfBench/actions)
+[edgeinfer: success](https://github.com/itsoumya-d/edgeinfer/actions)
+[RouteLLM-Gateway: success](https://github.com/itsoumya-d/RouteLLM-Gateway/actions)
+[HEROS-Firewall: success](https://github.com/itsoumya-d/HEROS-Firewall/actions)
+[HEROS-Cloud-SaaS: success](https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions)
+[Mobbin-UI-Compiler: success](https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions)
+[peervault: success](https://github.com/itsoumya-d/peervault/actions)
+[autopilot-fde: success](https://github.com/itsoumya-d/autopilot-fde/actions)
+[rlvr-bias-probe: success](https://github.com/itsoumya-d/rlvr-bias-probe/actions)
 
 🤗 Hugging Face (`itssoumyad`, auto-synced)
 
