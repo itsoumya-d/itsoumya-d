@@ -29,31 +29,23 @@ Kolkata, India &middot; Open to Relocation & Remote (Global) &middot; 5+ Years P
 | [Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE) | Training-free Reflexion and group-relative verbal-prior code repair with AST-filtered tests and isolated sandbox execution. | 0 | 2026-10-31 |
 | [GraphRAG-CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit) | Local-to-global hierarchical GraphRAG for codebases and compliance audits, with local/global search and a measured flat-RAG baseline. | 0 | 2026-11-04 |
 | [HEROS](https://github.com/itsoumya-d/HEROS) | Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. | 0 | 2026-11-07 |
-| [llm-control-plane](https://github.com/itsoumya-d/llm-control-plane) | Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability | 0 | 2026-11-04 |
-| [Anthropic-PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench) | Three-iteration NEON/WGSL transformer kernel optimization suite with correctness tests, roofline analysis, and measured ARM64 benchmarks. | 0 | 2026-11-04 |
-| [edgeinfer](https://github.com/itsoumya-d/edgeinfer) | Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine | 0 | 2026-11-09 |
-| [RouteLLM-Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway) | Calibrated multi-model LLM router with semantic cache, schema fallback, streaming APIs, and a measured cost-accuracy Pareto harness. | 0 | 2026-11-04 |
-| [HEROS-Firewall](https://github.com/itsoumya-d/HEROS-Firewall) | Inline MCP security proxy for OWASP ASI01-ASI10 with HMAC human approvals, Merkle audit receipts, and a 1,000-payload red-team suite. | 0 | 2026-10-31 |
-| [HEROS-Cloud-SaaS](https://github.com/itsoumya-d/HEROS-Cloud-SaaS) | PLLB-governed workflow studio composition layer with cryptographic receipts, policy approval, API, and measured completion improvement. | 0 | 2026-10-31 |
-| [Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler) | Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests. | 0 | 2026-10-31 |
-| [peervault](https://github.com/itsoumya-d/peervault) | Zero-server WebRTC DataChannel E2EE file transfer protocol | 0 | 2026-11-04 |
-| [autopilot-fde](https://github.com/itsoumya-d/autopilot-fde) | AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer — Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents. | 0 | 2026-10-29 |
 
 🟢/🔴 Latest CI runs (auto-synced)
 
-[HEROS-RL: success](https://github.com/itsoumya-d/HEROS-RL/actions)
-[Reflexion-SWE: success](https://github.com/itsoumya-d/Reflexion-SWE/actions)
-[GraphRAG-CodeAudit: success](https://github.com/itsoumya-d/GraphRAG-CodeAudit/actions)
-[HEROS: success](https://github.com/itsoumya-d/HEROS/actions)
-[llm-control-plane: success](https://github.com/itsoumya-d/llm-control-plane/actions)
-[Anthropic-PerfBench: success](https://github.com/itsoumya-d/Anthropic-PerfBench/actions)
-[edgeinfer: success](https://github.com/itsoumya-d/edgeinfer/actions)
-[RouteLLM-Gateway: success](https://github.com/itsoumya-d/RouteLLM-Gateway/actions)
-[HEROS-Firewall: success](https://github.com/itsoumya-d/HEROS-Firewall/actions)
-[HEROS-Cloud-SaaS: success](https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions)
-[Mobbin-UI-Compiler: success](https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions)
-[peervault: success](https://github.com/itsoumya-d/peervault/actions)
-[autopilot-fde: success](https://github.com/itsoumya-d/autopilot-fde/actions)
+[HEROS-RL: n/a](https://github.com/itsoumya-d/HEROS-RL/actions)
+[Reflexion-SWE: n/a](https://github.com/itsoumya-d/Reflexion-SWE/actions)
+[GraphRAG-CodeAudit: n/a](https://github.com/itsoumya-d/GraphRAG-CodeAudit/actions)
+[HEROS: n/a](https://github.com/itsoumya-d/HEROS/actions)
+[llm-control-plane: n/a](https://github.com/itsoumya-d/llm-control-plane/actions)
+[Anthropic-PerfBench: n/a](https://github.com/itsoumya-d/Anthropic-PerfBench/actions)
+[edgeinfer: n/a](https://github.com/itsoumya-d/edgeinfer/actions)
+[RouteLLM-Gateway: n/a](https://github.com/itsoumya-d/RouteLLM-Gateway/actions)
+[HEROS-Firewall: n/a](https://github.com/itsoumya-d/HEROS-Firewall/actions)
+[HEROS-Cloud-SaaS: n/a](https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions)
+[Mobbin-UI-Compiler: n/a](https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions)
+[peervault: n/a](https://github.com/itsoumya-d/peervault/actions)
+[autopilot-fde: n/a](https://github.com/itsoumya-d/autopilot-fde/actions)
+[rlvr-bias-probe: n/a](https://github.com/itsoumya-d/rlvr-bias-probe/actions)
 
 🤗 Hugging Face (`itssoumyad`, auto-synced)
 
@@ -185,9 +177,15 @@ These repositories cover developer tools, research and prototypes. Their linked 
 * **33 unit tests** pass; a 5-seed toy ablation shows `G=1` has zero advantage (no learning) while `G=4/8/16/32` solve the validation task. The 1.5B GPU runs are explicitly pending, not claimed.
 * [Live reward lab](https://huggingface.co/spaces/itssoumyad/heros-rl) · [Dataset](https://huggingface.co/datasets/itssoumyad/heros-migration-500)
 
+### 9. [rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe) — GRPO vs Dr.GRPO Length-Bias Probe (2026-11-09)
+*Python · synthetic verifiable-reward bandit · GRPO / Dr.GRPO estimators · deterministic seeds · 6 unit tests · CI green*
+
+* CPU-only experiment isolating the length/difficulty bias the GRPO literature names: under a spurious verbosity bonus, the GRPO advantage carries a **0.50** correlation with completion length while Dr.GRPO's carries **0.07** — measured on 300 groups × G=8, seed 42, not asserted.
+* Verifies the estimator half of `DECISIONS.md` D-2026-11-09-001 independently of reward content.
+
 ---
 
-### 9. [Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE) — Verbal Reflexion & Training-Free GRPO
+### 10. [Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE) — Verbal Reflexion & Training-Free GRPO
 *Python · Actor/Evaluator/Self-Reflection · AST-filtered tests · sandboxed execution · verbal priors*
 
 * Implements the three Reflexion models with a bounded episodic memory (Ω=3), generates up to six AST/syntax-filtered tests per issue, and executes them in an isolated Python/Rust sandbox (optional Docker network isolation).
@@ -197,7 +195,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 10. [GraphRAG-CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit) — Local-to-Global GraphRAG for Code Audits
+### 11. [GraphRAG-CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit) — Local-to-Global GraphRAG for Code Audits
 *Python · AST extraction · weighted knowledge graph · Louvain/Leiden · local + global retrieval · deterministic judge*
 
 * Extracts entities, typed edges, and security/privacy claims from a repository, builds a weighted knowledge graph, partitions it into hierarchical communities, and generates bottom-up community reports with risks, dependencies, and recommended actions.
@@ -207,7 +205,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 11. [Anthropic-PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench) — AI-Resistant Kernel Optimization
+### 12. [Anthropic-PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench) — AI-Resistant Kernel Optimization
 *C · ARMv8.2-A NEON · WebGPU WGSL · roofline analysis*
 
 * Three transformer kernels — fused RMSNorm+residual, fused in-place RoPE, and group-wise INT4 dequant+GEMV — each in three iterations: scalar baseline, unrolled/blocked, then NEON `float32x4_t`/WGSL vectorization.
@@ -217,7 +215,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 12. [HEROS-Firewall](https://github.com/itsoumya-d/HEROS-Firewall) — MCP Agentic Security Proxy
+### 13. [HEROS-Firewall](https://github.com/itsoumya-d/HEROS-Firewall) — MCP Agentic Security Proxy
 *Node.js · MCP stdio · OWASP ASI01–ASI10 · HMAC approvals · Merkle receipts · red team*
 
 * Inline MCP proxy that evaluates every `tools/call` against deterministic ASI01–ASI10 policies, blocks tool misuse, scope abuse, exfiltration chains, memory poisoning, and resource exhaustion, and forwards allowed calls downstream.
@@ -227,7 +225,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 13. [RouteLLM-Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway) — Calibrated Cost-Latency-Quality Router
+### 14. [RouteLLM-Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway) — Calibrated Cost-Latency-Quality Router
 *Node.js · Bradley–Terry routing · semantic cache · OpenAI/Anthropic SSE · Pareto harness*
 
 * Routes each prompt between a fast and a frontier model using a trained Bradley–Terry `σ(θᵀφ(q))` router, with a semantic cache (cosine ≥0.94 + numeric guard), JSON-schema fallback to the frontier model, and drift diagnostics.
@@ -237,7 +235,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 14. [HEROS-Cloud-SaaS](https://github.com/itsoumya-d/HEROS-Cloud-SaaS) — PLLB Governance Studio
+### 15. [HEROS-Cloud-SaaS](https://github.com/itsoumya-d/HEROS-Cloud-SaaS) — PLLB Governance Studio
 *Python · Policy Learning with a Language Bottleneck · workflow receipts · approval policy · API*
 
 * Composes the HEROS workflow studio around a human-readable policy bottleneck: execute a batch, synthesise explicit risk rules from failures, require human approval, then run the next episode under those rules. No model weights are updated.
@@ -247,7 +245,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 15. [Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler) — Reference-Driven UI Compiler
+### 16. [Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler) — Reference-Driven UI Compiler
 *Node.js · Mobbin search_screens contract · React 19/TS/Tailwind source generation · accessibility invariants*
 
 * Compiles PRD/surface intents into five production-shaped SaaS surfaces: KYC stepper, tiered paywall, keyboard-first dashboard, agentic chat with citation drill-through, and usage-billing ledger.
@@ -257,7 +255,7 @@ These repositories cover developer tools, research and prototypes. Their linked 
 
 ---
 
-### 16. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
+### 17. [go-ledger](https://github.com/itsoumya-d/go-ledger) — Idempotent Payments & Double-Entry Ledger
 *Go · HTTP · concurrency · ledger invariants*
 
 * Idempotent `POST /v1/payment_intents`: the same key and payload returns the original intent; the same key with a different payload returns `409`.

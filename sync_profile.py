@@ -23,6 +23,7 @@ AI_REPOS = [
     "HEROS-RL", "Reflexion-SWE", "GraphRAG-CodeAudit", "HEROS", "llm-control-plane",
     "Anthropic-PerfBench", "edgeinfer", "RouteLLM-Gateway", "HEROS-Firewall",
     "HEROS-Cloud-SaaS", "Mobbin-UI-Compiler", "peervault", "autopilot-fde",
+    "rlvr-bias-probe",
 ]
 UA = {"User-Agent": "profile-sync", "Accept": "application/vnd.github+json"}
 
