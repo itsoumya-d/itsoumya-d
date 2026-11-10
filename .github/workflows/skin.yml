@@ -1,0 +1,90 @@
+name: profile-skin
+
+# Rebuilds the README, its SVGs and the console data from live GitHub +
+# Hugging Face data. Commits only when something actually changed.
+on:
+  schedule:
+    - cron: "17 * * * *"          # hourly
+  workflow_dispatch:                # manual, and triggered by ask.yml after each answer
+  repository_dispatch:
+    types: [refresh]                # optional: other repos can ping this
+  push:
+    branches: [main]
+    paths:
+      - "skin/**"
+      - "site/**"
+      - "!skin/data.json"
+      - "!site/data.json"
+      - ".github/workflows/skin.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Rebuilds are idempotent, so a newer queued run may safely replace an older one.
+concurrency:
+  group: profile-skin
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+      pages: ${{ steps.pages.outputs.enabled }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build and push (retries if main moved underneath us)
+        id: sync
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            python skin/build.py
+            git add -A README.md assets/skin skin/data.json site/data.json site/theme.css
+            if git diff --cached --quiet; then
+              echo "No changes."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git commit -q -m "chore(skin): live sync"
+            if git push -q origin HEAD:main; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); rebuilding on the latest main."
+            git fetch -q origin main && git reset -q --hard origin/main
+          done
+          exit 1
+
+      - name: Is GitHub Pages enabled?
+        id: pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/pages")
+          if [ "$code" = "200" ]; then echo "enabled=true" >> "$GITHUB_OUTPUT"; else echo "enabled=false" >> "$GITHUB_OUTPUT"; fi
+
+      - if: steps.pages.outputs.enabled == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy-console:
+    needs: build
+    if: needs.build.outputs.pages == 'true' && (needs.build.outputs.changed == 'true' || github.event_name != 'schedule')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

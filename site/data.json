@@ -1,0 +1,1001 @@
+{
+ "synced": "2026-11-09",
+ "profile": {
+  "login": "itsoumya-d",
+  "hf": "itssoumyad",
+  "name": "Soumya Debnath",
+  "headline": "AI Product Engineer",
+  "tagline": "agents \u00b7 evals \u00b7 LLM infra \u00b7 shipped apps",
+  "roles": "Founding AI Product Engineer \u00b7 Senior AI Software Engineer \u00b7 Forward-Deployed Engineer",
+  "summary": "I build applied AI systems end to end: agent runtimes with safety rails, LLM gateways and evals, research-grade RL experiments, and consumer apps that are live on the App Store and Google Play. Everything here has tests, CI and an honest list of what is not claimed.",
+  "location": "Kolkata, India",
+  "open_to": "Open to NZ, Singapore & remote",
+  "experience": "5+ years professional delivery \u00b7 coding since 2017",
+  "email": "soumyadebnath1619@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/soumya-debnath-83a68a237/",
+  "stack": [
+   [
+    "Applied AI & agents",
+    "LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers"
+   ],
+   [
+    "Full-stack & real-time",
+    "TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis"
+   ],
+   [
+    "Mobile",
+    "Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console"
+   ],
+   [
+    "Systems & performance",
+    "Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto"
+   ],
+   [
+    ".NET & integration",
+    "C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox"
+   ],
+   [
+    "Delivery",
+    "Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling"
+   ]
+  ],
+  "apps": [
+   {
+    "id": "ctrackai",
+    "title": "CTrackAI",
+    "plain": "AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.",
+    "metric": "Live on iOS + Android",
+    "stack": [
+     "Flutter",
+     "Dart",
+     "AI vision"
+    ],
+    "app_store": "https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785",
+    "play": "https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition",
+    "case_study": "case-studies/ctrackai-engineering.md"
+   },
+   {
+    "id": "preeo",
+    "title": "Preeo",
+    "plain": "Cycle and health companion: log cycles and symptoms, see BBT charts, and share reports with a doctor.",
+    "metric": "Live on iOS + Android",
+    "stack": [
+     "Cross-platform",
+     "HealthKit",
+     "reports"
+    ],
+    "app_store": "https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568",
+    "play": "https://play.google.com/store/apps/details?id=com.preeo.health.companion",
+    "case_study": "case-studies/preeo-architecture.md"
+   }
+  ],
+  "lenses": [
+   {
+    "id": "platform",
+    "label": "AI / LLM platform",
+    "why": "Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.",
+    "repos": [
+     "llm-control-plane",
+     "RouteLLM-Gateway",
+     "GraphRAG-CodeAudit"
+    ]
+   },
+   {
+    "id": "safety",
+    "label": "Agent safety & security",
+    "why": "Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.",
+    "repos": [
+     "HEROS",
+     "HEROS-Firewall",
+     "HEROS-Cloud-SaaS"
+    ]
+   },
+   {
+    "id": "research",
+    "label": "ML / RL research",
+    "why": "Small, reproducible experiments that isolate one idea and measure it, with GPU-scale runs clearly marked as pending.",
+    "repos": [
+     "HEROS-RL",
+     "Reflexion-SWE",
+     "rlvr-bias-probe"
+    ]
+   },
+   {
+    "id": "performance",
+    "label": "Performance & edge",
+    "why": "Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.",
+    "repos": [
+     "Anthropic-PerfBench",
+     "edgeinfer",
+     "peervault"
+    ]
+   },
+   {
+    "id": "product",
+    "label": "Mobile & product",
+    "why": "Shipped consumer apps with real store listings, plus tooling that turns design references into UI.",
+    "repos": [
+     "@ctrackai",
+     "@preeo",
+     "Mobbin-UI-Compiler"
+    ]
+   },
+   {
+    "id": "backend",
+    "label": "Backend, payments & integration",
+    "why": "Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.",
+    "repos": [
+     "go-ledger",
+     "factory-monitor",
+     "autopilot-fde"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "intent": "strongest",
+    "q": "What's your strongest project?"
+   },
+   {
+    "intent": "now",
+    "q": "What are you building right now?"
+   },
+   {
+    "intent": "quality",
+    "q": "How do you prove your code works?"
+   },
+   {
+    "intent": "relocation",
+    "q": "Are you open to relocation or remote?"
+   },
+   {
+    "intent": "agents",
+    "q": "How do you work with AI coding agents?"
+   },
+   {
+    "intent": "stack",
+    "q": "What's your tech stack?"
+   }
+  ],
+  "credentials": [
+   [
+    "Anthropic \u00b7 Building with the Claude API",
+    "https://academy.claude.com/badges/f1de3ec2-3d44-48a9-a1fe-3d05f9f1122a"
+   ],
+   [
+    "Anthropic \u00b7 Claude Code in Action",
+    "https://academy.claude.com/badges/fd1a399f-5fe9-4635-977c-440cab5eb62c"
+   ],
+   [
+    "Anthropic \u00b7 MCP: Advanced Topics",
+    "https://academy.claude.com/badges/2cc5045b-85c1-43cd-aeb8-e0ea7f3dac59"
+   ],
+   [
+    "Anthropic \u00b7 Teaching AI Fluency",
+    "https://academy.claude.com/badges/236d54cb-6398-4302-8726-f037c92a3e51"
+   ],
+   [
+    "HackerRank \u00b7 SQL (Intermediate)",
+    "https://www.hackerrank.com/certificates/c5a80e6adda0"
+   ]
+  ],
+  "featured": [
+   "HEROS",
+   "HEROS-Firewall",
+   "RouteLLM-Gateway",
+   "llm-control-plane",
+   "HEROS-RL",
+   "Reflexion-SWE",
+   "GraphRAG-CodeAudit",
+   "Anthropic-PerfBench"
+  ]
+ },
+ "kpis": [
+  [
+   "152",
+   "public repos"
+  ],
+  [
+   "16/16",
+   "CI green"
+  ],
+  [
+   "2",
+   "apps shipped"
+  ],
+  [
+   "11",
+   "live demos"
+  ]
+ ],
+ "ticker": [
+  "shipping HEROS \u00b7 pushed 9 Nov",
+  "16/16 flagship systems passing CI right now",
+  "2 apps live on the App Store & Google Play"
+ ],
+ "projects": [
+  {
+   "name": "HEROS",
+   "title": "HEROS",
+   "lens": "safety",
+   "plain": "A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.",
+   "metric": "MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI",
+   "stack": [
+    "Node.js",
+    "MCP",
+    "HMAC"
+   ],
+   "url": "https://github.com/itsoumya-d/HEROS",
+   "pushed_at": "2026-11-09T09:14:29Z",
+   "stars": 0,
+   "language": "JavaScript",
+   "ci": "pass"
+  },
+  {
+   "name": "HEROS-Firewall",
+   "title": "HEROS Firewall",
+   "lens": "safety",
+   "plain": "A security guard between an AI agent and its tools that blocks dangerous calls before they run.",
+   "metric": "1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms",
+   "stack": [
+    "Node.js",
+    "OWASP ASI",
+    "Merkle"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/heros-firewall",
+   "url": "https://github.com/itsoumya-d/HEROS-Firewall",
+   "pushed_at": "2026-10-31T06:30:15Z",
+   "stars": 0,
+   "language": "JavaScript",
+   "ci": "pass"
+  },
+  {
+   "name": "HEROS-Cloud-SaaS",
+   "title": "HEROS Cloud",
+   "lens": "safety",
+   "plain": "A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.",
+   "metric": "Task completion 70% \u2192 100% after 4 approved rules (simulated)",
+   "stack": [
+    "Python",
+    "FastAPI",
+    "receipts"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/heros-cloud-saas",
+   "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS",
+   "pushed_at": "2026-10-31T06:51:27Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "RouteLLM-Gateway",
+   "title": "RouteLLM Gateway",
+   "lens": "platform",
+   "plain": "Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.",
+   "metric": "\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)",
+   "stack": [
+    "Node.js",
+    "Bradley\u2013Terry",
+    "SSE"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/routellm-gateway",
+   "url": "https://github.com/itsoumya-d/RouteLLM-Gateway",
+   "pushed_at": "2026-11-04T10:39:52Z",
+   "stars": 0,
+   "language": "JavaScript",
+   "ci": "pass"
+  },
+  {
+   "name": "llm-control-plane",
+   "title": "LLM Control Plane",
+   "lens": "platform",
+   "plain": "One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.",
+   "metric": "45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI",
+   "stack": [
+    "Python",
+    "FastAPI",
+    "Prometheus"
+   ],
+   "url": "https://github.com/itsoumya-d/llm-control-plane",
+   "pushed_at": "2026-11-04T08:58:59Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "GraphRAG-CodeAudit",
+   "title": "GraphRAG CodeAudit",
+   "lens": "platform",
+   "plain": "Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.",
+   "metric": "Beats flat RAG on 64 of 100 questions (deterministic rubric)",
+   "stack": [
+    "Python",
+    "graphs",
+    "Leiden"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit",
+   "url": "https://github.com/itsoumya-d/GraphRAG-CodeAudit",
+   "pushed_at": "2026-11-04T10:50:02Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "HEROS-RL",
+   "title": "HEROS-RL",
+   "lens": "research",
+   "plain": "Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.",
+   "metric": "GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending",
+   "stack": [
+    "PyTorch",
+    "TRL",
+    "PostgreSQL"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/heros-rl",
+   "url": "https://github.com/itsoumya-d/HEROS-RL",
+   "pushed_at": "2026-11-01T04:09:59Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "Reflexion-SWE",
+   "title": "Reflexion-SWE",
+   "lens": "research",
+   "plain": "A coding agent that learns from its own failed attempts, without retraining the model.",
+   "metric": "40 tests \u00b7 sandboxed Python/Rust execution",
+   "stack": [
+    "Python",
+    "sandbox",
+    "AST"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/reflexion-swe",
+   "url": "https://github.com/itsoumya-d/Reflexion-SWE",
+   "pushed_at": "2026-10-31T04:38:39Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "rlvr-bias-probe",
+   "title": "RLVR Bias Probe",
+   "lens": "research",
+   "plain": "An experiment showing why a popular RL training method quietly rewards longer answers, and how a fix removes it.",
+   "metric": "Length bias 0.50 \u2192 0.07 (300 groups, seed 42)",
+   "stack": [
+    "Python",
+    "GRPO",
+    "Dr.GRPO"
+   ],
+   "url": "https://github.com/itsoumya-d/rlvr-bias-probe",
+   "pushed_at": "2026-11-09T06:59:31Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "Anthropic-PerfBench",
+   "title": "PerfBench",
+   "lens": "performance",
+   "plain": "Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.",
+   "metric": "Up to 11.8\u00d7 faster than scalar on Apple Silicon",
+   "stack": [
+    "C",
+    "ARM NEON",
+    "WGSL"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/anthropic-perfbench",
+   "url": "https://github.com/itsoumya-d/Anthropic-PerfBench",
+   "pushed_at": "2026-11-04T11:19:14Z",
+   "stars": 0,
+   "language": "C",
+   "ci": "pass"
+  },
+  {
+   "name": "edgeinfer",
+   "title": "EdgeInfer",
+   "lens": "performance",
+   "plain": "Runs AI models and semantic search entirely in the browser, with no server.",
+   "metric": "95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark",
+   "stack": [
+    "TypeScript",
+    "ONNX",
+    "WebGPU"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/edgeinfer-v2",
+   "url": "https://github.com/itsoumya-d/edgeinfer",
+   "pushed_at": "2026-11-09T06:39:02Z",
+   "stars": 0,
+   "language": "JavaScript",
+   "ci": "pass"
+  },
+  {
+   "name": "peervault",
+   "title": "PeerVault",
+   "lens": "performance",
+   "plain": "Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.",
+   "metric": "100/100 NIST test vectors \u00b7 75 tests",
+   "stack": [
+    "Rust/WASM",
+    "WebRTC",
+    "ML-KEM"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/peervault-pqc",
+   "url": "https://github.com/itsoumya-d/peervault",
+   "pushed_at": "2026-11-04T12:25:14Z",
+   "stars": 0,
+   "language": "TypeScript",
+   "ci": "pass"
+  },
+  {
+   "name": "go-ledger",
+   "title": "go-ledger",
+   "lens": "backend",
+   "plain": "A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.",
+   "metric": "go test -race \u00b7 capture-once under concurrency",
+   "stack": [
+    "Go",
+    "HTTP",
+    "ledger"
+   ],
+   "demo": "https://itsoumya-d.github.io/go-ledger/",
+   "url": "https://github.com/itsoumya-d/go-ledger",
+   "pushed_at": "2026-11-09T03:02:45Z",
+   "stars": 0,
+   "language": "Go",
+   "ci": "pass"
+  },
+  {
+   "name": "factory-monitor",
+   "title": "Factory Monitor",
+   "lens": "backend",
+   "plain": "Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.",
+   "metric": "13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs",
+   "stack": [
+    "Rust",
+    "TimescaleDB",
+    "OPC UA"
+   ],
+   "url": "https://github.com/itsoumya-d/factory-monitor",
+   "pushed_at": "2026-10-28T23:15:41Z",
+   "stars": 0,
+   "language": "Rust",
+   "ci": "pass"
+  },
+  {
+   "name": "autopilot-fde",
+   "title": "AutoPilot FDE",
+   "lens": "backend",
+   "plain": "Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).",
+   "metric": "Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI",
+   "stack": [
+    "FastAPI",
+    "Next.js",
+    "LangGraph"
+   ],
+   "url": "https://github.com/itsoumya-d/autopilot-fde",
+   "pushed_at": "2026-10-29T07:52:25Z",
+   "stars": 0,
+   "language": "Python",
+   "ci": "pass"
+  },
+  {
+   "name": "Mobbin-UI-Compiler",
+   "title": "Mobbin UI Compiler",
+   "lens": "product",
+   "plain": "Generates accessible React screens from real-app design references.",
+   "metric": "5 SaaS surfaces \u00b7 10 tests \u00b7 fixture adapter",
+   "stack": [
+    "React",
+    "Tailwind",
+    "a11y"
+   ],
+   "demo": "https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler",
+   "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler",
+   "pushed_at": "2026-10-31T06:57:38Z",
+   "stars": 0,
+   "language": "JavaScript",
+   "ci": "pass"
+  }
+ ],
+ "recent": [
+  {
+   "name": "HEROS",
+   "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
+   "pushed_at": "2026-11-09T09:14:29Z",
+   "url": "https://github.com/itsoumya-d/HEROS"
+  },
+  {
+   "name": "rlvr-bias-probe",
+   "description": "CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds).",
+   "pushed_at": "2026-11-09T06:59:31Z",
+   "url": "https://github.com/itsoumya-d/rlvr-bias-probe"
+  },
+  {
+   "name": "edgeinfer",
+   "description": "Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine",
+   "pushed_at": "2026-11-09T06:39:02Z",
+   "url": "https://github.com/itsoumya-d/edgeinfer"
+  },
+  {
+   "name": "go-ledger",
+   "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
+   "pushed_at": "2026-11-09T03:02:45Z",
+   "url": "https://github.com/itsoumya-d/go-ledger"
+  },
+  {
+   "name": "terraform-aws-saas-baseline",
+   "description": "Terraform AWS SaaS baseline: encrypted artifacts bucket and DynamoDB state table with validation and mock plan tests",
+   "pushed_at": "2026-11-09T02:55:00Z",
+   "url": "https://github.com/itsoumya-d/terraform-aws-saas-baseline"
+  },
+  {
+   "name": "tabular-inference-platform",
+   "description": "Tabular foundation-model serving platform (reference impl): FastAPI + TS-styled frontend, deterministic synthetic inference, SLO and hash-chained audit",
+   "pushed_at": "2026-11-09T02:40:32Z",
+   "url": "https://github.com/itsoumya-d/tabular-inference-platform"
+  }
+ ],
+ "languages": [
+  [
+   "Python",
+   40
+  ],
+  [
+   "TypeScript",
+   27
+  ],
+  [
+   "HTML",
+   8
+  ],
+  [
+   "C#",
+   5
+  ],
+  [
+   "JavaScript",
+   4
+  ],
+  [
+   "Dart",
+   4
+  ],
+  [
+   "Java",
+   3
+  ],
+  [
+   "Other",
+   9
+  ]
+ ],
+ "ci": {
+  "ok": 16,
+  "total": 16
+ },
+ "activity": {
+  "total": 266,
+  "label": "public commits & PRs, last 90 days",
+  "stats": [
+   [
+    "11",
+    "active days"
+   ],
+   [
+    "63",
+    "best day"
+   ],
+   [
+    "11d",
+    "current streak"
+   ]
+  ]
+ },
+ "hf": {
+  "models": [],
+  "datasets": [
+   "itssoumyad/graphrag-questions-100",
+   "itssoumyad/heros-migration-500"
+  ],
+  "spaces": [
+   "itssoumyad/anthropic-perfbench",
+   "itssoumyad/edgeinfer-v2",
+   "itssoumyad/graphrag-codeaudit",
+   "itssoumyad/heros-cloud-saas",
+   "itssoumyad/heros-firewall",
+   "itssoumyad/heros-rl",
+   "itssoumyad/mobbin-ui-compiler",
+   "itssoumyad/peervault-pqc",
+   "itssoumyad/portfolio",
+   "itssoumyad/reflexion-swe",
+   "itssoumyad/routellm-gateway"
+  ]
+ },
+ "answered": 0,
+ "intents": [
+  {
+   "id": "strongest",
+   "title": "Strongest work",
+   "keywords": [
+    "strongest",
+    "best",
+    "proud",
+    "flagship",
+    "impressive",
+    "top project",
+    "favourite",
+    "favorite",
+    "highlight",
+    "show me one",
+    "standout"
+   ],
+   "md": "If you only open four things, open these:\n\n1. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 1 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n4. **CTrackAI**: AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.  \n  [App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) \u00b7 [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)"
+  },
+  {
+   "id": "now",
+   "title": "What I'm building now",
+   "keywords": [
+    "now",
+    "currently",
+    "right now",
+    "building",
+    "working on",
+    "latest",
+    "recent",
+    "lately",
+    "this week",
+    "today"
+   ],
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 9 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 9 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 9 Nov 2026\n- **[terraform-aws-saas-baseline](https://github.com/itsoumya-d/terraform-aws-saas-baseline)**: Terraform AWS SaaS baseline: encrypted artifacts bucket and DynamoDB state table with validation and mock plan tests \u00b7 pushed 9 Nov 2026"
+  },
+  {
+   "id": "quality",
+   "title": "How I prove it works",
+   "keywords": [
+    "test",
+    "tests",
+    "ci",
+    "quality",
+    "prove",
+    "proof",
+    "evidence",
+    "reliab",
+    "coverage",
+    "verify",
+    "works",
+    "bugs",
+    "discipline"
+   ],
+   "md": "Every flagship repo runs CI on each push. Right now **16 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
+  },
+  {
+   "id": "relocation",
+   "title": "Location & relocation",
+   "keywords": [
+    "relocat",
+    "remote",
+    "visa",
+    "move",
+    "location",
+    "based",
+    "where",
+    "timezone",
+    "time zone",
+    "new zealand",
+    "nz",
+    "singapore",
+    "sg",
+    "onsite",
+    "on-site",
+    "hybrid"
+   ],
+   "md": "Based in Kolkata, India (IST, UTC+5:30). Open to relocating to New Zealand or Singapore, and to fully remote roles worldwide.\n\n5+ years professional delivery \u00b7 coding since 2017."
+  },
+  {
+   "id": "agents",
+   "title": "How I work with AI agents",
+   "keywords": [
+    "agent",
+    "claude",
+    "codex",
+    "copilot",
+    "cursor",
+    "ai coding",
+    "ai tools",
+    "llm workflow",
+    "prompt",
+    "vibe"
+   ],
+   "md": "Agent-first, but reviewable. I drive Claude Code and Codex with an AGENTS.md per repo, write the tests first, and keep human review checkpoints before anything merges. Evals measure the agent's output (schema validity, field accuracy, p50/p95 latency, cost per call) instead of trusting it. Four Anthropic Academy credentials cover the Claude API, Claude Code and MCP."
+  },
+  {
+   "id": "stack",
+   "title": "Tech stack",
+   "keywords": [
+    "stack",
+    "tech",
+    "language",
+    "languages",
+    "skills",
+    "framework",
+    "tools",
+    "know"
+   ],
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 40%, TypeScript 27%, HTML 8%, C# 5%, JavaScript 4%, Dart 4%."
+  },
+  {
+   "id": "apps",
+   "title": "Shipped apps",
+   "keywords": [
+    "app",
+    "apps",
+    "mobile",
+    "flutter",
+    "ios",
+    "android",
+    "app store",
+    "play store",
+    "shipped",
+    "consumer",
+    "users"
+   ],
+   "md": "Two consumer apps, live on both stores:\n\n1. **CTrackAI**: AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.  \n  [App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) \u00b7 [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)\n2. **Preeo**: Cycle and health companion: log cycles and symptoms, see BBT charts, and share reports with a doctor.  \n  [App Store](https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568) \u00b7 [Google Play](https://play.google.com/store/apps/details?id=com.preeo.health.companion)"
+  },
+  {
+   "id": "contact",
+   "title": "Contact",
+   "keywords": [
+    "contact",
+    "email",
+    "reach",
+    "hire",
+    "interview",
+    "available",
+    "availability",
+    "call",
+    "resume",
+    "cv",
+    "linkedin",
+    "salary",
+    "notice"
+   ],
+   "md": "The fastest way to reach me is email: **soumyadebnath1619@gmail.com**. You can also find me on [LinkedIn](https://www.linkedin.com/in/soumya-debnath-83a68a237/).\n\nOpen to NZ, Singapore & remote \u00b7 5+ years professional delivery \u00b7 coding since 2017."
+  },
+  {
+   "id": "lens:platform",
+   "title": "AI / LLM platform",
+   "keywords": [
+    "platform",
+    "gateway",
+    "router",
+    "routing",
+    "rag",
+    "retrieval",
+    "llm infra",
+    "infrastructure",
+    "cost",
+    "observability"
+   ],
+   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 4 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
+  },
+  {
+   "id": "lens:safety",
+   "title": "Agent safety & security",
+   "keywords": [
+    "safety",
+    "security",
+    "secure",
+    "guardrail",
+    "firewall",
+    "owasp",
+    "audit",
+    "approval"
+   ],
+   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 9 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
+  },
+  {
+   "id": "lens:research",
+   "title": "ML / RL research",
+   "keywords": [
+    "research",
+    "rl",
+    "reinforcement",
+    "grpo",
+    "training",
+    "paper",
+    "experiment",
+    "reflexion"
+   ],
+   "md": "**ML / RL research**: Small, reproducible experiments that isolate one idea and measure it, with GPU-scale runs clearly marked as pending.\n\n1. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 1 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n2. **[Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE)**: A coding agent that learns from its own failed attempts, without retraining the model.  \n  `40 tests \u00b7 sandboxed Python/Rust execution` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/reflexion-swe)\n3. **[RLVR Bias Probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: An experiment showing why a popular RL training method quietly rewards longer answers, and how a fix removes it.  \n  `Length bias 0.50 \u2192 0.07 (300 groups, seed 42)` \u00b7 CI passing \u00b7 last push 9 Nov 2026"
+  },
+  {
+   "id": "lens:performance",
+   "title": "Performance & edge",
+   "keywords": [
+    "performance",
+    "fast",
+    "kernel",
+    "simd",
+    "neon",
+    "gpu",
+    "webgpu",
+    "wasm",
+    "browser",
+    "edge",
+    "latency",
+    "p2p",
+    "crypto"
+   ],
+   "md": "**Performance & edge**: Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.\n\n1. **[PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench)**: Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.  \n  `Up to 11.8\u00d7 faster than scalar on Apple Silicon` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)\n2. **[EdgeInfer](https://github.com/itsoumya-d/edgeinfer)**: Runs AI models and semantic search entirely in the browser, with no server.  \n  `95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)\n3. **[PeerVault](https://github.com/itsoumya-d/peervault)**: Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.  \n  `100/100 NIST test vectors \u00b7 75 tests` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/peervault-pqc)"
+  },
+  {
+   "id": "lens:backend",
+   "title": "Backend, payments & integration",
+   "keywords": [
+    "backend",
+    "payment",
+    "payments",
+    "ledger",
+    "go ",
+    "golang",
+    ".net",
+    "c#",
+    "rust",
+    "integration",
+    "erp",
+    "api"
+   ],
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 28 Oct 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
+  }
+ ],
+ "repo_names": [
+  "Anthropic-PerfBench",
+  "ContentForge-AI",
+  "EcoSphere",
+  "GraphRAG-CodeAudit",
+  "HEROS",
+  "HEROS-Cloud-SaaS",
+  "HEROS-Firewall",
+  "HEROS-Publication",
+  "HEROS-RL",
+  "Mobbin-UI-Compiler",
+  "Reflexion-SWE",
+  "RouteLLM-Gateway",
+  "Yc_ai",
+  "aderant-legal-billing",
+  "aeo_geo",
+  "afeedi",
+  "agri-ops-data-pipeline",
+  "aimer-pos-settlement",
+  "allrtc",
+  "assessment-platform",
+  "assurity-test-intelligence",
+  "auction-reliability",
+  "autopilot-fde",
+  "awesome-zero-server-saas",
+  "backup-verification",
+  "bastion-findings-triage",
+  "bitwarden-desktop-vault-ipc",
+  "booking-engine",
+  "breezi-email-migration",
+  "broadcast-control-service",
+  "building-viewer",
+  "centrix-sap-release-workflow",
+  "certiflow-ai",
+  "civic-data-integration",
+  "classroom-safety-signal",
+  "client-delivery-api",
+  "clinical-trial-prescreening",
+  "clojure-ledger-query",
+  "cloud-security-posture",
+  "colpali-edge",
+  "commerce-erp-sync",
+  "complaintgraph",
+  "compose-cognitive-intervention-engine",
+  "construction-cost-estimator",
+  "craveai-privacy-policy",
+  "cross-border-mobility-compliance",
+  "cybermentor",
+  "data-platform-reference",
+  "data-quality-service",
+  "default-project",
+  "document-control-api",
+  "dotnet-enterprise-api",
+  "edgeinfer",
+  "eleven-platform-core",
+  "embedded-sensor-core",
+  "endpoint-compliance-service",
+  "eplanning-policy-engine",
+  "erp-sync-automation",
+  "evaboot-verified-lists",
+  "factory-monitor",
+  "fhir-interoperability-service",
+  "field-inspection-service",
+  "fieldlens__",
+  "figured-farm-finance",
+  "flux-billing-reconciliation",
+  "flux-social",
+  "full-stack-open-nextjs",
+  "gaming-club-service",
+  "genai-tooling-evals",
+  "ghostsearch",
+  "gladeye-experience-lab",
+  "go-ledger",
+  "govpass",
+  "grc-evidence-service",
+  "greybox-codebase-single-file",
+  "hb-m365-onboarding",
+  "henryschein-dental-practice",
+  "hostshift",
+  "image2code-bench",
+  "industrial-telemetry-service",
+  "infor-erp-supply-chain",
+  "intercoll-repayment-ops",
+  "itsoumya-d",
+  "jira-delivery-risk-service",
+  "lease-finance-service",
+  "legacy-strangler-modernization",
+  "link-ecu-calibration",
+  "llm-control-plane",
+  "loanflow",
+  "manufacturing-mrp-service",
+  "meshauth",
+  "mobile-native-design-system",
+  "motion-mcp",
+  "mscp-game",
+  "msp-network-ops",
+  "namespace-ci-wait-analyzer",
+  "navvis-ivion-spatial",
+  "nelson-water-credit-autopilot",
+  "oia-request-service",
+  "oracle-fusion-integration-service",
+  "oracle-oci-cost-guard",
+  "parrot-demand-evidence",
+  "peervault",
+  "planning-assessment-service",
+  "portfolio-management-service",
+  "pos-offline-sync",
+  "prospex-cloud-api",
+  "pulsenet",
+  "qsr-drive-thru-analytics",
+  "railway-container-orchestrator",
+  "rcs-music-scheduler",
+  "recare-ai-platform",
+  "rent-reconciliation-service",
+  "rlvr-bias-probe",
+  "runaway-liveops-core",
+  "saas-entitlement-service",
+  "school-payments-django",
+  "settlement-guard",
+  "silverstripe-content-review",
+  "simbook",
+  "smartly-payroll-engine",
+  "solar-telemetry-pipeline",
+  "surface-karya",
+  "swarmcompute",
+  "syncforge",
+  "syncplay",
+  "tabular-inference-platform",
+  "tally-energy-billing",
+  "terraform-aws-saas-baseline",
+  "timber-processing-service",
+  "tower-claims-next-action",
+  "transactional-document-delivery",
+  "transport-operations-service",
+  "trimium",
+  "tucumcari-port-gis",
+  "tycoon-sim-core",
+  "ultimatrix",
+  "utility-locate-service",
+  "vc_idias",
+  "video-surveillance-service",
+  "voiceq-dubbing-timeline",
+  "vulnhunter",
+  "waitless",
+  "warehouse-management-service",
+  "water-compliance-service",
+  "watercare-asset-data-product",
+  "zeroq"
+ ]
+}

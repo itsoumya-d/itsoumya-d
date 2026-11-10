@@ -1,0 +1,197 @@
+{
+  "_note": "Hand-curated content for the profile skin. Live numbers (CI, pushes, repos, languages, Hugging Face) are fetched by skin/build.py; edit this file for words, then push. Keep every metric honest: the qualifier (synthetic, simulated, mock) travels with the number.",
+  "login": "itsoumya-d",
+  "hf": "itssoumyad",
+  "name": "Soumya Debnath",
+  "headline": "AI Product Engineer",
+  "tagline": "agents · evals · LLM infra · shipped apps",
+  "roles": "Founding AI Product Engineer · Senior AI Software Engineer · Forward-Deployed Engineer",
+  "summary": "I build applied AI systems end to end: agent runtimes with safety rails, LLM gateways and evals, research-grade RL experiments, and consumer apps that are live on the App Store and Google Play. Everything here has tests, CI and an honest list of what is not claimed.",
+  "location": "Kolkata, India",
+  "open_to": "Open to NZ, Singapore & remote",
+  "experience": "5+ years professional delivery · coding since 2017",
+  "email": "soumyadebnath1619@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/soumya-debnath-83a68a237/",
+  "agents_workflow": "Agent-first, but reviewable. I drive Claude Code and Codex with an AGENTS.md per repo, write the tests first, and keep human review checkpoints before anything merges. Evals measure the agent's output (schema validity, field accuracy, p50/p95 latency, cost per call) instead of trusting it. Four Anthropic Academy credentials cover the Claude API, Claude Code and MCP.",
+  "relocation": "Based in Kolkata, India (IST, UTC+5:30). Open to relocating to New Zealand or Singapore, and to fully remote roles worldwide.",
+  "stack": [
+    ["Applied AI & agents", "LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers"],
+    ["Full-stack & real-time", "TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis"],
+    ["Mobile", "Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console"],
+    ["Systems & performance", "Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto"],
+    [".NET & integration", "C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox"],
+    ["Delivery", "Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling"]
+  ],
+  "strongest": ["HEROS-Firewall", "RouteLLM-Gateway", "HEROS-RL"],
+  "featured": ["HEROS", "HEROS-Firewall", "RouteLLM-Gateway", "llm-control-plane", "HEROS-RL", "Reflexion-SWE", "GraphRAG-CodeAudit", "Anthropic-PerfBench"],
+  "projects": {
+    "HEROS": {
+      "title": "HEROS",
+      "lens": "safety",
+      "plain": "A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.",
+      "metric": "MCP 2025-11-25 runtime · 19 MCP tests · macOS/Linux/Windows CI",
+      "stack": ["Node.js", "MCP", "HMAC"]
+    },
+    "HEROS-Firewall": {
+      "title": "HEROS Firewall",
+      "lens": "safety",
+      "plain": "A security guard between an AI agent and its tools that blocks dangerous calls before they run.",
+      "metric": "1,000 attack payloads blocked · 0 false positives · p99 0.10 ms",
+      "stack": ["Node.js", "OWASP ASI", "Merkle"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/heros-firewall"
+    },
+    "HEROS-Cloud-SaaS": {
+      "title": "HEROS Cloud",
+      "lens": "safety",
+      "plain": "A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.",
+      "metric": "Task completion 70% → 100% after 4 approved rules (simulated)",
+      "stack": ["Python", "FastAPI", "receipts"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/heros-cloud-saas"
+    },
+    "RouteLLM-Gateway": {
+      "title": "RouteLLM Gateway",
+      "lens": "platform",
+      "plain": "Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.",
+      "metric": "−69% cost · 98% of frontier accuracy kept (synthetic harness)",
+      "stack": ["Node.js", "Bradley–Terry", "SSE"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/routellm-gateway"
+    },
+    "llm-control-plane": {
+      "title": "LLM Control Plane",
+      "lens": "platform",
+      "plain": "One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.",
+      "metric": "45 tests · 93% coverage · Python 3.9–3.12 CI",
+      "stack": ["Python", "FastAPI", "Prometheus"]
+    },
+    "GraphRAG-CodeAudit": {
+      "title": "GraphRAG CodeAudit",
+      "lens": "platform",
+      "plain": "Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.",
+      "metric": "Beats flat RAG on 64 of 100 questions (deterministic rubric)",
+      "stack": ["Python", "graphs", "Leiden"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit"
+    },
+    "HEROS-RL": {
+      "title": "HEROS-RL",
+      "lens": "research",
+      "plain": "Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.",
+      "metric": "GRPO · 500-case dataset · 33 tests · GPU runs pending",
+      "stack": ["PyTorch", "TRL", "PostgreSQL"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/heros-rl"
+    },
+    "Reflexion-SWE": {
+      "title": "Reflexion-SWE",
+      "lens": "research",
+      "plain": "A coding agent that learns from its own failed attempts, without retraining the model.",
+      "metric": "40 tests · sandboxed Python/Rust execution",
+      "stack": ["Python", "sandbox", "AST"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/reflexion-swe"
+    },
+    "rlvr-bias-probe": {
+      "title": "RLVR Bias Probe",
+      "lens": "research",
+      "plain": "An experiment showing why a popular RL training method quietly rewards longer answers, and how a fix removes it.",
+      "metric": "Length bias 0.50 → 0.07 (300 groups, seed 42)",
+      "stack": ["Python", "GRPO", "Dr.GRPO"]
+    },
+    "Anthropic-PerfBench": {
+      "title": "PerfBench",
+      "lens": "performance",
+      "plain": "Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.",
+      "metric": "Up to 11.8× faster than scalar on Apple Silicon",
+      "stack": ["C", "ARM NEON", "WGSL"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/anthropic-perfbench"
+    },
+    "edgeinfer": {
+      "title": "EdgeInfer",
+      "lens": "performance",
+      "plain": "Runs AI models and semantic search entirely in the browser, with no server.",
+      "metric": "95 tests · WebGPU/WASM · synthetic 100k-chunk benchmark",
+      "stack": ["TypeScript", "ONNX", "WebGPU"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/edgeinfer-v2"
+    },
+    "peervault": {
+      "title": "PeerVault",
+      "lens": "performance",
+      "plain": "Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.",
+      "metric": "100/100 NIST test vectors · 75 tests",
+      "stack": ["Rust/WASM", "WebRTC", "ML-KEM"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/peervault-pqc"
+    },
+    "go-ledger": {
+      "title": "go-ledger",
+      "lens": "backend",
+      "plain": "A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.",
+      "metric": "go test -race · capture-once under concurrency",
+      "stack": ["Go", "HTTP", "ledger"],
+      "demo": "https://itsoumya-d.github.io/go-ledger/"
+    },
+    "factory-monitor": {
+      "title": "Factory Monitor",
+      "lens": "backend",
+      "plain": "Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.",
+      "metric": "13-crate Rust workspace · 434 tests · 7/7 CI jobs",
+      "stack": ["Rust", "TimescaleDB", "OPC UA"]
+    },
+    "autopilot-fde": {
+      "title": "AutoPilot FDE",
+      "lens": "backend",
+      "plain": "Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).",
+      "metric": "Doc-extraction eval harness · Python 3.12–3.14 CI",
+      "stack": ["FastAPI", "Next.js", "LangGraph"]
+    },
+    "Mobbin-UI-Compiler": {
+      "title": "Mobbin UI Compiler",
+      "lens": "product",
+      "plain": "Generates accessible React screens from real-app design references.",
+      "metric": "5 SaaS surfaces · 10 tests · fixture adapter",
+      "stack": ["React", "Tailwind", "a11y"],
+      "demo": "https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler"
+    }
+  },
+  "apps": [
+    {
+      "id": "ctrackai",
+      "title": "CTrackAI",
+      "plain": "AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.",
+      "metric": "Live on iOS + Android",
+      "stack": ["Flutter", "Dart", "AI vision"],
+      "app_store": "https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785",
+      "play": "https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition",
+      "case_study": "case-studies/ctrackai-engineering.md"
+    },
+    {
+      "id": "preeo",
+      "title": "Preeo",
+      "plain": "Cycle and health companion: log cycles and symptoms, see BBT charts, and share reports with a doctor.",
+      "metric": "Live on iOS + Android",
+      "stack": ["Cross-platform", "HealthKit", "reports"],
+      "app_store": "https://apps.apple.com/in/app/preeo-cycle-period-tracker/id6760804568",
+      "play": "https://play.google.com/store/apps/details?id=com.preeo.health.companion",
+      "case_study": "case-studies/preeo-architecture.md"
+    }
+  ],
+  "lenses": [
+    {"id": "platform", "label": "AI / LLM platform", "why": "Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.", "repos": ["llm-control-plane", "RouteLLM-Gateway", "GraphRAG-CodeAudit"]},
+    {"id": "safety", "label": "Agent safety & security", "why": "Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.", "repos": ["HEROS", "HEROS-Firewall", "HEROS-Cloud-SaaS"]},
+    {"id": "research", "label": "ML / RL research", "why": "Small, reproducible experiments that isolate one idea and measure it, with GPU-scale runs clearly marked as pending.", "repos": ["HEROS-RL", "Reflexion-SWE", "rlvr-bias-probe"]},
+    {"id": "performance", "label": "Performance & edge", "why": "Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.", "repos": ["Anthropic-PerfBench", "edgeinfer", "peervault"]},
+    {"id": "product", "label": "Mobile & product", "why": "Shipped consumer apps with real store listings, plus tooling that turns design references into UI.", "repos": ["@ctrackai", "@preeo", "Mobbin-UI-Compiler"]},
+    {"id": "backend", "label": "Backend, payments & integration", "why": "Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.", "repos": ["go-ledger", "factory-monitor", "autopilot-fde"]}
+  ],
+  "questions": [
+    {"intent": "strongest", "q": "What's your strongest project?"},
+    {"intent": "now", "q": "What are you building right now?"},
+    {"intent": "quality", "q": "How do you prove your code works?"},
+    {"intent": "relocation", "q": "Are you open to relocation or remote?"},
+    {"intent": "agents", "q": "How do you work with AI coding agents?"},
+    {"intent": "stack", "q": "What's your tech stack?"}
+  ],
+  "credentials": [
+    ["Anthropic · Building with the Claude API", "https://academy.claude.com/badges/f1de3ec2-3d44-48a9-a1fe-3d05f9f1122a"],
+    ["Anthropic · Claude Code in Action", "https://academy.claude.com/badges/fd1a399f-5fe9-4635-977c-440cab5eb62c"],
+    ["Anthropic · MCP: Advanced Topics", "https://academy.claude.com/badges/2cc5045b-85c1-43cd-aeb8-e0ea7f3dac59"],
+    ["Anthropic · Teaching AI Fluency", "https://academy.claude.com/badges/236d54cb-6398-4302-8726-f037c92a3e51"],
+    ["HackerRank · SQL (Intermediate)", "https://www.hackerrank.com/certificates/c5a80e6adda0"]
+  ]
+}

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Soumya Debnath · Interactive profile</title>
+<meta name="description" content="Ask Soumya Debnath's profile anything: projects, stack, live CI status and what's shipping right now.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="theme.css">
+<style>
+/* Swiss Modernism: ink + paper, one vermilion accent, hairlines, no gradients or shadows.
+   Colour tokens come from theme.css, generated from skin/render.py so README and console match. */
+:root{--sans:'Inter Tight',Inter,'Helvetica Neue',Helvetica,'Segoe UI',Arial,sans-serif;
+  --mono:'JetBrains Mono','IBM Plex Mono',Consolas,Menlo,monospace}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:15px/1.6 var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh;
+  background-image:linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:calc(100% / 12) 100%}
+a{color:var(--text);text-decoration:underline;text-decoration-color:var(--acc);text-underline-offset:3px}
+a:hover{color:var(--acc)}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 56px}
+.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:26px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.mark{width:44px;height:44px;border-radius:4px;display:grid;place-items:center;font-weight:900;letter-spacing:-.5px;
+  background:var(--inv-bg);color:var(--inv-fg);flex:none;position:relative}
+.mark::after{content:"";position:absolute;right:-4px;bottom:-4px;width:10px;height:10px;background:var(--acc)}
+.who h1{margin:0;font-size:21px;font-weight:800;letter-spacing:-.6px;line-height:1.15}
+.who p{margin:0;color:var(--muted);font:12.5px var(--mono)}
+.spacer{flex:1}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:4px;border:1px solid var(--line);
+  background:var(--panel);color:var(--body);font:600 11.5px var(--mono);letter-spacing:.8px;text-transform:uppercase;white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ok) 55%,transparent)}100%{box-shadow:0 0 0 9px transparent}}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:9px 15px;border-radius:6px;border:1px solid var(--line);
+  background:var(--panel);color:var(--text);font:650 13.5px var(--sans);cursor:pointer;text-decoration:none!important}
+.btn::before{content:"";width:7px;height:7px;background:var(--acc)}
+.btn.icon::before{display:none}
+.btn.primary{background:var(--inv-bg);border-color:var(--inv-bg);color:var(--inv-fg)}
+.btn:hover{border-color:var(--acc)}
+.btn:focus-visible,.chip:focus-visible,.lens:focus-visible,#cmd:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px}
+.term{border:1px solid var(--line);border-radius:8px;background:var(--panel);overflow:hidden;display:flex;flex-direction:column;min-height:560px}
+.bar{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel2)}
+.bar i{width:10px;height:10px;display:block;background:var(--line)}
+.bar i:first-child{background:var(--acc)}
+.bar span{margin-left:6px;color:var(--muted);font:600 11px var(--mono);letter-spacing:1px;text-transform:uppercase}
+#out{flex:1;overflow:auto;padding:18px 20px 8px;font:13.5px/1.7 var(--mono);color:var(--body);max-height:62vh}
+#out .line{white-space:pre-wrap;word-wrap:break-word}
+#out .in{color:var(--text)}#out .in b{color:var(--acc)}
+#out .md{font-family:var(--sans);font-size:15px;line-height:1.6;margin:6px 0 16px;padding:12px 16px;border-left:3px solid var(--acc);
+  background:var(--panel2);border-radius:0 6px 6px 0}
+#out .md p{margin:.25em 0}#out .md ul,#out .md ol{margin:.3em 0;padding-left:1.3em}#out .md li{margin:.35em 0}
+#out .md li::marker{color:var(--acc);font-weight:700}
+#out .md code{font:600 12.5px var(--mono);color:var(--text);background:var(--bg);padding:1px 5px;border-radius:3px}
+#out .md strong{color:var(--text);font-weight:750}
+#out .md blockquote{margin:.4em 0;padding-left:12px;border-left:2px solid var(--line);color:var(--muted)}
+#out .muted{color:var(--muted)}#out .err{color:var(--bad)}
+.prompt{display:flex;align-items:center;gap:10px;padding:12px 20px;border-top:1px solid var(--line)}
+.prompt label{color:var(--acc);font:700 14px var(--mono);white-space:nowrap}
+#cmd{flex:1;min-width:0;background:transparent;border:0;color:var(--text);font:14px var(--mono);outline:none;padding:6px 0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;padding:0 20px 16px}
+.chip{border:1px solid var(--line);background:var(--panel2);color:var(--body);border-radius:4px;padding:6px 11px;
+  font:600 12px var(--mono);cursor:pointer}
+.chip:hover{border-color:var(--acc);color:var(--text)}
+.side{display:flex;flex-direction:column;gap:16px}
+.card{border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:18px}
+.card h2{margin:0 0 14px;font:700 11px var(--mono);letter-spacing:1.6px;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.card h2::before{content:"";width:14px;height:4px;background:var(--acc)}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.kpi{border-top:1px solid var(--line);padding-top:8px}
+.kpi b{display:block;font-size:30px;font-weight:800;letter-spacing:-1.2px;line-height:1.1}
+.kpi span{font:600 10px var(--mono);letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.recent{list-style:none;margin:0;padding:0}
+.recent li{padding:9px 0;border-top:1px solid var(--line);font-size:14px;font-weight:600}
+.recent li:first-child{border-top:0;padding-top:0}
+.recent small{display:block;color:var(--muted);font:500 11px var(--mono)}
+.langbar{display:flex;gap:2px;height:12px;margin:4px 0 12px}
+.legend{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;font-size:13px;color:var(--body)}
+.legend i{display:inline-block;width:9px;height:9px;margin-right:7px;outline:1px solid var(--line)}
+.ci{display:flex;gap:3px;margin-top:6px}.ci i{flex:1;height:16px;border-radius:1.5px;background:var(--ok)}
+.lenses{margin-top:16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.lens{text-align:left;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:16px 18px;cursor:pointer;color:var(--text);font:inherit}
+.lens:hover{border-color:var(--acc)}
+.lens b{display:block;font-size:17px;font-weight:800;letter-spacing:-.4px;margin-bottom:4px}
+.lens span{color:var(--body);font-size:13.5px;line-height:1.5}
+.lens small{display:block;margin-top:12px;color:var(--acc);font:700 11px var(--mono);letter-spacing:.5px}
+h3.sec{margin:38px 0 0;font:800 13px var(--sans);letter-spacing:2.4px;color:var(--text);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+h3.sec::before{content:"";width:22px;height:5px;background:var(--acc)}
+h3.sec::after{content:"";flex:1;height:1px;background:var(--line)}
+footer{margin-top:34px;color:var(--muted);font:11px var(--mono);letter-spacing:.6px;text-align:center;text-transform:uppercase}
+@media (max-width:900px){.grid{grid-template-columns:1fr}.lenses{grid-template-columns:1fr 1fr}#out{max-height:55vh}}
+@media (max-width:560px){.lenses{grid-template-columns:1fr}.wrap{padding:18px 16px 40px}.term{min-height:480px}.pill.loc{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="mark" aria-hidden="true">SD</div>
+    <div class="who"><h1 id="name">Soumya Debnath</h1><p id="headline">AI Product Engineer</p></div>
+    <span class="pill loc"><span class="dot"></span><span id="open">Open to NZ, Singapore &amp; remote</span></span>
+    <div class="spacer"></div>
+    <a class="btn primary" id="mail" href="#">Email me</a>
+    <a class="btn" href="https://github.com/itsoumya-d">GitHub</a>
+    <button class="btn icon" id="theme" type="button" aria-label="Toggle light or dark theme">◐</button>
+  </header>
+
+  <main class="grid">
+    <section class="term" aria-label="Interactive profile console">
+      <div class="bar"><i style="background:#FF5F57"></i><i style="background:#FEBC2E"></i><i style="background:#28C840"></i>
+        <span>recruiter@soumya: ~ ask me anything</span></div>
+      <div id="out" role="log" aria-live="polite"></div>
+      <form class="prompt" id="form" autocomplete="off">
+        <label for="cmd">❯</label>
+        <input id="cmd" placeholder="Type a question, or try: projects" spellcheck="false" aria-label="Command or question">
+      </form>
+      <div class="chips" id="chips"></div>
+    </section>
+
+    <aside class="side">
+      <div class="card"><h2>Live</h2><div class="kpis" id="kpis"></div></div>
+      <div class="card"><h2>Shipping now</h2><ul class="recent" id="recent"></ul></div>
+      <div class="card"><h2>Language mix</h2><div class="langbar" id="langbar"></div><div class="legend" id="legend"></div>
+        <h2 style="margin-top:16px">Flagship CI <span id="cisum" style="margin-left:auto;color:var(--ok)"></span></h2><div class="ci" id="ci"></div></div>
+    </aside>
+  </main>
+
+  <h3 class="sec">Hiring for a specific role? Pick a lens</h3>
+  <div class="lenses" id="lenses"></div>
+  <footer id="foot">Synced from live GitHub data.</footer>
+</div>
+
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const out = $('#out'), cmd = $('#cmd');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const LANG = {Python:'#3572A5',TypeScript:'#3178C6',JavaScript:'#E8D44D',HTML:'#E34C26','C#':'#178600',Dart:'#00B4AB',
+    Java:'#B07219',PHP:'#4F5D95',Rust:'#DEA584',Go:'#00ADD8',C:'#8E8E8E',Swift:'#F05138',Kotlin:'#A97BFF',Shell:'#89E051'};
+  let D = null; const hist = []; let hi = 0;
+
+  // ---------- theme
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch (e) {}
+  if (!root.dataset.theme && matchMedia('(prefers-color-scheme: light)').matches) root.dataset.theme = 'light';
+  $('#theme').onclick = () => { root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {} };
+
+  // ---------- tiny, safe markdown (escape first, then a few inline rules)
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeUrl = (u) => /^(https?:|mailto:)/i.test(u) ? u : (D ? `https://github.com/${D.profile.login}/${D.profile.login}/blob/main/${u}` : '#');
+  function inline(s) {
+    return esc(s)
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) => `<a href="${esc(safeUrl(u.replace(/&amp;/g,'&')))}" target="_blank" rel="noopener">${t}</a>`);
+  }
+  function md(src) {
+    const lines = src.split('\n'); let html = '', list = null;
+    const close = () => { if (list) { html += `</${list}>`; list = null; } };
+    for (let i = 0; i < lines.length; i++) {
+      let l = lines[i];
+      const ol = l.match(/^\d+\.\s+(.*)/), ul = l.match(/^[-*]\s+(.*)/);
+      if (ol || ul) {
+        const kind = ol ? 'ol' : 'ul'; if (list !== kind) { close(); html += `<${kind}>`; list = kind; }
+        const parts = [(ol || ul)[1].trimEnd()];
+        while (i + 1 < lines.length && /^\s{2,}\S/.test(lines[i + 1])) parts.push(lines[++i].trim());
+        html += `<li>${parts.map(inline).join('<br>')}</li>`;
+        continue;
+      }
+      close();
+      if (!l.trim()) continue;
+      if (l.startsWith('> ')) html += `<blockquote>${inline(l.slice(2))}</blockquote>`;
+      else html += `<p>${inline(l)}</p>`;
+    }
+    close(); return html;
+  }
+
+  // ---------- output
+  const scroll = () => { out.scrollTop = out.scrollHeight; };
+  function line(html, cls = '') { const d = document.createElement('div'); d.className = 'line ' + cls; d.innerHTML = html; out.appendChild(d); scroll(); return d; }
+  function block(mdText) {
+    const d = document.createElement('div'); d.className = 'md'; d.innerHTML = md(mdText); out.appendChild(d);
+    if (!reduce) { d.animate([{opacity:0,transform:'translateY(6px)'},{opacity:1,transform:'none'}], {duration:260,easing:'ease-out'}); }
+    scroll();
+  }
+
+  // ---------- knowledge (mirrors skin/knowledge.py)
+  const kwHit = (k, q) => { k = k.trim(); const lead = /^[a-z0-9]/i.test(k) ? '\\b' : '';
+    const tail = (k.length <= 3 && /[a-z0-9]$/i.test(k)) ? '\\b' : '';
+    return new RegExp(lead + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + tail).test(q); };
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const fmt = (iso) => { if (!iso) return 'n/a'; const d = new Date(iso); return d.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'}); };
+  const ciTxt = (s) => ({pass:'CI passing', fail:'CI failing', running:'CI running', none:'no CI runs yet'}[s] || 'CI status unknown');
+  function projMd(p) { return `**[${p.title}](${p.url})**: ${p.plain}  \n  \`${p.metric}\` · ${ciTxt(p.ci)} · last push ${fmt(p.pushed_at)}${p.demo ? ` · [live demo](${p.demo})` : ''}`; }
+  function matchRepo(q) {
+    const t = norm(q), low = q.toLowerCase();
+    for (const p of [...D.projects].sort((a, b) => b.name.length - a.name.length))
+      if (t.includes(norm(p.name)) || t.includes(norm(p.title))) return {p};
+    for (const n of [...D.repo_names].sort((a, b) => b.length - a.length)) {
+      if (n.length < 5 || D.projects.some((p) => p.name === n)) continue;
+      if (new RegExp('(?<![\\w-])' + n.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![\\w-])').test(low)) return {name: n};
+    }
+    return null;
+  }
+  function answer(q) {
+    const r = matchRepo(q);
+    if (r) return r.p ? projMd(r.p) : `**[${r.name}](https://github.com/${D.profile.login}/${r.name})**: open the repo for details.`;
+    const ql = ` ${q.toLowerCase()} `; let best = null, score = 0;
+    for (const it of D.intents) { const s = it.keywords.reduce((a, k) => a + (kwHit(k, ql) ? (k.trim().includes(' ') ? 2 : 1) : 0), 0); if (s > score) { best = it; score = s; } }
+    if (best) return best.md;
+    return `I couldn't match that one, but Soumya reads every message. Try **projects**, **now**, **stack**, **lens**, or name a repo. Or just [email Soumya](mailto:${D.profile.email}).`;
+  }
+  const intent = (id) => D.intents.find((i) => i.id === id).md;
+
+  // ---------- commands
+  const C = {
+    help: () => block([
+      '**Just type a question in plain English**, or use a command:',
+      '- `whoami`: the 20-second version', '- `now`: what is shipping right now (live)',
+      '- `projects`: every flagship system · `open <name>` opens one',
+      '- `lens`: browse by the role you are hiring for', '- `apps`: shipped consumer apps',
+      '- `stack`: languages and tools · `ci`: live test status', '- `contact`: how to reach Soumya',
+      '- `clear`, `theme`'].join('\n')),
+    whoami: () => block(`**${D.profile.name}**, ${D.profile.roles}\n\n${D.profile.summary}\n\n${D.profile.location} · ${D.profile.open_to} · ${D.profile.experience}.`),
+    now: () => block(intent('now')),
+    projects: (arg) => {
+      const list = arg ? D.projects.filter((p) => p.lens === arg) : D.projects;
+      if (!list.length) return line(`no projects for lens "${esc(arg)}". Try <b>lens</b>.`, 'err');
+      block(list.map((p, i) => `${i + 1}. ${projMd(p)}`).join('\n'));
+      line('tip: <b>open heros-firewall</b> opens a repo in a new tab', 'muted');
+    },
+    open: (arg) => { const r = arg && matchRepo(arg);
+      if (!r) return line(`usage: open &lt;repo name&gt;, e.g. <b>open peervault</b>`, 'err');
+      const url = r.p ? r.p.url : `https://github.com/${D.profile.login}/${r.name}`;
+      window.open(url, '_blank', 'noopener'); line(`opening ${esc(url)} …`, 'muted'); },
+    lens: (arg) => {
+      if (!arg) return block('Pick a lens: ' + D.profile.lenses.map((l) => `\`lens ${l.id}\` (${l.label})`).join(' · '));
+      const l = D.profile.lenses.find((x) => x.id === arg || norm(x.label).includes(norm(arg)));
+      if (!l) return line(`unknown lens "${esc(arg)}". Try <b>lens</b>.`, 'err');
+      const apps = Object.fromEntries(D.profile.apps.map((a) => [a.id, a]));
+      block(`**${l.label}**: ${l.why}\n\n` + l.repos.map((r, i) => {
+        if (r.startsWith('@')) { const a = apps[r.slice(1)]; return `${i + 1}. **${a.title}**: ${a.plain}  \n  [App Store](${a.app_store}) · [Google Play](${a.play})`; }
+        return `${i + 1}. ${projMd(D.projects.find((p) => p.name === r))}`; }).join('\n'));
+    },
+    apps: () => block(intent('apps')),
+    stack: () => block(intent('stack')),
+    ci: () => block(`**${D.ci.ok} of ${D.ci.total}** flagship repos are passing CI right now.\n\n` +
+      D.projects.map((p) => `- ${p.ci === 'pass' ? '🟢' : p.ci === 'fail' ? '🔴' : '⚪'} [${p.title}](${p.url}): ${ciTxt(p.ci)}`).join('\n')),
+    contact: () => block(intent('contact')),
+    hire: () => { block(intent('contact')); line('excellent choice.', 'muted'); },
+    sudo: (arg) => { if (/hire/.test(arg || '')) { line('permission granted. opening email …', 'muted'); location.href = `mailto:${D.profile.email}?subject=Let's%20talk`; } else line('nice try.', 'muted'); },
+    clear: () => { out.innerHTML = ''; },
+    theme: () => $('#theme').click(),
+    ask: (arg) => arg ? block(answer(arg)) : line('usage: ask &lt;question&gt;, or just type the question', 'err'),
+  };
+
+  function run(raw) {
+    const input = raw.trim(); if (!input) return;
+    hist.push(input); hi = hist.length;
+    line(`<b>❯</b> ${esc(input)}`, 'in');
+    const [head, ...rest] = input.split(/\s+/); const fn = C[head.toLowerCase()];
+    if (fn && (rest.length === 0 || ['projects','open','lens','ask','sudo'].includes(head.toLowerCase()))) fn(rest.join(' ').trim());
+    else block(answer(input));
+  }
+
+  $('#form').onsubmit = (e) => { e.preventDefault(); run(cmd.value); cmd.value = ''; };
+  cmd.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowUp' && hi > 0) { cmd.value = hist[--hi]; e.preventDefault(); }
+    else if (e.key === 'ArrowDown') { hi = Math.min(hi + 1, hist.length); cmd.value = hist[hi] || ''; e.preventDefault(); }
+    else if (e.key === 'Tab') { const m = Object.keys(C).find((k) => k.startsWith(cmd.value.toLowerCase())); if (m && cmd.value) { cmd.value = m + ' '; e.preventDefault(); } }
+  });
+
+  // ---------- side panel + lenses
+  function render() {
+    const p = D.profile;
+    $('#name').textContent = p.name; $('#headline').textContent = `${p.headline} · ${p.tagline}`;
+    $('#open').textContent = p.open_to; $('#mail').href = `mailto:${p.email}`;
+    $('#kpis').innerHTML = D.kpis.map(([v, l]) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
+    $('#recent').innerHTML = D.recent.slice(0, 4).map((r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a><small>pushed ${fmt(r.pushed_at)}</small></li>`).join('');
+    $('#langbar').innerHTML = D.languages.map(([n, v], i) => `<span title="${esc(n)} ${v}%" style="width:${v}%;background:var(--ramp${Math.min(i, 7)})"></span>`).join('');
+    $('#legend').innerHTML = D.languages.slice(0, 6).map(([n, v], i) => `<span><i style="background:var(--ramp${i})"></i>${esc(n)} <span style="color:var(--muted)">${v}%</span></span>`).join('');
+    $('#cisum').textContent = `${D.ci.ok}/${D.ci.total}`;
+    $('#ci').innerHTML = D.projects.map((x) => `<i title="${esc(x.title)}: ${ciTxt(x.ci)}" style="background:${x.ci === 'pass' ? 'var(--ok)' : x.ci === 'fail' ? 'var(--bad)' : 'var(--faint)'}"></i>`).join('');
+    $('#lenses').innerHTML = p.lenses.map((l) => `<button class="lens" type="button" data-lens="${esc(l.id)}"><b>${esc(l.label)}</b><span>${esc(l.why)}</span><small>❯ lens ${esc(l.id)}</small></button>`).join('');
+    document.querySelectorAll('.lens').forEach((b) => b.onclick = () => { run(`lens ${b.dataset.lens}`); cmd.focus({preventScroll:true}); $('.term').scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block:'start'}); });
+    const chips = ['whoami', 'now', 'projects', 'lens', 'apps', 'stack', 'ci', ...p.questions.slice(0, 3).map((q) => q.q), 'contact', 'help'];
+    $('#chips').innerHTML = chips.map((c) => `<button class="chip" type="button">${esc(c)}</button>`).join('');
+    document.querySelectorAll('.chip').forEach((b) => b.onclick = () => { run(b.textContent); cmd.focus({preventScroll:true}); });
+    $('#foot').textContent = `Synced ${D.synced} from live GitHub + Hugging Face data · rebuilt hourly by GitHub Actions`;
+  }
+
+  fetch('data.json', {cache: 'no-cache'}).then((r) => r.json()).then((d) => {
+    D = d; render();
+    line(`<span class="muted">${esc(D.profile.name)} · interactive profile · synced ${esc(D.synced)}</span>`);
+    C.whoami();
+    line('Ask anything in plain English (e.g. <b>what are you building right now?</b>), or tap a chip below. Type <b>help</b> for commands.', 'muted');
+  }).catch(() => line('Could not load profile data. Please refresh.', 'err'));
+})();
+</script>
+</body>
+</html>

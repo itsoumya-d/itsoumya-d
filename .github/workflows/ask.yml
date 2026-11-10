@@ -1,0 +1,37 @@
+name: ask-my-readme
+
+# Answers issues titled "ask: <question>" (or labelled "ask") with live data,
+# then asks profile-skin to rebuild so the README's answered-count updates.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+  actions: write
+
+concurrency:
+  group: ask-${{ github.event.issue.number }}
+
+jobs:
+  answer:
+    if: >-
+      github.event.issue.pull_request == null &&
+      (startsWith(github.event.issue.title, 'ask') || contains(github.event.issue.labels.*.name, 'ask'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # The issue title/body are read from $GITHUB_EVENT_PATH inside Python,
+      # never interpolated into this shell script.
+      - name: Answer
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python skin/answer.py
+      - name: Refresh the README counter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run skin.yml --repo "${{ github.repository }}" --ref main
