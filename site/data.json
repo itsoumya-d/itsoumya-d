@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "162",
+   "166",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping HEROS \u00b7 pushed 9 Nov",
+  "shipping loanflow \u00b7 pushed 11 Nov",
   "15/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -457,7 +457,7 @@
     "OPC UA"
    ],
    "url": "https://github.com/itsoumya-d/factory-monitor",
-   "pushed_at": "2026-10-28T23:15:41Z",
+   "pushed_at": "2026-11-11T13:00:23Z",
    "stars": 0,
    "language": "Rust",
    "ci": "pass"
@@ -500,6 +500,12 @@
  ],
  "recent": [
   {
+   "name": "loanflow",
+   "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
+   "pushed_at": "2026-11-11T15:25:46Z",
+   "url": "https://github.com/itsoumya-d/loanflow"
+  },
+  {
    "name": "HEROS",
    "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
    "pushed_at": "2026-11-09T09:14:29Z",
@@ -528,12 +534,6 @@
    "description": "Terraform AWS SaaS baseline: encrypted artifacts bucket and DynamoDB state table with validation and mock plan tests",
    "pushed_at": "2026-11-09T02:55:00Z",
    "url": "https://github.com/itsoumya-d/terraform-aws-saas-baseline"
-  },
-  {
-   "name": "tabular-inference-platform",
-   "description": "Tabular foundation-model serving platform (reference impl): FastAPI + TS-styled frontend, deterministic synthetic inference, SLO and hash-chained audit",
-   "pushed_at": "2026-11-09T02:40:32Z",
-   "url": "https://github.com/itsoumya-d/tabular-inference-platform"
   }
  ],
  "languages": [
@@ -543,7 +543,7 @@
   ],
   [
    "TypeScript",
-   30
+   29
   ],
   [
    "HTML",
@@ -567,7 +567,7 @@
   ],
   [
    "Other",
-   10
+   11
   ]
  ],
  "ci": {
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 9 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 9 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 9 Nov 2026\n- **[terraform-aws-saas-baseline](https://github.com/itsoumya-d/terraform-aws-saas-baseline)**: Terraform AWS SaaS baseline: encrypted artifacts bucket and DynamoDB state table with validation and mock plan tests \u00b7 pushed 9 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 11 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 9 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 9 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 9 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 39%, TypeScript 30%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 39%, TypeScript 29%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
   },
   {
    "id": "apps",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 28 Oct 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 11 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
   }
  ],
  "repo_names": [
@@ -908,6 +908,7 @@
   "eleven-platform-core",
   "embedded-sensor-core",
   "endpoint-compliance-service",
+  "enterprise-iam-scim-core",
   "eplanning-policy-engine",
   "erp-sync-automation",
   "evaboot-verified-lists",
@@ -944,6 +945,7 @@
   "llm-control-plane",
   "loanflow",
   "manufacturing-mrp-service",
+  "mastra-trace-autoevals",
   "materials-data-foundry",
   "meeting-context-harness",
   "meshauth",
@@ -963,6 +965,7 @@
   "planning-assessment-service",
   "portfolio-management-service",
   "pos-offline-sync",
+  "posthog-telemetry-workbench",
   "prospex-cloud-api",
   "pulsenet",
   "qsr-drive-thru-analytics",
@@ -992,6 +995,7 @@
   "tower-claims-next-action",
   "transactional-document-delivery",
   "transport-operations-service",
+  "treasury-maas-gateway",
   "trigger-run-engine",
   "trimium",
   "tucumcari-port-gis",
