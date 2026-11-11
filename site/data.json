@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "152",
+   "162",
    "public repos"
   ],
   [
@@ -539,15 +539,15 @@
  "languages": [
   [
    "Python",
-   40
+   39
   ],
   [
    "TypeScript",
-   27
+   30
   ],
   [
    "HTML",
-   8
+   7
   ],
   [
    "C#",
@@ -555,11 +555,11 @@
   ],
   [
    "JavaScript",
-   4
+   3
   ],
   [
    "Dart",
-   4
+   3
   ],
   [
    "Java",
@@ -567,7 +567,7 @@
   ],
   [
    "Other",
-   9
+   10
   ]
  ],
  "ci": {
@@ -579,7 +579,7 @@
   "label": "contributions in the last year",
   "stats": [
    [
-    "176",
+    "177",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "34d",
+    "35d",
     "current streak"
    ]
   ]
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 40%, TypeScript 27%, HTML 8%, C# 5%, JavaScript 4%, Dart 4%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 39%, TypeScript 30%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
   },
   {
    "id": "apps",
@@ -902,6 +902,8 @@
   "default-project",
   "document-control-api",
   "dotnet-enterprise-api",
+  "durable-agentic-dag",
+  "edge-vision-agent-gateway",
   "edgeinfer",
   "eleven-platform-core",
   "embedded-sensor-core",
@@ -929,6 +931,7 @@
   "henryschein-dental-practice",
   "hostshift",
   "image2code-bench",
+  "incident-drift-detective",
   "industrial-telemetry-service",
   "infor-erp-supply-chain",
   "intercoll-repayment-ops",
@@ -937,14 +940,18 @@
   "lease-finance-service",
   "legacy-strangler-modernization",
   "link-ecu-calibration",
+  "livekit-agent-workbench",
   "llm-control-plane",
   "loanflow",
   "manufacturing-mrp-service",
+  "materials-data-foundry",
+  "meeting-context-harness",
   "meshauth",
   "mobile-native-design-system",
   "motion-mcp",
   "mscp-game",
   "msp-network-ops",
+  "n8n-nodes-gov-guard",
   "namespace-ci-wait-analyzer",
   "navvis-ivion-spatial",
   "nelson-water-credit-autopilot",
@@ -963,10 +970,12 @@
   "rcs-music-scheduler",
   "recare-ai-platform",
   "rent-reconciliation-service",
+  "revenue-watchtower-engine",
   "rlvr-bias-probe",
   "runaway-liveops-core",
   "saas-entitlement-service",
   "school-payments-django",
+  "semantic-metric-studio",
   "settlement-guard",
   "silverstripe-content-review",
   "simbook",
@@ -983,6 +992,7 @@
   "tower-claims-next-action",
   "transactional-document-delivery",
   "transport-operations-service",
+  "trigger-run-engine",
   "trimium",
   "tucumcari-port-gis",
   "tycoon-sim-core",
