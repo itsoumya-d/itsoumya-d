@@ -126,4 +126,4 @@ Click a question and GitHub opens an issue with it already filled in. Submit it,
 
 <br>
 
-<p align="center"><sub>This README rebuilds itself every hour from live GitHub and Hugging Face data · last change 2026-11-11 · engine: <a href="skin/build.py">skin/build.py</a></sub></p>
+<p align="center"><sub>This README rebuilds itself every hour from live GitHub and Hugging Face data · last change 2026-11-12 · engine: <a href="skin/build.py">skin/build.py</a></sub></p>
