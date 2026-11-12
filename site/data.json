@@ -196,7 +196,7 @@
    "public repos"
   ],
   [
-   "15/16",
+   "16/16",
    "CI green"
   ],
   [
@@ -209,8 +209,8 @@
   ]
  ],
  "ticker": [
-  "shipping loanflow \u00b7 pushed 11 Nov",
-  "15/16 flagship systems passing CI right now",
+  "shipping HEROS \u00b7 pushed 12 Nov",
+  "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
  "projects": [
@@ -226,10 +226,10 @@
     "HMAC"
    ],
    "url": "https://github.com/itsoumya-d/HEROS",
-   "pushed_at": "2026-11-09T09:14:29Z",
+   "pushed_at": "2026-11-12T09:51:50Z",
    "stars": 0,
    "language": "JavaScript",
-   "ci": "fail"
+   "ci": "pass"
   },
   {
    "name": "HEROS-Firewall",
@@ -500,16 +500,16 @@
  ],
  "recent": [
   {
+   "name": "HEROS",
+   "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
+   "pushed_at": "2026-11-12T09:51:50Z",
+   "url": "https://github.com/itsoumya-d/HEROS"
+  },
+  {
    "name": "loanflow",
    "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
    "pushed_at": "2026-11-11T15:25:46Z",
    "url": "https://github.com/itsoumya-d/loanflow"
-  },
-  {
-   "name": "HEROS",
-   "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
-   "pushed_at": "2026-11-09T09:14:29Z",
-   "url": "https://github.com/itsoumya-d/HEROS"
   },
   {
    "name": "rlvr-bias-probe",
@@ -571,7 +571,7 @@
   ]
  ],
  "ci": {
-  "ok": 15,
+  "ok": 16,
   "total": 16
  },
  "activity": {
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 11 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 9 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 9 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 9 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 12 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 11 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 9 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 9 Nov 2026"
   },
   {
    "id": "quality",
@@ -667,7 +667,7 @@
     "bugs",
     "discipline"
    ],
-   "md": "Every flagship repo runs CI on each push. Right now **15 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
+   "md": "Every flagship repo runs CI on each push. Right now **16 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
   },
   {
    "id": "relocation",
@@ -792,7 +792,7 @@
     "audit",
     "approval"
    ],
-   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI failing \u00b7 last push 9 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
+   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 12 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
   },
   {
    "id": "lens:research",
