@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-13T01:27:34Z",
+   "pushed_at": "2026-11-13T09:21:53Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -502,13 +502,19 @@
   {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-13T01:27:34Z",
+   "pushed_at": "2026-11-13T09:21:53Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
+  },
+  {
+   "name": "civic-data-integration",
+   "description": "Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit.",
+   "pushed_at": "2026-11-13T08:41:35Z",
+   "url": "https://github.com/itsoumya-d/civic-data-integration"
   },
   {
    "name": "dotnet-enterprise-api",
    "description": "ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests",
-   "pushed_at": "2026-11-13T00:19:49Z",
+   "pushed_at": "2026-11-13T04:11:11Z",
    "url": "https://github.com/itsoumya-d/dotnet-enterprise-api"
   },
   {
@@ -528,12 +534,6 @@
    "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
    "pushed_at": "2026-11-12T09:51:50Z",
    "url": "https://github.com/itsoumya-d/HEROS"
-  },
-  {
-   "name": "loanflow",
-   "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
-   "pushed_at": "2026-11-11T15:25:46Z",
-   "url": "https://github.com/itsoumya-d/loanflow"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3052,
+  "total": 3078,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 12 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 12 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[civic-data-integration](https://github.com/itsoumya-d/civic-data-integration)**: Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit. \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 12 Nov 2026"
   },
   {
    "id": "quality",
