@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-12",
+ "synced": "2026-11-13",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping llm-control-plane \u00b7 pushed 12 Nov",
+  "shipping llm-control-plane \u00b7 pushed 13 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-12T13:29:59Z",
+   "pushed_at": "2026-11-13T01:27:34Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -440,7 +440,7 @@
    ],
    "demo": "https://itsoumya-d.github.io/go-ledger/",
    "url": "https://github.com/itsoumya-d/go-ledger",
-   "pushed_at": "2026-11-09T03:02:45Z",
+   "pushed_at": "2026-11-12T23:10:07Z",
    "stars": 0,
    "language": "Go",
    "ci": "pass"
@@ -502,14 +502,26 @@
   {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-12T13:29:59Z",
+   "pushed_at": "2026-11-13T01:27:34Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
    "name": "dotnet-enterprise-api",
    "description": "ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests",
-   "pushed_at": "2026-11-12T12:56:17Z",
+   "pushed_at": "2026-11-13T00:19:49Z",
    "url": "https://github.com/itsoumya-d/dotnet-enterprise-api"
+  },
+  {
+   "name": "go-ledger",
+   "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
+   "pushed_at": "2026-11-12T23:10:07Z",
+   "url": "https://github.com/itsoumya-d/go-ledger"
+  },
+  {
+   "name": "cloud-security-posture",
+   "description": "Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit.",
+   "pushed_at": "2026-11-12T23:04:48Z",
+   "url": "https://github.com/itsoumya-d/cloud-security-posture"
   },
   {
    "name": "HEROS",
@@ -522,24 +534,12 @@
    "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
    "pushed_at": "2026-11-11T15:25:46Z",
    "url": "https://github.com/itsoumya-d/loanflow"
-  },
-  {
-   "name": "rlvr-bias-probe",
-   "description": "CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds).",
-   "pushed_at": "2026-11-09T06:59:31Z",
-   "url": "https://github.com/itsoumya-d/rlvr-bias-probe"
-  },
-  {
-   "name": "edgeinfer",
-   "description": "Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine",
-   "pushed_at": "2026-11-09T06:39:02Z",
-   "url": "https://github.com/itsoumya-d/edgeinfer"
   }
  ],
  "languages": [
   [
    "Python",
-   39
+   40
   ],
   [
    "TypeScript",
@@ -567,7 +567,7 @@
   ],
   [
    "Other",
-   11
+   10
   ]
  ],
  "ci": {
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3040,
+  "total": 3052,
   "label": "contributions in the last year",
   "stats": [
    [
-    "178",
+    "179",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "36d",
+    "37d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 12 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 12 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 12 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 11 Nov 2026\n- **[rlvr-bias-probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: CPU-only GRPO vs Dr.GRPO length-bias experiment (synthetic verifiable-reward env, deterministic seeds). \u00b7 pushed 9 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 12 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 12 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 39%, TypeScript 29%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 40%, TypeScript 29%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
   },
   {
    "id": "apps",
@@ -777,7 +777,7 @@
     "cost",
     "observability"
    ],
-   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 12 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
+   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 13 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
   },
   {
    "id": "lens:safety",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 11 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 12 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 11 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
   }
  ],
  "repo_names": [
