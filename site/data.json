@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping llm-control-plane \u00b7 pushed 13 Nov",
+  "shipping hb-m365-onboarding \u00b7 pushed 13 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-13T09:21:53Z",
+   "pushed_at": "2026-11-13T12:45:08Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,9 +500,15 @@
  ],
  "recent": [
   {
+   "name": "hb-m365-onboarding",
+   "description": "TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover",
+   "pushed_at": "2026-11-13T13:09:17Z",
+   "url": "https://github.com/itsoumya-d/hb-m365-onboarding"
+  },
+  {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-13T09:21:53Z",
+   "pushed_at": "2026-11-13T12:45:08Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
@@ -528,12 +534,6 @@
    "description": "Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit.",
    "pushed_at": "2026-11-12T23:04:48Z",
    "url": "https://github.com/itsoumya-d/cloud-security-posture"
-  },
-  {
-   "name": "HEROS",
-   "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
-   "pushed_at": "2026-11-12T09:51:50Z",
-   "url": "https://github.com/itsoumya-d/HEROS"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3078,
+  "total": 3090,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[civic-data-integration](https://github.com/itsoumya-d/civic-data-integration)**: Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit. \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 12 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[hb-m365-onboarding](https://github.com/itsoumya-d/hb-m365-onboarding)**: TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover \u00b7 pushed 13 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[civic-data-integration](https://github.com/itsoumya-d/civic-data-integration)**: Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit. \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026"
   },
   {
    "id": "quality",
