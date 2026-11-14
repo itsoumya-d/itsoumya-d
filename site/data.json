@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-13",
+ "synced": "2026-11-14",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping hb-m365-onboarding \u00b7 pushed 13 Nov",
+  "shipping llm-control-plane \u00b7 pushed 14 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-13T12:45:08Z",
+   "pushed_at": "2026-11-14T06:08:19Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "hb-m365-onboarding",
-   "description": "TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover",
-   "pushed_at": "2026-11-13T13:09:17Z",
-   "url": "https://github.com/itsoumya-d/hb-m365-onboarding"
-  },
-  {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-13T12:45:08Z",
+   "pushed_at": "2026-11-14T06:08:19Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
-   "name": "civic-data-integration",
-   "description": "Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit.",
-   "pushed_at": "2026-11-13T08:41:35Z",
-   "url": "https://github.com/itsoumya-d/civic-data-integration"
+   "name": "pos-offline-sync",
+   "description": "Offline-first POS sync service: devices, idempotent orders, outbox retries, stock reconciliation and audit.",
+   "pushed_at": "2026-11-14T05:49:33Z",
+   "url": "https://github.com/itsoumya-d/pos-offline-sync"
   },
   {
-   "name": "dotnet-enterprise-api",
-   "description": "ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests",
-   "pushed_at": "2026-11-13T04:11:11Z",
-   "url": "https://github.com/itsoumya-d/dotnet-enterprise-api"
-  },
-  {
-   "name": "go-ledger",
-   "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
-   "pushed_at": "2026-11-12T23:10:07Z",
-   "url": "https://github.com/itsoumya-d/go-ledger"
+   "name": "fhir-interoperability-service",
+   "description": "FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit",
+   "pushed_at": "2026-11-14T03:23:33Z",
+   "url": "https://github.com/itsoumya-d/fhir-interoperability-service"
   },
   {
    "name": "cloud-security-posture",
    "description": "Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit.",
-   "pushed_at": "2026-11-12T23:04:48Z",
+   "pushed_at": "2026-11-14T02:51:34Z",
    "url": "https://github.com/itsoumya-d/cloud-security-posture"
+  },
+  {
+   "name": "agri-ops-data-pipeline",
+   "description": "Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models.",
+   "pushed_at": "2026-11-14T01:53:54Z",
+   "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
+  },
+  {
+   "name": "hb-m365-onboarding",
+   "description": "TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover",
+   "pushed_at": "2026-11-13T13:09:17Z",
+   "url": "https://github.com/itsoumya-d/hb-m365-onboarding"
   }
  ],
  "languages": [
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3090,
+  "total": 3114,
   "label": "contributions in the last year",
   "stats": [
    [
-    "179",
+    "180",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "37d",
+    "38d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[hb-m365-onboarding](https://github.com/itsoumya-d/hb-m365-onboarding)**: TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover \u00b7 pushed 13 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 13 Nov 2026\n- **[civic-data-integration](https://github.com/itsoumya-d/civic-data-integration)**: Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit. \u00b7 pushed 13 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 13 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 12 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 14 Nov 2026\n- **[pos-offline-sync](https://github.com/itsoumya-d/pos-offline-sync)**: Offline-first POS sync service: devices, idempotent orders, outbox retries, stock reconciliation and audit. \u00b7 pushed 14 Nov 2026\n- **[fhir-interoperability-service](https://github.com/itsoumya-d/fhir-interoperability-service)**: FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit \u00b7 pushed 14 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 14 Nov 2026\n- **[agri-ops-data-pipeline](https://github.com/itsoumya-d/agri-ops-data-pipeline)**: Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models. \u00b7 pushed 14 Nov 2026"
   },
   {
    "id": "quality",
@@ -777,7 +777,7 @@
     "cost",
     "observability"
    ],
-   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 13 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
+   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 14 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
   },
   {
    "id": "lens:safety",
