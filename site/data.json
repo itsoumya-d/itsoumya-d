@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-14T06:08:19Z",
+   "pushed_at": "2026-11-14T13:45:58Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -502,8 +502,14 @@
   {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-14T06:08:19Z",
+   "pushed_at": "2026-11-14T13:45:58Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
+  },
+  {
+   "name": "hb-m365-onboarding",
+   "description": "TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover",
+   "pushed_at": "2026-11-14T07:15:51Z",
+   "url": "https://github.com/itsoumya-d/hb-m365-onboarding"
   },
   {
    "name": "pos-offline-sync",
@@ -528,12 +534,6 @@
    "description": "Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models.",
    "pushed_at": "2026-11-14T01:53:54Z",
    "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
-  },
-  {
-   "name": "hb-m365-onboarding",
-   "description": "TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover",
-   "pushed_at": "2026-11-13T13:09:17Z",
-   "url": "https://github.com/itsoumya-d/hb-m365-onboarding"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3114,
+  "total": 3161,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 14 Nov 2026\n- **[pos-offline-sync](https://github.com/itsoumya-d/pos-offline-sync)**: Offline-first POS sync service: devices, idempotent orders, outbox retries, stock reconciliation and audit. \u00b7 pushed 14 Nov 2026\n- **[fhir-interoperability-service](https://github.com/itsoumya-d/fhir-interoperability-service)**: FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit \u00b7 pushed 14 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 14 Nov 2026\n- **[agri-ops-data-pipeline](https://github.com/itsoumya-d/agri-ops-data-pipeline)**: Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models. \u00b7 pushed 14 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 14 Nov 2026\n- **[hb-m365-onboarding](https://github.com/itsoumya-d/hb-m365-onboarding)**: TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover \u00b7 pushed 14 Nov 2026\n- **[pos-offline-sync](https://github.com/itsoumya-d/pos-offline-sync)**: Offline-first POS sync service: devices, idempotent orders, outbox retries, stock reconciliation and audit. \u00b7 pushed 14 Nov 2026\n- **[fhir-interoperability-service](https://github.com/itsoumya-d/fhir-interoperability-service)**: FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit \u00b7 pushed 14 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 14 Nov 2026"
   },
   {
    "id": "quality",
