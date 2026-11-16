@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping llm-control-plane \u00b7 pushed 16 Nov",
+  "shipping data-platform-reference \u00b7 pushed 16 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-16T10:26:25Z",
+   "pushed_at": "2026-11-16T12:31:27Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,9 +500,15 @@
  ],
  "recent": [
   {
+   "name": "data-platform-reference",
+   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
+   "pushed_at": "2026-11-16T13:11:08Z",
+   "url": "https://github.com/itsoumya-d/data-platform-reference"
+  },
+  {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-16T10:26:25Z",
+   "pushed_at": "2026-11-16T12:31:27Z",
    "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
@@ -516,12 +522,6 @@
    "description": "Watercare asset hierarchy, criticality, maintenance and lineage data product",
    "pushed_at": "2026-11-16T00:37:06Z",
    "url": "https://github.com/itsoumya-d/watercare-asset-data-product"
-  },
-  {
-   "name": "data-platform-reference",
-   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
-   "pushed_at": "2026-11-15T23:58:39Z",
-   "url": "https://github.com/itsoumya-d/data-platform-reference"
   },
   {
    "name": "hb-m365-onboarding",
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3235,
+  "total": 3243,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 16 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 16 Nov 2026\n- **[watercare-asset-data-product](https://github.com/itsoumya-d/watercare-asset-data-product)**: Watercare asset hierarchy, criticality, maintenance and lineage data product \u00b7 pushed 16 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 15 Nov 2026\n- **[hb-m365-onboarding](https://github.com/itsoumya-d/hb-m365-onboarding)**: TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover \u00b7 pushed 14 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 16 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 16 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 16 Nov 2026\n- **[watercare-asset-data-product](https://github.com/itsoumya-d/watercare-asset-data-product)**: Watercare asset hierarchy, criticality, maintenance and lineage data product \u00b7 pushed 16 Nov 2026\n- **[hb-m365-onboarding](https://github.com/itsoumya-d/hb-m365-onboarding)**: TypeScript/Node Microsoft 365 onboarding readiness: stage gates, license true-up, DNS, migration and handover \u00b7 pushed 14 Nov 2026"
   },
   {
    "id": "quality",
