@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping llm-control-plane \u00b7 pushed 18 Nov",
+  "shipping loanflow \u00b7 pushed 18 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -500,6 +500,12 @@
  ],
  "recent": [
   {
+   "name": "loanflow",
+   "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
+   "pushed_at": "2026-11-18T15:26:01Z",
+   "url": "https://github.com/itsoumya-d/loanflow"
+  },
+  {
    "name": "llm-control-plane",
    "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
    "pushed_at": "2026-11-18T12:50:01Z",
@@ -528,12 +534,6 @@
    "description": "Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models.",
    "pushed_at": "2026-11-17T11:01:24Z",
    "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
-  },
-  {
-   "name": "civic-data-integration",
-   "description": "Council and utility data integration reference: mapping, validation, idempotent asset sync, reconciliation, dead letters and audit.",
-   "pushed_at": "2026-11-17T10:27:27Z",
-   "url": "https://github.com/itsoumya-d/civic-data-integration"
   }
  ],
  "languages": [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 18 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 18 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 18 Nov 2026\n- **[railway-container-orchestrator](https://github.com/itsoumya-d/railway-container-orchestrator)**: TypeScript GraphQL container orchestrator with deployment doctor \u00b7 pushed 17 Nov 2026\n- **[agri-ops-data-pipeline](https://github.com/itsoumya-d/agri-ops-data-pipeline)**: Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models. \u00b7 pushed 17 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 18 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 18 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 18 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 18 Nov 2026\n- **[railway-container-orchestrator](https://github.com/itsoumya-d/railway-container-orchestrator)**: TypeScript GraphQL container orchestrator with deployment doctor \u00b7 pushed 17 Nov 2026"
   },
   {
    "id": "quality",
