@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-18",
+ "synced": "2026-11-19",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping loanflow \u00b7 pushed 18 Nov",
+  "shipping oracle-fusion-integration-service \u00b7 pushed 19 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-18T12:50:01Z",
+   "pushed_at": "2026-11-19T00:48:40Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
+   "name": "oracle-fusion-integration-service",
+   "description": "Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit",
+   "pushed_at": "2026-11-19T02:40:33Z",
+   "url": "https://github.com/itsoumya-d/oracle-fusion-integration-service"
+  },
+  {
+   "name": "data-platform-reference",
+   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
+   "pushed_at": "2026-11-19T01:42:46Z",
+   "url": "https://github.com/itsoumya-d/data-platform-reference"
+  },
+  {
+   "name": "llm-control-plane",
+   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
+   "pushed_at": "2026-11-19T00:48:40Z",
+   "url": "https://github.com/itsoumya-d/llm-control-plane"
+  },
+  {
+   "name": "genai-tooling-evals",
+   "description": "GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps",
+   "pushed_at": "2026-11-19T00:12:37Z",
+   "url": "https://github.com/itsoumya-d/genai-tooling-evals"
+  },
+  {
    "name": "loanflow",
    "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
    "pushed_at": "2026-11-18T15:26:01Z",
    "url": "https://github.com/itsoumya-d/loanflow"
   },
   {
-   "name": "llm-control-plane",
-   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-18T12:50:01Z",
-   "url": "https://github.com/itsoumya-d/llm-control-plane"
-  },
-  {
-   "name": "data-platform-reference",
-   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
-   "pushed_at": "2026-11-18T10:39:36Z",
-   "url": "https://github.com/itsoumya-d/data-platform-reference"
-  },
-  {
    "name": "go-ledger",
    "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
    "pushed_at": "2026-11-18T09:31:42Z",
    "url": "https://github.com/itsoumya-d/go-ledger"
-  },
-  {
-   "name": "railway-container-orchestrator",
-   "description": "TypeScript GraphQL container orchestrator with deployment doctor",
-   "pushed_at": "2026-11-17T13:20:57Z",
-   "url": "https://github.com/itsoumya-d/railway-container-orchestrator"
-  },
-  {
-   "name": "agri-ops-data-pipeline",
-   "description": "Tested agri-tech operations data pipeline: field events, contractor/biosecurity compliance and warehouse models.",
-   "pushed_at": "2026-11-17T11:01:24Z",
-   "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
   }
  ],
  "languages": [
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3298,
+  "total": 3310,
   "label": "contributions in the last year",
   "stats": [
    [
-    "183",
+    "184",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "42d",
+    "43d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 18 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 18 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 18 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 18 Nov 2026\n- **[railway-container-orchestrator](https://github.com/itsoumya-d/railway-container-orchestrator)**: TypeScript GraphQL container orchestrator with deployment doctor \u00b7 pushed 17 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[oracle-fusion-integration-service](https://github.com/itsoumya-d/oracle-fusion-integration-service)**: Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit \u00b7 pushed 19 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 19 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 19 Nov 2026\n- **[genai-tooling-evals](https://github.com/itsoumya-d/genai-tooling-evals)**: GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps \u00b7 pushed 19 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 18 Nov 2026"
   },
   {
    "id": "quality",
@@ -777,7 +777,7 @@
     "cost",
     "observability"
    ],
-   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
+   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 19 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
   },
   {
    "id": "lens:safety",
