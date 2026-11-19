@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping oracle-fusion-integration-service \u00b7 pushed 19 Nov",
+  "shipping flux-billing-reconciliation \u00b7 pushed 19 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -500,16 +500,22 @@
  ],
  "recent": [
   {
-   "name": "oracle-fusion-integration-service",
-   "description": "Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit",
-   "pushed_at": "2026-11-19T02:40:33Z",
-   "url": "https://github.com/itsoumya-d/oracle-fusion-integration-service"
+   "name": "flux-billing-reconciliation",
+   "description": "TypeScript interval energy billing reconciliation for tariff, demand and export variance",
+   "pushed_at": "2026-11-19T11:45:36Z",
+   "url": "https://github.com/itsoumya-d/flux-billing-reconciliation"
   },
   {
    "name": "data-platform-reference",
    "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
-   "pushed_at": "2026-11-19T01:42:46Z",
+   "pushed_at": "2026-11-19T09:56:47Z",
    "url": "https://github.com/itsoumya-d/data-platform-reference"
+  },
+  {
+   "name": "oracle-fusion-integration-service",
+   "description": "Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit",
+   "pushed_at": "2026-11-19T02:40:33Z",
+   "url": "https://github.com/itsoumya-d/oracle-fusion-integration-service"
   },
   {
    "name": "llm-control-plane",
@@ -528,12 +534,6 @@
    "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
    "pushed_at": "2026-11-18T15:26:01Z",
    "url": "https://github.com/itsoumya-d/loanflow"
-  },
-  {
-   "name": "go-ledger",
-   "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
-   "pushed_at": "2026-11-18T09:31:42Z",
-   "url": "https://github.com/itsoumya-d/go-ledger"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3310,
+  "total": 3314,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[oracle-fusion-integration-service](https://github.com/itsoumya-d/oracle-fusion-integration-service)**: Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit \u00b7 pushed 19 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 19 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 19 Nov 2026\n- **[genai-tooling-evals](https://github.com/itsoumya-d/genai-tooling-evals)**: GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps \u00b7 pushed 19 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 18 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[flux-billing-reconciliation](https://github.com/itsoumya-d/flux-billing-reconciliation)**: TypeScript interval energy billing reconciliation for tariff, demand and export variance \u00b7 pushed 19 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 19 Nov 2026\n- **[oracle-fusion-integration-service](https://github.com/itsoumya-d/oracle-fusion-integration-service)**: Oracle Fusion Cloud ERP/SCM integration: OAuth2, idempotent outbox, retries, dead letters, audit \u00b7 pushed 19 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 19 Nov 2026\n- **[genai-tooling-evals](https://github.com/itsoumya-d/genai-tooling-evals)**: GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps \u00b7 pushed 19 Nov 2026"
   },
   {
    "id": "quality",
