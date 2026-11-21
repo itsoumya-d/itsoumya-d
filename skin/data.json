@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "86fd81aca36ca7b7",
+ "hash": "e999d9f1a8381142",
  "live": {
   "activity": {
    "days": {
@@ -358,7 +358,7 @@
     "2026-11-02": 23,
     "2026-11-03": 31,
     "2026-11-04": 8,
-    "2026-11-05": 91,
+    "2026-11-05": 89,
     "2026-11-06": 49,
     "2026-11-07": 11,
     "2026-11-08": 8,
@@ -374,11 +374,11 @@
     "2026-11-18": 24,
     "2026-11-19": 16,
     "2026-11-20": 19,
-    "2026-11-21": 0
+    "2026-11-21": 35
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3333
+   "total": 3366
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -1028,8 +1028,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-05T08:52:46Z",
-    "size": 32,
+    "pushed_at": "2026-11-21T08:16:29Z",
+    "size": 163,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/client-delivery-api"
    },
@@ -1067,8 +1067,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-14T02:51:34Z",
-    "size": 24,
+    "pushed_at": "2026-11-21T06:57:50Z",
+    "size": 43,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/cloud-security-posture"
    },
@@ -1249,7 +1249,7 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-20T06:46:18Z",
+    "pushed_at": "2026-11-21T09:53:09Z",
     "size": 23,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/durable-agentic-dag"
@@ -1683,6 +1683,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/intercoll-repayment-ops"
    },
+   "ios-reactive-banking-core": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Swift",
+    "pushed_at": "2026-11-21T05:15:46Z",
+    "size": 24,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ios-reactive-banking-core"
+   },
    "itsoumya-d": {
     "archived": false,
     "default_branch": "main",
@@ -1691,8 +1704,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-20T20:20:11Z",
-    "size": 463,
+    "pushed_at": "2026-11-21T02:14:45Z",
+    "size": 470,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -1821,8 +1834,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-11T06:45:59Z",
-    "size": 13,
+    "pushed_at": "2026-11-21T04:24:46Z",
+    "size": 21,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/materials-data-foundry"
    },
@@ -2645,6 +2658,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/watercare-asset-data-product"
    },
+   "workspace-sync-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput real-time collaborative workspace state engine in async Python with CDC outbox and audit trails.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-21T03:15:58Z",
+    "size": 83,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/workspace-sync-engine"
+   },
    "zeroq": {
     "archived": false,
     "default_branch": "main",
@@ -2668,7 +2694,7 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 166
+   "public_repos": 168
   }
  },
  "synced": "2026-11-21"
