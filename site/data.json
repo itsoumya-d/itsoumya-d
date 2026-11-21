@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping client-delivery-api \u00b7 pushed 21 Nov",
+  "shipping autopilot-fde \u00b7 pushed 21 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -474,7 +474,7 @@
     "LangGraph"
    ],
    "url": "https://github.com/itsoumya-d/autopilot-fde",
-   "pushed_at": "2026-10-29T07:52:25Z",
+   "pushed_at": "2026-11-21T23:15:56Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -499,6 +499,12 @@
   }
  ],
  "recent": [
+  {
+   "name": "autopilot-fde",
+   "description": "AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents.",
+   "pushed_at": "2026-11-21T23:15:56Z",
+   "url": "https://github.com/itsoumya-d/autopilot-fde"
+  },
   {
    "name": "client-delivery-api",
    "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
@@ -528,12 +534,6 @@
    "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
    "pushed_at": "2026-11-20T11:48:18Z",
    "url": "https://github.com/itsoumya-d/data-platform-reference"
-  },
-  {
-   "name": "solar-telemetry-pipeline",
-   "description": "Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit.",
-   "pushed_at": "2026-11-20T11:31:55Z",
-   "url": "https://github.com/itsoumya-d/solar-telemetry-pipeline"
   }
  ],
  "languages": [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 21 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 21 Nov 2026\n- **[workspace-sync-engine](https://github.com/itsoumya-d/workspace-sync-engine)**: High-throughput real-time collaborative workspace state engine in async Python with CDC outbox and audit trails. \u00b7 pushed 21 Nov 2026\n- **[industrial-telemetry-service](https://github.com/itsoumya-d/industrial-telemetry-service)**: Industrial telemetry backend: devices, tags, idempotent readings, thresholds, alarms, offline detection, audit \u00b7 pushed 20 Nov 2026\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 20 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[autopilot-fde](https://github.com/itsoumya-d/autopilot-fde)**: AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents. \u00b7 pushed 21 Nov 2026\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 21 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 21 Nov 2026\n- **[workspace-sync-engine](https://github.com/itsoumya-d/workspace-sync-engine)**: High-throughput real-time collaborative workspace state engine in async Python with CDC outbox and audit trails. \u00b7 pushed 21 Nov 2026\n- **[industrial-telemetry-service](https://github.com/itsoumya-d/industrial-telemetry-service)**: Industrial telemetry backend: devices, tags, idempotent readings, thresholds, alarms, offline detection, audit \u00b7 pushed 20 Nov 2026"
   },
   {
    "id": "quality",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 18 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 29 Oct 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 18 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
