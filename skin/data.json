@@ -1,16 +1,9 @@
 {
  "answered": 0,
- "hash": "3c621159187fd1b3",
+ "hash": "05084d1e769a0bb2",
  "live": {
   "activity": {
    "days": {
-    "2025-11-16": 1,
-    "2025-11-17": 0,
-    "2025-11-18": 0,
-    "2025-11-19": 0,
-    "2025-11-20": 0,
-    "2025-11-21": 0,
-    "2025-11-22": 0,
     "2025-11-23": 0,
     "2025-11-24": 0,
     "2025-11-25": 1,
@@ -358,7 +351,7 @@
     "2026-11-02": 23,
     "2026-11-03": 31,
     "2026-11-04": 8,
-    "2026-11-05": 89,
+    "2026-11-05": 87,
     "2026-11-06": 49,
     "2026-11-07": 11,
     "2026-11-08": 8,
@@ -374,11 +367,12 @@
     "2026-11-18": 24,
     "2026-11-19": 16,
     "2026-11-20": 19,
-    "2026-11-21": 38
+    "2026-11-21": 39,
+    "2026-11-22": 19
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3369
+   "total": 3387
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -436,10 +430,10 @@
     "url": "https://github.com/itsoumya-d/RouteLLM-Gateway/actions/runs/41815647755"
    },
    "autopilot-fde": {
-    "at": "2026-10-28",
+    "at": "2026-11-21",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/autopilot-fde/actions/runs/40625588655"
+    "url": "https://github.com/itsoumya-d/autopilot-fde/actions/runs/44962169106"
    },
    "edgeinfer": {
     "at": "2026-11-09",
@@ -786,6 +780,19 @@
     "stars": 1,
     "url": "https://github.com/itsoumya-d/allrtc"
    },
+   "android-offline-sync-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Kotlin",
+    "pushed_at": "2026-11-22T00:07:01Z",
+    "size": 57,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/android-offline-sync-engine"
+   },
    "assessment-platform": {
     "archived": false,
     "default_branch": "main",
@@ -833,8 +840,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-21T23:15:56Z",
-    "size": 631,
+    "pushed_at": "2026-11-21T23:30:56Z",
+    "size": 627,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/autopilot-fde"
    },
@@ -1093,7 +1100,7 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-05T03:27:44Z",
+    "pushed_at": "2026-11-22T02:51:00Z",
     "size": 8,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/commerce-erp-sync"
@@ -1249,8 +1256,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-21T10:21:21Z",
-    "size": 62,
+    "pushed_at": "2026-11-22T01:31:15Z",
+    "size": 70,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/durable-agentic-dag"
    },
@@ -1704,8 +1711,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-21T17:32:16Z",
-    "size": 473,
+    "pushed_at": "2026-11-21T23:16:55Z",
+    "size": 482,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2021,6 +2028,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/parrot-demand-evidence"
    },
+   "payment-ledger-pipeline": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": null,
+    "pushed_at": "2026-11-22T01:17:11Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/payment-ledger-pipeline"
+   },
    "peervault": {
     "archived": false,
     "default_branch": "main",
@@ -2263,8 +2283,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-20T07:59:19Z",
-    "size": 205,
+    "pushed_at": "2026-11-22T00:25:51Z",
+    "size": 211,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/settlement-guard"
    },
@@ -2315,7 +2335,7 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-20T11:31:55Z",
+    "pushed_at": "2026-11-22T02:46:43Z",
     "size": 26,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/solar-telemetry-pipeline"
@@ -2694,8 +2714,8 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 168
+   "public_repos": 170
   }
  },
- "synced": "2026-11-21"
+ "synced": "2026-11-22"
 }

@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-21",
+ "synced": "2026-11-22",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "168",
+   "170",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping autopilot-fde \u00b7 pushed 21 Nov",
+  "shipping commerce-erp-sync \u00b7 pushed 22 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -474,7 +474,7 @@
     "LangGraph"
    ],
    "url": "https://github.com/itsoumya-d/autopilot-fde",
-   "pushed_at": "2026-11-21T23:15:56Z",
+   "pushed_at": "2026-11-21T23:30:56Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,9 +500,33 @@
  ],
  "recent": [
   {
+   "name": "commerce-erp-sync",
+   "description": "Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit.",
+   "pushed_at": "2026-11-22T02:51:00Z",
+   "url": "https://github.com/itsoumya-d/commerce-erp-sync"
+  },
+  {
+   "name": "solar-telemetry-pipeline",
+   "description": "Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit.",
+   "pushed_at": "2026-11-22T02:46:43Z",
+   "url": "https://github.com/itsoumya-d/solar-telemetry-pipeline"
+  },
+  {
+   "name": "payment-ledger-pipeline",
+   "description": "Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline",
+   "pushed_at": "2026-11-22T01:17:11Z",
+   "url": "https://github.com/itsoumya-d/payment-ledger-pipeline"
+  },
+  {
+   "name": "android-offline-sync-engine",
+   "description": "Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff",
+   "pushed_at": "2026-11-22T00:07:01Z",
+   "url": "https://github.com/itsoumya-d/android-offline-sync-engine"
+  },
+  {
    "name": "autopilot-fde",
    "description": "AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents.",
-   "pushed_at": "2026-11-21T23:15:56Z",
+   "pushed_at": "2026-11-21T23:30:56Z",
    "url": "https://github.com/itsoumya-d/autopilot-fde"
   },
   {
@@ -510,36 +534,12 @@
    "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
    "pushed_at": "2026-11-21T08:16:29Z",
    "url": "https://github.com/itsoumya-d/client-delivery-api"
-  },
-  {
-   "name": "cloud-security-posture",
-   "description": "Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit.",
-   "pushed_at": "2026-11-21T06:57:50Z",
-   "url": "https://github.com/itsoumya-d/cloud-security-posture"
-  },
-  {
-   "name": "workspace-sync-engine",
-   "description": "High-throughput real-time collaborative workspace state engine in async Python with CDC outbox and audit trails.",
-   "pushed_at": "2026-11-21T03:15:58Z",
-   "url": "https://github.com/itsoumya-d/workspace-sync-engine"
-  },
-  {
-   "name": "industrial-telemetry-service",
-   "description": "Industrial telemetry backend: devices, tags, idempotent readings, thresholds, alarms, offline detection, audit",
-   "pushed_at": "2026-11-20T12:06:51Z",
-   "url": "https://github.com/itsoumya-d/industrial-telemetry-service"
-  },
-  {
-   "name": "data-platform-reference",
-   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
-   "pushed_at": "2026-11-20T11:48:18Z",
-   "url": "https://github.com/itsoumya-d/data-platform-reference"
   }
  ],
  "languages": [
   [
    "Python",
-   41
+   40
   ],
   [
    "TypeScript",
@@ -567,7 +567,7 @@
   ],
   [
    "Other",
-   11
+   12
   ]
  ],
  "ci": {
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3369,
+  "total": 3387,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "45d",
+    "46d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[autopilot-fde](https://github.com/itsoumya-d/autopilot-fde)**: AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents. \u00b7 pushed 21 Nov 2026\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 21 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 21 Nov 2026\n- **[workspace-sync-engine](https://github.com/itsoumya-d/workspace-sync-engine)**: High-throughput real-time collaborative workspace state engine in async Python with CDC outbox and audit trails. \u00b7 pushed 21 Nov 2026\n- **[industrial-telemetry-service](https://github.com/itsoumya-d/industrial-telemetry-service)**: Industrial telemetry backend: devices, tags, idempotent readings, thresholds, alarms, offline detection, audit \u00b7 pushed 20 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[commerce-erp-sync](https://github.com/itsoumya-d/commerce-erp-sync)**: Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit. \u00b7 pushed 22 Nov 2026\n- **[solar-telemetry-pipeline](https://github.com/itsoumya-d/solar-telemetry-pipeline)**: Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit. \u00b7 pushed 22 Nov 2026\n- **[payment-ledger-pipeline](https://github.com/itsoumya-d/payment-ledger-pipeline)**: Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline \u00b7 pushed 22 Nov 2026\n- **[android-offline-sync-engine](https://github.com/itsoumya-d/android-offline-sync-engine)**: Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff \u00b7 pushed 22 Nov 2026\n- **[autopilot-fde](https://github.com/itsoumya-d/autopilot-fde)**: AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents. \u00b7 pushed 21 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 41%, TypeScript 28%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 40%, TypeScript 28%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
   },
   {
    "id": "apps",
@@ -869,6 +869,7 @@
   "agri-ops-data-pipeline",
   "aimer-pos-settlement",
   "allrtc",
+  "android-offline-sync-engine",
   "assessment-platform",
   "assurity-test-intelligence",
   "auction-reliability",
@@ -962,6 +963,7 @@
   "oracle-fusion-integration-service",
   "oracle-oci-cost-guard",
   "parrot-demand-evidence",
+  "payment-ledger-pipeline",
   "peervault",
   "planning-assessment-service",
   "portfolio-management-service",
