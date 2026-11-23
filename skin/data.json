@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "4779b04f35a4a922",
+ "hash": "2e50f78522ecc0e0",
  "live": {
   "activity": {
    "days": {
@@ -351,7 +351,7 @@
     "2026-11-02": 23,
     "2026-11-03": 31,
     "2026-11-04": 8,
-    "2026-11-05": 87,
+    "2026-11-05": 85,
     "2026-11-06": 49,
     "2026-11-07": 11,
     "2026-11-08": 8,
@@ -369,11 +369,11 @@
     "2026-11-20": 19,
     "2026-11-21": 39,
     "2026-11-22": 27,
-    "2026-11-23": 40
+    "2026-11-23": 69
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3434
+   "total": 3461
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -802,8 +802,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-22T11:12:00Z",
-    "size": 39,
+    "pushed_at": "2026-11-23T10:45:09Z",
+    "size": 45,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/assessment-platform"
    },
@@ -1166,8 +1166,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Java",
-    "pushed_at": "2026-11-06T03:21:17Z",
-    "size": 125,
+    "pushed_at": "2026-11-23T12:49:56Z",
+    "size": 130,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/cross-border-mobility-compliance"
    },
@@ -1257,8 +1257,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-23T08:01:15Z",
-    "size": 91,
+    "pushed_at": "2026-11-23T12:12:07Z",
+    "size": 106,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/durable-agentic-dag"
    },
@@ -1269,9 +1269,9 @@
     "fork": false,
     "forks": 0,
     "homepage": "",
-    "language": "TypeScript",
-    "pushed_at": "2026-11-11T06:48:11Z",
-    "size": 14,
+    "language": "Python",
+    "pushed_at": "2026-11-23T11:33:36Z",
+    "size": 18,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/edge-vision-agent-gateway"
    },
@@ -1504,8 +1504,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-19T00:12:37Z",
-    "size": 23,
+    "pushed_at": "2026-11-23T11:04:24Z",
+    "size": 28,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/genai-tooling-evals"
    },
@@ -1712,8 +1712,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-23T00:54:02Z",
-    "size": 518,
+    "pushed_at": "2026-11-23T09:06:12Z",
+    "size": 528,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -1894,8 +1894,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-10-08T13:24:58Z",
-    "size": 2260,
+    "pushed_at": "2026-11-23T10:31:14Z",
+    "size": 2280,
     "stars": 3,
     "url": "https://github.com/itsoumya-d/motion-mcp"
    },
@@ -2102,8 +2102,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-23T05:10:39Z",
-    "size": 11,
+    "pushed_at": "2026-11-23T09:55:02Z",
+    "size": 14,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/posthog-telemetry-workbench"
    },
@@ -2206,8 +2206,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-23T08:46:49Z",
-    "size": 13,
+    "pushed_at": "2026-11-23T09:23:50Z",
+    "size": 20,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/revenue-watchtower-engine"
    },
@@ -2223,6 +2223,19 @@
     "size": 16,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/rlvr-bias-probe"
+   },
+   "ros2-arm-motion-dispatch": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-23T12:25:18Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ros2-arm-motion-dispatch"
    },
    "runaway-liveops-core": {
     "archived": false,
@@ -2314,6 +2327,19 @@
     "size": 12047,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/simbook"
+   },
+   "sip-session-control-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFC 3261 SIP dialog state controller and SDP audio session negotiator in Python with automated CI",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-23T13:34:04Z",
+    "size": 1,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/sip-session-control-engine"
    },
    "smartly-payroll-engine": {
     "archived": false,
@@ -2597,7 +2623,7 @@
     "homepage": "",
     "language": "TypeScript",
     "pushed_at": "2026-11-23T08:24:38Z",
-    "size": 31,
+    "size": 34,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/video-surveillance-service"
    },
@@ -2700,8 +2726,8 @@
     "forks": 0,
     "homepage": "https://itsoumya-d.github.io/zeroq/",
     "language": "HTML",
-    "pushed_at": "2026-10-09T00:09:56Z",
-    "size": 5263,
+    "pushed_at": "2026-11-23T13:20:16Z",
+    "size": 5268,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/zeroq"
    }
@@ -2715,7 +2741,7 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 170
+   "public_repos": 172
   }
  },
  "synced": "2026-11-23"
