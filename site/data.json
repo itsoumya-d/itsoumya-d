@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-22",
+ "synced": "2026-11-23",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping assessment-platform \u00b7 pushed 22 Nov",
+  "shipping client-delivery-api \u00b7 pushed 22 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -500,6 +500,12 @@
  ],
  "recent": [
   {
+   "name": "client-delivery-api",
+   "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
+   "pushed_at": "2026-11-22T23:33:45Z",
+   "url": "https://github.com/itsoumya-d/client-delivery-api"
+  },
+  {
    "name": "assessment-platform",
    "description": "Assessment backend: classes, submissions, marking, moderation, release, audit",
    "pushed_at": "2026-11-22T11:12:00Z",
@@ -528,12 +534,6 @@
    "description": "Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff",
    "pushed_at": "2026-11-22T00:07:01Z",
    "url": "https://github.com/itsoumya-d/android-offline-sync-engine"
-  },
-  {
-   "name": "autopilot-fde",
-   "description": "AutoPilot FDE 2.0: Autonomous Forward Deployed Engineer \u2014 Graph Entropy Process Mining, Monte Carlo Simulation, and Self-Deploying LangGraph Agents.",
-   "pushed_at": "2026-11-21T23:30:56Z",
-   "url": "https://github.com/itsoumya-d/autopilot-fde"
   }
  ],
  "languages": [
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3395,
+  "total": 3399,
   "label": "contributions in the last year",
   "stats": [
    [
-    "186",
+    "187",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "46d",
+    "47d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[assessment-platform](https://github.com/itsoumya-d/assessment-platform)**: Assessment backend: classes, submissions, marking, moderation, release, audit \u00b7 pushed 22 Nov 2026\n- **[commerce-erp-sync](https://github.com/itsoumya-d/commerce-erp-sync)**: Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit. \u00b7 pushed 22 Nov 2026\n- **[solar-telemetry-pipeline](https://github.com/itsoumya-d/solar-telemetry-pipeline)**: Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit. \u00b7 pushed 22 Nov 2026\n- **[payment-ledger-pipeline](https://github.com/itsoumya-d/payment-ledger-pipeline)**: Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline \u00b7 pushed 22 Nov 2026\n- **[android-offline-sync-engine](https://github.com/itsoumya-d/android-offline-sync-engine)**: Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff \u00b7 pushed 22 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 22 Nov 2026\n- **[assessment-platform](https://github.com/itsoumya-d/assessment-platform)**: Assessment backend: classes, submissions, marking, moderation, release, audit \u00b7 pushed 22 Nov 2026\n- **[commerce-erp-sync](https://github.com/itsoumya-d/commerce-erp-sync)**: Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit. \u00b7 pushed 22 Nov 2026\n- **[solar-telemetry-pipeline](https://github.com/itsoumya-d/solar-telemetry-pipeline)**: Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit. \u00b7 pushed 22 Nov 2026\n- **[payment-ledger-pipeline](https://github.com/itsoumya-d/payment-ledger-pipeline)**: Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline \u00b7 pushed 22 Nov 2026"
   },
   {
    "id": "quality",
