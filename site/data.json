@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping client-delivery-api \u00b7 pushed 22 Nov",
+  "shipping video-surveillance-service \u00b7 pushed 23 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -440,7 +440,7 @@
    ],
    "demo": "https://itsoumya-d.github.io/go-ledger/",
    "url": "https://github.com/itsoumya-d/go-ledger",
-   "pushed_at": "2026-11-18T09:31:42Z",
+   "pushed_at": "2026-11-23T05:24:07Z",
    "stars": 0,
    "language": "Go",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "client-delivery-api",
-   "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
-   "pushed_at": "2026-11-22T23:33:45Z",
-   "url": "https://github.com/itsoumya-d/client-delivery-api"
+   "name": "video-surveillance-service",
+   "description": "Camera fleet health: sites, cameras, check-ins, offline/recording/storage alerts, audit",
+   "pushed_at": "2026-11-23T08:24:38Z",
+   "url": "https://github.com/itsoumya-d/video-surveillance-service"
   },
   {
-   "name": "assessment-platform",
-   "description": "Assessment backend: classes, submissions, marking, moderation, release, audit",
-   "pushed_at": "2026-11-22T11:12:00Z",
-   "url": "https://github.com/itsoumya-d/assessment-platform"
+   "name": "cloud-security-posture",
+   "description": "Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit.",
+   "pushed_at": "2026-11-23T07:36:24Z",
+   "url": "https://github.com/itsoumya-d/cloud-security-posture"
+  },
+  {
+   "name": "tabular-inference-platform",
+   "description": "Tabular foundation-model serving platform (reference impl): FastAPI + TS-styled frontend, deterministic synthetic inference, SLO and hash-chained audit",
+   "pushed_at": "2026-11-23T06:59:06Z",
+   "url": "https://github.com/itsoumya-d/tabular-inference-platform"
+  },
+  {
+   "name": "go-ledger",
+   "description": "Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI.",
+   "pushed_at": "2026-11-23T05:24:07Z",
+   "url": "https://github.com/itsoumya-d/go-ledger"
+  },
+  {
+   "name": "dotnet-enterprise-api",
+   "description": "ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests",
+   "pushed_at": "2026-11-23T05:13:06Z",
+   "url": "https://github.com/itsoumya-d/dotnet-enterprise-api"
   },
   {
    "name": "commerce-erp-sync",
    "description": "Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit.",
-   "pushed_at": "2026-11-22T02:51:00Z",
+   "pushed_at": "2026-11-23T04:55:50Z",
    "url": "https://github.com/itsoumya-d/commerce-erp-sync"
-  },
-  {
-   "name": "solar-telemetry-pipeline",
-   "description": "Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit.",
-   "pushed_at": "2026-11-22T02:46:43Z",
-   "url": "https://github.com/itsoumya-d/solar-telemetry-pipeline"
-  },
-  {
-   "name": "payment-ledger-pipeline",
-   "description": "Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline",
-   "pushed_at": "2026-11-22T01:17:11Z",
-   "url": "https://github.com/itsoumya-d/payment-ledger-pipeline"
-  },
-  {
-   "name": "android-offline-sync-engine",
-   "description": "Modular, offline-first Android synchronization engine with Kotlin Coroutines Flow and exponential backoff",
-   "pushed_at": "2026-11-22T00:07:01Z",
-   "url": "https://github.com/itsoumya-d/android-offline-sync-engine"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3399,
+  "total": 3434,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 22 Nov 2026\n- **[assessment-platform](https://github.com/itsoumya-d/assessment-platform)**: Assessment backend: classes, submissions, marking, moderation, release, audit \u00b7 pushed 22 Nov 2026\n- **[commerce-erp-sync](https://github.com/itsoumya-d/commerce-erp-sync)**: Ecommerce-to-ERP synchronization reference: products, orders, inventory, reconciliation, dead letters and audit. \u00b7 pushed 22 Nov 2026\n- **[solar-telemetry-pipeline](https://github.com/itsoumya-d/solar-telemetry-pipeline)**: Solar telemetry reference: validation, idempotent ingestion, performance analysis, billing reconciliation and audit. \u00b7 pushed 22 Nov 2026\n- **[payment-ledger-pipeline](https://github.com/itsoumya-d/payment-ledger-pipeline)**: Production payment ingestion, multi-PSP reconciliation, Airflow contracts, and dimensional analytics pipeline \u00b7 pushed 22 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[video-surveillance-service](https://github.com/itsoumya-d/video-surveillance-service)**: Camera fleet health: sites, cameras, check-ins, offline/recording/storage alerts, audit \u00b7 pushed 23 Nov 2026\n- **[cloud-security-posture](https://github.com/itsoumya-d/cloud-security-posture)**: Cloud security posture service: accounts, resource snapshots, CIS-style checks, findings, remediation and audit. \u00b7 pushed 23 Nov 2026\n- **[tabular-inference-platform](https://github.com/itsoumya-d/tabular-inference-platform)**: Tabular foundation-model serving platform (reference impl): FastAPI + TS-styled frontend, deterministic synthetic inference, SLO and hash-chained audit \u00b7 pushed 23 Nov 2026\n- **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: Idempotent payment intents + double-entry ledger service in Go, with concurrency tests and CI. \u00b7 pushed 23 Nov 2026\n- **[dotnet-enterprise-api](https://github.com/itsoumya-d/dotnet-enterprise-api)**: ASP.NET Core orders API: C#, REST, OpenAPI/Swagger, EF Core, validation and integration tests \u00b7 pushed 23 Nov 2026"
   },
   {
    "id": "quality",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 18 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 23 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
