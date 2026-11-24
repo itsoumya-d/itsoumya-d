@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-23",
+ "synced": "2026-11-24",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "172",
+   "182",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping sip-session-control-engine \u00b7 pushed 23 Nov",
+  "shipping travel-distribution-engine \u00b7 pushed 24 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -262,7 +262,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/heros-cloud-saas",
    "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS",
-   "pushed_at": "2026-10-31T06:51:27Z",
+   "pushed_at": "2026-11-24T01:17:14Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -333,7 +333,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/heros-rl",
    "url": "https://github.com/itsoumya-d/HEROS-RL",
-   "pushed_at": "2026-11-01T04:09:59Z",
+   "pushed_at": "2026-11-24T01:45:17Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -404,7 +404,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/edgeinfer-v2",
    "url": "https://github.com/itsoumya-d/edgeinfer",
-   "pushed_at": "2026-11-09T06:39:02Z",
+   "pushed_at": "2026-11-24T04:02:56Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -492,7 +492,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler",
    "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler",
-   "pushed_at": "2026-10-31T06:57:38Z",
+   "pushed_at": "2026-11-24T04:36:26Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "sip-session-control-engine",
-   "description": "RFC 3261 SIP dialog state controller and SDP audio session negotiator in Python with automated CI",
-   "pushed_at": "2026-11-23T13:34:04Z",
-   "url": "https://github.com/itsoumya-d/sip-session-control-engine"
-  },
-  {
-   "name": "zeroq",
-   "description": "\ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS.",
-   "pushed_at": "2026-11-23T13:20:16Z",
-   "url": "https://github.com/itsoumya-d/zeroq"
-  },
-  {
-   "name": "cross-border-mobility-compliance",
-   "description": "Cross-border mobility compliance: A1/CoC, PWN, visa, PE risk, tax & duty of care \u2014 Java Spring Boot + Angular traveler next-action inbox",
-   "pushed_at": "2026-11-23T12:49:56Z",
-   "url": "https://github.com/itsoumya-d/cross-border-mobility-compliance"
+   "name": "travel-distribution-engine",
+   "description": "Multi-provider flight offer aggregation, schema normalization, and cursor-paginated booking engine in TypeScript/Node.js",
+   "pushed_at": "2026-11-24T05:34:25Z",
+   "url": "https://github.com/itsoumya-d/travel-distribution-engine"
   },
   {
    "name": "ros2-arm-motion-dispatch",
    "description": "ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python",
-   "pushed_at": "2026-11-23T12:25:18Z",
+   "pushed_at": "2026-11-24T05:01:22Z",
    "url": "https://github.com/itsoumya-d/ros2-arm-motion-dispatch"
   },
   {
-   "name": "genai-tooling-evals",
-   "description": "GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps",
-   "pushed_at": "2026-11-23T11:04:24Z",
-   "url": "https://github.com/itsoumya-d/genai-tooling-evals"
+   "name": "client-delivery-api",
+   "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
+   "pushed_at": "2026-11-24T04:49:09Z",
+   "url": "https://github.com/itsoumya-d/client-delivery-api"
   },
   {
-   "name": "assessment-platform",
-   "description": "Assessment backend: classes, submissions, marking, moderation, release, audit",
-   "pushed_at": "2026-11-23T10:45:09Z",
-   "url": "https://github.com/itsoumya-d/assessment-platform"
+   "name": "Mobbin-UI-Compiler",
+   "description": "Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests.",
+   "pushed_at": "2026-11-24T04:36:26Z",
+   "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler"
+  },
+  {
+   "name": "distributed-job-crawler-pipeline",
+   "description": "Distributed career page crawler, queue scheduler, and search ranking pipeline in TypeScript/Node",
+   "pushed_at": "2026-11-24T04:35:54Z",
+   "url": "https://github.com/itsoumya-d/distributed-job-crawler-pipeline"
+  },
+  {
+   "name": "fhir-interoperability-service",
+   "description": "FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit",
+   "pushed_at": "2026-11-24T04:12:30Z",
+   "url": "https://github.com/itsoumya-d/fhir-interoperability-service"
   }
  ],
  "languages": [
@@ -543,11 +543,11 @@
   ],
   [
    "TypeScript",
-   27
+   28
   ],
   [
    "HTML",
-   7
+   6
   ],
   [
    "C#",
@@ -555,7 +555,7 @@
   ],
   [
    "JavaScript",
-   3
+   4
   ],
   [
    "Dart",
@@ -567,7 +567,7 @@
   ],
   [
    "Other",
-   11
+   10
   ]
  ],
  "ci": {
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3461,
+  "total": 3525,
   "label": "contributions in the last year",
   "stats": [
    [
-    "187",
+    "188",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "47d",
+    "48d",
     "current streak"
    ]
   ]
@@ -630,7 +630,7 @@
     "show me one",
     "standout"
    ],
-   "md": "If you only open four things, open these:\n\n1. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 1 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n4. **CTrackAI**: AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.  \n  [App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) \u00b7 [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)"
+   "md": "If you only open four things, open these:\n\n1. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n4. **CTrackAI**: AI calorie tracker: snap a photo of your meal, scan a barcode, and track macros, fasting and water.  \n  [App Store](https://apps.apple.com/in/app/ctrackai-free-calorie-tracker/id6758379785) \u00b7 [Google Play](https://play.google.com/store/apps/details?id=com.ctrackaiai.nutrition)"
   },
   {
    "id": "now",
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[sip-session-control-engine](https://github.com/itsoumya-d/sip-session-control-engine)**: RFC 3261 SIP dialog state controller and SDP audio session negotiator in Python with automated CI \u00b7 pushed 23 Nov 2026\n- **[zeroq](https://github.com/itsoumya-d/zeroq)**: \ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS. \u00b7 pushed 23 Nov 2026\n- **[cross-border-mobility-compliance](https://github.com/itsoumya-d/cross-border-mobility-compliance)**: Cross-border mobility compliance: A1/CoC, PWN, visa, PE risk, tax & duty of care \u2014 Java Spring Boot + Angular traveler next-action inbox \u00b7 pushed 23 Nov 2026\n- **[ros2-arm-motion-dispatch](https://github.com/itsoumya-d/ros2-arm-motion-dispatch)**: ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python \u00b7 pushed 23 Nov 2026\n- **[genai-tooling-evals](https://github.com/itsoumya-d/genai-tooling-evals)**: GenAI platform tooling evaluations: context engineering, RAG lifecycle, LLM provider gateway, MLOps \u00b7 pushed 23 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[travel-distribution-engine](https://github.com/itsoumya-d/travel-distribution-engine)**: Multi-provider flight offer aggregation, schema normalization, and cursor-paginated booking engine in TypeScript/Node.js \u00b7 pushed 24 Nov 2026\n- **[ros2-arm-motion-dispatch](https://github.com/itsoumya-d/ros2-arm-motion-dispatch)**: ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python \u00b7 pushed 24 Nov 2026\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 24 Nov 2026\n- **[Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler)**: Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests. \u00b7 pushed 24 Nov 2026\n- **[distributed-job-crawler-pipeline](https://github.com/itsoumya-d/distributed-job-crawler-pipeline)**: Distributed career page crawler, queue scheduler, and search ranking pipeline in TypeScript/Node \u00b7 pushed 24 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 42%, TypeScript 27%, HTML 7%, C# 5%, JavaScript 3%, Dart 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 42%, TypeScript 28%, HTML 6%, C# 5%, JavaScript 4%, Dart 3%."
   },
   {
    "id": "apps",
@@ -792,7 +792,7 @@
     "audit",
     "approval"
    ],
-   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 12 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
+   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 12 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
   },
   {
    "id": "lens:research",
@@ -807,7 +807,7 @@
     "experiment",
     "reflexion"
    ],
-   "md": "**ML / RL research**: Small, reproducible experiments that isolate one idea and measure it, with GPU-scale runs clearly marked as pending.\n\n1. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 1 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n2. **[Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE)**: A coding agent that learns from its own failed attempts, without retraining the model.  \n  `40 tests \u00b7 sandboxed Python/Rust execution` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/reflexion-swe)\n3. **[RLVR Bias Probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: An experiment showing why a popular RL training method quietly rewards longer answers, and how a fix removes it.  \n  `Length bias 0.50 \u2192 0.07 (300 groups, seed 42)` \u00b7 CI passing \u00b7 last push 9 Nov 2026"
+   "md": "**ML / RL research**: Small, reproducible experiments that isolate one idea and measure it, with GPU-scale runs clearly marked as pending.\n\n1. **[HEROS-RL](https://github.com/itsoumya-d/HEROS-RL)**: Trains a language model to rewrite risky database migrations into safe, zero-downtime ones.  \n  `GRPO \u00b7 500-case dataset \u00b7 33 tests \u00b7 GPU runs pending` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-rl)\n2. **[Reflexion-SWE](https://github.com/itsoumya-d/Reflexion-SWE)**: A coding agent that learns from its own failed attempts, without retraining the model.  \n  `40 tests \u00b7 sandboxed Python/Rust execution` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/reflexion-swe)\n3. **[RLVR Bias Probe](https://github.com/itsoumya-d/rlvr-bias-probe)**: An experiment showing why a popular RL training method quietly rewards longer answers, and how a fix removes it.  \n  `Length bias 0.50 \u2192 0.07 (300 groups, seed 42)` \u00b7 CI passing \u00b7 last push 9 Nov 2026"
   },
   {
    "id": "lens:performance",
@@ -827,7 +827,7 @@
     "p2p",
     "crypto"
    ],
-   "md": "**Performance & edge**: Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.\n\n1. **[PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench)**: Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.  \n  `Up to 11.8\u00d7 faster than scalar on Apple Silicon` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)\n2. **[EdgeInfer](https://github.com/itsoumya-d/edgeinfer)**: Runs AI models and semantic search entirely in the browser, with no server.  \n  `95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark` \u00b7 CI passing \u00b7 last push 9 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)\n3. **[PeerVault](https://github.com/itsoumya-d/peervault)**: Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.  \n  `100/100 NIST test vectors \u00b7 75 tests` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/peervault-pqc)"
+   "md": "**Performance & edge**: Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.\n\n1. **[PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench)**: Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.  \n  `Up to 11.8\u00d7 faster than scalar on Apple Silicon` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)\n2. **[EdgeInfer](https://github.com/itsoumya-d/edgeinfer)**: Runs AI models and semantic search entirely in the browser, with no server.  \n  `95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)\n3. **[PeerVault](https://github.com/itsoumya-d/peervault)**: Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.  \n  `100/100 NIST test vectors \u00b7 75 tests` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/peervault-pqc)"
   },
   {
    "id": "lens:backend",
@@ -866,6 +866,7 @@
   "aderant-legal-billing",
   "aeo_geo",
   "afeedi",
+  "agentic-lead-verifier",
   "agri-ops-data-pipeline",
   "aimer-pos-settlement",
   "allrtc",
@@ -889,18 +890,21 @@
   "client-delivery-api",
   "clinical-trial-prescreening",
   "clojure-ledger-query",
+  "cloud-agent-policy-guardrail",
   "cloud-security-posture",
   "colpali-edge",
   "commerce-erp-sync",
   "complaintgraph",
   "compose-cognitive-intervention-engine",
   "construction-cost-estimator",
+  "consumer-financial-agent-copilot",
   "craveai-privacy-policy",
   "cross-border-mobility-compliance",
   "cybermentor",
   "data-platform-reference",
   "data-quality-service",
   "default-project",
+  "distributed-job-crawler-pipeline",
   "document-control-api",
   "dotnet-enterprise-api",
   "durable-agentic-dag",
@@ -909,6 +913,7 @@
   "eleven-platform-core",
   "embedded-sensor-core",
   "endpoint-compliance-service",
+  "enterprise-ai-workflow-orchestrator",
   "enterprise-iam-scim-core",
   "eplanning-policy-engine",
   "erp-sync-automation",
@@ -936,6 +941,7 @@
   "incident-drift-detective",
   "industrial-telemetry-service",
   "infor-erp-supply-chain",
+  "infra-integration-assurance",
   "intercoll-repayment-ops",
   "ios-reactive-banking-core",
   "itsoumya-d",
@@ -955,6 +961,7 @@
   "motion-mcp",
   "mscp-game",
   "msp-network-ops",
+  "multi-tenant-saas-postgres-rls",
   "n8n-nodes-gov-guard",
   "namespace-ci-wait-analyzer",
   "navvis-ivion-spatial",
@@ -962,6 +969,7 @@
   "oia-request-service",
   "oracle-fusion-integration-service",
   "oracle-oci-cost-guard",
+  "p2p-webrtc-session-mesh",
   "parrot-demand-evidence",
   "payment-ledger-pipeline",
   "peervault",
@@ -981,6 +989,7 @@
   "ros2-arm-motion-dispatch",
   "runaway-liveops-core",
   "saas-entitlement-service",
+  "saas-security-compliance-scanner",
   "school-payments-django",
   "semantic-metric-studio",
   "settlement-guard",
@@ -1000,6 +1009,7 @@
   "tower-claims-next-action",
   "transactional-document-delivery",
   "transport-operations-service",
+  "travel-distribution-engine",
   "treasury-maas-gateway",
   "trigger-run-engine",
   "trimium",
