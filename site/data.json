@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "182",
+   "185",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping travel-distribution-engine \u00b7 pushed 24 Nov",
+  "shipping railway-container-orchestrator \u00b7 pushed 24 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -333,7 +333,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/heros-rl",
    "url": "https://github.com/itsoumya-d/HEROS-RL",
-   "pushed_at": "2026-11-24T01:45:17Z",
+   "pushed_at": "2026-11-24T07:42:08Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -440,7 +440,7 @@
    ],
    "demo": "https://itsoumya-d.github.io/go-ledger/",
    "url": "https://github.com/itsoumya-d/go-ledger",
-   "pushed_at": "2026-11-23T05:24:07Z",
+   "pushed_at": "2026-11-24T08:39:33Z",
    "stars": 0,
    "language": "Go",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "travel-distribution-engine",
-   "description": "Multi-provider flight offer aggregation, schema normalization, and cursor-paginated booking engine in TypeScript/Node.js",
-   "pushed_at": "2026-11-24T05:34:25Z",
-   "url": "https://github.com/itsoumya-d/travel-distribution-engine"
+   "name": "railway-container-orchestrator",
+   "description": "TypeScript GraphQL container orchestrator with deployment doctor",
+   "pushed_at": "2026-11-24T17:15:44Z",
+   "url": "https://github.com/itsoumya-d/railway-container-orchestrator"
   },
   {
-   "name": "ros2-arm-motion-dispatch",
-   "description": "ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python",
-   "pushed_at": "2026-11-24T05:01:22Z",
-   "url": "https://github.com/itsoumya-d/ros2-arm-motion-dispatch"
+   "name": "msp-network-ops",
+   "description": "Tested MSP/ISP/network operations automation: ticket triage, SLA, asset risk, config compliance and outage triage.",
+   "pushed_at": "2026-11-24T12:36:25Z",
+   "url": "https://github.com/itsoumya-d/msp-network-ops"
   },
   {
-   "name": "client-delivery-api",
-   "description": "TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit",
-   "pushed_at": "2026-11-24T04:49:09Z",
-   "url": "https://github.com/itsoumya-d/client-delivery-api"
+   "name": "sip-session-control-engine",
+   "description": "RFC 3261 SIP dialog state controller and SDP audio session negotiator in Python with automated CI",
+   "pushed_at": "2026-11-24T11:58:42Z",
+   "url": "https://github.com/itsoumya-d/sip-session-control-engine"
   },
   {
-   "name": "Mobbin-UI-Compiler",
-   "description": "Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests.",
-   "pushed_at": "2026-11-24T04:36:26Z",
-   "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler"
+   "name": "document-control-api",
+   "description": "TypeScript/Node document control API: workspaces, versions, check-in/out, retention, search, audit",
+   "pushed_at": "2026-11-24T11:39:25Z",
+   "url": "https://github.com/itsoumya-d/document-control-api"
   },
   {
-   "name": "distributed-job-crawler-pipeline",
-   "description": "Distributed career page crawler, queue scheduler, and search ranking pipeline in TypeScript/Node",
-   "pushed_at": "2026-11-24T04:35:54Z",
-   "url": "https://github.com/itsoumya-d/distributed-job-crawler-pipeline"
+   "name": "assurity-test-intelligence",
+   "description": "TypeScript test intelligence: pass rate, p95, flaky detection, risk and release gate",
+   "pushed_at": "2026-11-24T09:39:03Z",
+   "url": "https://github.com/itsoumya-d/assurity-test-intelligence"
   },
   {
-   "name": "fhir-interoperability-service",
-   "description": "FHIR R4 backend: transaction bundles, Patient/Encounter/Observation, idempotency, search, audit",
-   "pushed_at": "2026-11-24T04:12:30Z",
-   "url": "https://github.com/itsoumya-d/fhir-interoperability-service"
+   "name": "full-stack-open-nextjs",
+   "description": "Full Stack Open: Next.js (University of Helsinki) course solutions",
+   "pushed_at": "2026-11-24T08:51:42Z",
+   "url": "https://github.com/itsoumya-d/full-stack-open-nextjs"
   }
  ],
  "languages": [
@@ -562,7 +562,7 @@
    3
   ],
   [
-   "Java",
+   "Go",
    2
   ],
   [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3525,
+  "total": 3573,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[travel-distribution-engine](https://github.com/itsoumya-d/travel-distribution-engine)**: Multi-provider flight offer aggregation, schema normalization, and cursor-paginated booking engine in TypeScript/Node.js \u00b7 pushed 24 Nov 2026\n- **[ros2-arm-motion-dispatch](https://github.com/itsoumya-d/ros2-arm-motion-dispatch)**: ROS 2 robotic arm trajectory dispatcher and kinematic velocity/acceleration bounds validator in C++ and Python \u00b7 pushed 24 Nov 2026\n- **[client-delivery-api](https://github.com/itsoumya-d/client-delivery-api)**: TypeScript/Node client delivery API: projects, milestones, change requests, budget summary, audit \u00b7 pushed 24 Nov 2026\n- **[Mobbin-UI-Compiler](https://github.com/itsoumya-d/Mobbin-UI-Compiler)**: Reference-driven UI compiler: Mobbin search_screens adapter contract, five SaaS surfaces, boards, and accessibility-invariant source tests. \u00b7 pushed 24 Nov 2026\n- **[distributed-job-crawler-pipeline](https://github.com/itsoumya-d/distributed-job-crawler-pipeline)**: Distributed career page crawler, queue scheduler, and search ranking pipeline in TypeScript/Node \u00b7 pushed 24 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[railway-container-orchestrator](https://github.com/itsoumya-d/railway-container-orchestrator)**: TypeScript GraphQL container orchestrator with deployment doctor \u00b7 pushed 24 Nov 2026\n- **[msp-network-ops](https://github.com/itsoumya-d/msp-network-ops)**: Tested MSP/ISP/network operations automation: ticket triage, SLA, asset risk, config compliance and outage triage. \u00b7 pushed 24 Nov 2026\n- **[sip-session-control-engine](https://github.com/itsoumya-d/sip-session-control-engine)**: RFC 3261 SIP dialog state controller and SDP audio session negotiator in Python with automated CI \u00b7 pushed 24 Nov 2026\n- **[document-control-api](https://github.com/itsoumya-d/document-control-api)**: TypeScript/Node document control API: workspaces, versions, check-in/out, retention, search, audit \u00b7 pushed 24 Nov 2026\n- **[assurity-test-intelligence](https://github.com/itsoumya-d/assurity-test-intelligence)**: TypeScript test intelligence: pass rate, p95, flaky detection, risk and release gate \u00b7 pushed 24 Nov 2026"
   },
   {
    "id": "quality",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 23 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
@@ -866,6 +866,7 @@
   "aderant-legal-billing",
   "aeo_geo",
   "afeedi",
+  "agent-runtime-reliability",
   "agentic-lead-verifier",
   "agri-ops-data-pipeline",
   "aimer-pos-settlement",
@@ -894,6 +895,7 @@
   "cloud-security-posture",
   "colpali-edge",
   "commerce-erp-sync",
+  "commercial-twin-orchestrator",
   "complaintgraph",
   "compose-cognitive-intervention-engine",
   "construction-cost-estimator",
@@ -943,6 +945,7 @@
   "infor-erp-supply-chain",
   "infra-integration-assurance",
   "intercoll-repayment-ops",
+  "investment-portfolio-valuation-engine",
   "ios-reactive-banking-core",
   "itsoumya-d",
   "jira-delivery-risk-service",
