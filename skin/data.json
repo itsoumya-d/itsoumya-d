@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "696f3ebc4c1d2e27",
+ "hash": "e441d01c09bcc691",
  "live": {
   "activity": {
    "days": {
@@ -351,7 +351,7 @@
     "2026-11-02": 23,
     "2026-11-03": 31,
     "2026-11-04": 8,
-    "2026-11-05": 72,
+    "2026-11-05": 58,
     "2026-11-06": 49,
     "2026-11-07": 11,
     "2026-11-08": 8,
@@ -370,11 +370,12 @@
     "2026-11-21": 39,
     "2026-11-22": 27,
     "2026-11-23": 69,
-    "2026-11-24": 125
+    "2026-11-24": 125,
+    "2026-11-25": 74
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3573
+   "total": 3633
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -751,8 +752,8 @@
     "forks": 0,
     "homepage": "",
     "language": "JavaScript",
-    "pushed_at": "2026-11-24T06:47:38Z",
-    "size": 10,
+    "pushed_at": "2026-11-25T00:33:51Z",
+    "size": 15,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agent-runtime-reliability"
    },
@@ -769,6 +770,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agentic-lead-verifier"
    },
+   "agentic-mcp-integration-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:42:02Z",
+    "size": 12,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agentic-mcp-integration-engine"
+   },
    "agri-ops-data-pipeline": {
     "archived": false,
     "default_branch": "main",
@@ -781,6 +795,19 @@
     "size": 22,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
+   },
+   "agritech-consent-data-exchange": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Consent-governed agricultural data exchange, RBAC/purpose-scoped field redaction, and multi-source farm telemetry normalizer (Python / pytest / GitHub Actions CI).",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T02:08:21Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agritech-consent-data-exchange"
    },
    "aimer-pos-settlement": {
     "archived": false,
@@ -937,6 +964,32 @@
     "size": 29,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/bastion-findings-triage"
+   },
+   "battery-fleet-dispatch-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T00:15:57Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/battery-fleet-dispatch-engine"
+   },
+   "biometric-kiosk-payroll-sync": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Offline-resilient biometric/kiosk punch ingestion, geofenced mobile attendance reconciliation, and idempotent payroll batch export engine (Python / pytest / GitHub Actions CI).",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:45:26Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/biometric-kiosk-payroll-sync"
    },
    "bitwarden-desktop-vault-ipc": {
     "archived": false,
@@ -1185,6 +1238,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/compose-cognitive-intervention-engine"
    },
+   "connected-erp-workflow-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T00:39:08Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/connected-erp-workflow-engine"
+   },
    "construction-cost-estimator": {
     "archived": false,
     "default_branch": "main",
@@ -1336,8 +1402,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-24T11:46:23Z",
-    "size": 115,
+    "pushed_at": "2026-11-25T01:02:02Z",
+    "size": 120,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/durable-agentic-dag"
    },
@@ -1483,6 +1549,19 @@
     "size": 903,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/factory-monitor"
+   },
+   "factory-scheduling-optimization-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T00:22:43Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/factory-scheduling-optimization-engine"
    },
    "fhir-interoperability-service": {
     "archived": false,
@@ -1744,6 +1823,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/incident-drift-detective"
    },
+   "industrial-telemetry-sentinel": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Operational technology (OT) time-series telemetry quality validator, hysteresis alarm suppression, and OEE downtime analytics engine.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:14:47Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/industrial-telemetry-sentinel"
+   },
    "industrial-telemetry-service": {
     "archived": false,
     "default_branch": "main",
@@ -1822,6 +1914,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/ios-reactive-banking-core"
    },
+   "itsm-integration-reprocessor": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ITSM workflow orchestration, API authentication guardrails, dead-letter reprocessing, and audit-ready integration engine.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T00:25:41Z",
+    "size": 8,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/itsm-integration-reprocessor"
+   },
    "itsoumya-d": {
     "archived": false,
     "default_branch": "main",
@@ -1830,8 +1935,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-24T06:03:58Z",
-    "size": 541,
+    "pushed_at": "2026-11-24T17:45:08Z",
+    "size": 552,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2038,8 +2143,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-24T12:36:25Z",
-    "size": 40,
+    "pushed_at": "2026-11-25T00:09:39Z",
+    "size": 45,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/msp-network-ops"
    },
@@ -2108,6 +2213,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/nelson-water-credit-autopilot"
    },
+   "offline-field-gps-sync": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Offline-capable field GPS breadcrumb replay, boundary polygon containment, rate-controller drift detection, and job coverage engine (Python / pytest / GitHub Actions CI).",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T02:02:00Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/offline-field-gps-sync"
+   },
    "oia-request-service": {
     "archived": false,
     "default_branch": "main",
@@ -2120,6 +2238,19 @@
     "size": 12,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/oia-request-service"
+   },
+   "omnichannel-order-pos-sync": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zero-dependency omnichannel online ordering, inventory reservation, webhook HMAC verification, and POS settlement engine (Node / JavaScript / CI).",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "JavaScript",
+    "pushed_at": "2026-11-25T02:13:18Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/omnichannel-order-pos-sync"
    },
    "oracle-fusion-integration-service": {
     "archived": false,
@@ -2289,6 +2420,19 @@
     "size": 28,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/qsr-drive-thru-analytics"
+   },
+   "rag-adk-eval-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T02:21:28Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/rag-adk-eval-runtime"
    },
    "railway-container-orchestrator": {
     "archived": false,
@@ -2510,6 +2654,19 @@
     "size": 33,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/smartly-payroll-engine"
+   },
+   "smb-m365-security-baseline": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated SMB Microsoft 365 MFA, email DMARC/DKIM, immutable backup/DR RPO, and VoIP/endpoint cybersecurity posture auditor (Python / pytest / GitHub Actions CI).",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:53:19Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/smb-m365-security-baseline"
    },
    "solar-telemetry-pipeline": {
     "archived": false,
@@ -2875,6 +3032,32 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/watercare-asset-data-product"
    },
+   "wholesale-orderbook-django-service": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:57:17Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/wholesale-orderbook-django-service"
+   },
+   "workforce-award-compliance-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Workforce management Award/EBA pay interpretation, haversine geofence attendance validation, fatigue checks, and AI query analytics in Python.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T01:34:15Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/workforce-award-compliance-engine"
+   },
    "workspace-sync-engine": {
     "archived": false,
     "default_branch": "main",
@@ -2911,8 +3094,8 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 185
+   "public_repos": 199
   }
  },
- "synced": "2026-11-24"
+ "synced": "2026-11-25"
 }
