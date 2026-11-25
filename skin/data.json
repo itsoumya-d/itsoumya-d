@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "e441d01c09bcc691",
+ "hash": "a20fd1cc0f661896",
  "live": {
   "activity": {
    "days": {
@@ -351,7 +351,7 @@
     "2026-11-02": 23,
     "2026-11-03": 31,
     "2026-11-04": 8,
-    "2026-11-05": 58,
+    "2026-11-05": 38,
     "2026-11-06": 49,
     "2026-11-07": 11,
     "2026-11-08": 8,
@@ -371,11 +371,11 @@
     "2026-11-22": 27,
     "2026-11-23": 69,
     "2026-11-24": 125,
-    "2026-11-25": 74
+    "2026-11-25": 182
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3633
+   "total": 3721
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -391,16 +391,16 @@
     "url": "https://github.com/itsoumya-d/GraphRAG-CodeAudit/actions/runs/41816805753"
    },
    "HEROS": {
-    "at": "2026-11-12",
+    "at": "2026-11-25",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/HEROS/actions/runs/43195219283"
+    "url": "https://github.com/itsoumya-d/HEROS/actions/runs/45542316661"
    },
    "HEROS-Cloud-SaaS": {
-    "at": "2026-11-24",
+    "at": "2026-11-25",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions/runs/45303902342"
+    "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS/actions/runs/45569889068"
    },
    "HEROS-Firewall": {
     "at": "2026-10-31",
@@ -445,10 +445,10 @@
     "url": "https://github.com/itsoumya-d/edgeinfer/actions/runs/45323639457"
    },
    "factory-monitor": {
-    "at": "2026-11-18",
-    "conclusion": "success",
-    "state": "pass",
-    "url": "https://github.com/itsoumya-d/factory-monitor/actions/runs/44308389051"
+    "at": "2026-11-25",
+    "conclusion": "in_progress",
+    "state": "running",
+    "url": "https://github.com/itsoumya-d/factory-monitor/actions/runs/45618242298"
    },
    "go-ledger": {
     "at": "2026-11-24",
@@ -570,8 +570,8 @@
     "forks": 0,
     "homepage": "",
     "language": "JavaScript",
-    "pushed_at": "2026-11-12T09:51:50Z",
-    "size": 3329,
+    "pushed_at": "2026-11-25T03:46:55Z",
+    "size": 3338,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/HEROS"
    },
@@ -583,8 +583,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-24T01:17:14Z",
-    "size": 17,
+    "pushed_at": "2026-11-25T07:39:46Z",
+    "size": 22,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS"
    },
@@ -757,6 +757,32 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agent-runtime-reliability"
    },
+   "agentic-code-context-indexer": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AST-aware code context graph and token-budgeted prompt assembler for AI coding agents",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T06:51:58Z",
+    "size": 4,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agentic-code-context-indexer"
+   },
+   "agentic-delivery-workflow-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T12:34:12Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agentic-delivery-workflow-engine"
+   },
    "agentic-lead-verifier": {
     "archived": false,
     "default_branch": "main",
@@ -791,8 +817,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-17T11:01:24Z",
-    "size": 22,
+    "pushed_at": "2026-11-25T05:09:20Z",
+    "size": 26,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agri-ops-data-pipeline"
    },
@@ -805,9 +831,35 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T02:08:21Z",
-    "size": 0,
+    "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agritech-consent-data-exchange"
+   },
+   "ai-landing-zone-guardrail": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enterprise AI cloud landing zone guardrail and proxy gateway in FastAPI",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T03:54:39Z",
+    "size": 7,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ai-landing-zone-guardrail"
+   },
+   "ai-search-citation-indexer": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput generative engine citation extractor and paragraph embedding indexer",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T03:06:24Z",
+    "size": 18,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ai-search-citation-indexer"
    },
    "aimer-pos-settlement": {
     "archived": false,
@@ -834,6 +886,32 @@
     "size": 390,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/allrtc"
+   },
+   "amr-fleet-telemetry-gateway": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput Autonomous Mobile Robot (AMR) fleet telemetry ingestion, health monitoring, and remote command dispatch engine",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-25T07:42:43Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/amr-fleet-telemetry-gateway"
+   },
+   "android-edge-ai-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On-device mobile AI inference execution manager with thermal-aware quantization and zero-leakage privacy governor",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T04:25:48Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/android-edge-ai-runtime"
    },
    "android-offline-sync-engine": {
     "archived": false,
@@ -939,6 +1017,32 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/awesome-zero-server-saas"
    },
+   "azure-resilient-service-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T05:52:48Z",
+    "size": 9,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/azure-resilient-service-runtime"
+   },
+   "b2b-growth-activation-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T05:14:03Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/b2b-growth-activation-engine"
+   },
    "backup-verification": {
     "archived": false,
     "default_branch": "main",
@@ -960,8 +1064,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-06T02:18:26Z",
-    "size": 29,
+    "pushed_at": "2026-11-25T11:55:13Z",
+    "size": 33,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/bastion-findings-triage"
    },
@@ -987,7 +1091,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T01:45:26Z",
-    "size": 0,
+    "size": 7,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/biometric-kiosk-payroll-sync"
    },
@@ -1225,6 +1329,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/complaintgraph"
    },
+   "composable-marketing-section-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T11:52:00Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/composable-marketing-section-engine"
+   },
    "compose-cognitive-intervention-engine": {
     "archived": false,
     "default_branch": "main",
@@ -1276,6 +1393,19 @@
     "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/consumer-financial-agent-copilot"
+   },
+   "consumer-lending-risk-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput consumer lending underwriting risk decision and credit line calculation engine in Python with FastAPI",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Dockerfile",
+    "pushed_at": "2026-11-25T12:01:55Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/consumer-lending-risk-engine"
    },
    "craveai-privacy-policy": {
     "archived": false,
@@ -1472,6 +1602,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/endpoint-compliance-service"
    },
+   "enterprise-agentic-workflow-mesh": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resilient forward-deployed enterprise AI agent orchestrator with stateful persistence, schema validation, and PII redaction.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T05:36:39Z",
+    "size": 9,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/enterprise-agentic-workflow-mesh"
+   },
    "enterprise-ai-workflow-orchestrator": {
     "archived": false,
     "default_branch": "main",
@@ -1615,6 +1758,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/figured-farm-finance"
    },
+   "financial-product-fraud-evaluator": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time payout and merchant advance fraud evaluation engine in Go with concurrent rule pipeline and velocity scoring",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-25T06:30:31Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/financial-product-fraud-evaluator"
+   },
    "flux-billing-reconciliation": {
     "archived": false,
     "default_branch": "main",
@@ -1640,6 +1796,19 @@
     "size": 376,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/flux-social"
+   },
+   "fractional-share-order-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-precision fractional share investment order execution, market hours routing, and pooled custody allocation engine in TypeScript",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T11:47:38Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/fractional-share-order-engine"
    },
    "full-stack-open-nextjs": {
     "archived": false,
@@ -1667,6 +1836,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/gaming-club-service"
    },
+   "gcp-workspace-identity-governor": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated Google Cloud Platform and Workspace identity lifecycle, OU governance, and least-privilege IAM reconciliation engine in Python",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T06:46:05Z",
+    "size": 14,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/gcp-workspace-identity-governor"
+   },
    "genai-tooling-evals": {
     "archived": false,
     "default_branch": "main",
@@ -1679,6 +1861,19 @@
     "size": 28,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/genai-tooling-evals"
+   },
+   "geospatial-chunk-stream-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T12:48:36Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/geospatial-chunk-stream-runtime"
    },
    "ghostsearch": {
     "archived": false,
@@ -1875,6 +2070,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/infra-integration-assurance"
    },
+   "integration-sync-pipeline-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T12:20:12Z",
+    "size": 0,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/integration-sync-pipeline-engine"
+   },
    "intercoll-repayment-ops": {
     "archived": false,
     "default_branch": "main",
@@ -1935,8 +2143,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-24T17:45:08Z",
-    "size": 552,
+    "pushed_at": "2026-11-25T02:29:10Z",
+    "size": 562,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2096,6 +2304,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/meshauth"
    },
+   "mlops-cluster-workload-scheduler": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI accelerator workload scheduler, node health monitor, and automatic job eviction controller in Python",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T07:01:06Z",
+    "size": 4,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/mlops-cluster-workload-scheduler"
+   },
    "mobile-native-design-system": {
     "archived": false,
     "default_branch": "main",
@@ -2222,7 +2443,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T02:02:00Z",
-    "size": 0,
+    "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/offline-field-gps-sync"
    },
@@ -2248,7 +2469,7 @@
     "homepage": "",
     "language": "JavaScript",
     "pushed_at": "2026-11-25T02:13:18Z",
-    "size": 0,
+    "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/omnichannel-order-pos-sync"
    },
@@ -2421,6 +2642,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/qsr-drive-thru-analytics"
    },
+   "quantum-hardware-ci-orchestrator": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T05:23:39Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/quantum-hardware-ci-orchestrator"
+   },
    "rag-adk-eval-runtime": {
     "archived": false,
     "default_branch": "main",
@@ -2430,7 +2664,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T02:21:28Z",
-    "size": 0,
+    "size": 9,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/rag-adk-eval-runtime"
    },
@@ -2485,6 +2719,19 @@
     "size": 15,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/rent-reconciliation-service"
+   },
+   "retail-inventory-availability-mesh": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput retail inventory availability, atomic cart reservations, and stock reconciliation engine in Python",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T06:56:48Z",
+    "size": 4,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/retail-inventory-availability-mesh"
    },
    "revenue-watchtower-engine": {
     "archived": false,
@@ -2664,7 +2911,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T01:53:19Z",
-    "size": 0,
+    "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/smb-m365-security-baseline"
    },
@@ -2680,6 +2927,19 @@
     "size": 31,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/solar-telemetry-pipeline"
+   },
+   "support-sla-routing-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Low-latency support ticket routing and automated SLA breach escalation engine in Go",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-25T06:40:07Z",
+    "size": 4,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/support-sla-routing-engine"
    },
    "surface-karya": {
     "archived": false,
@@ -2754,8 +3014,8 @@
     "forks": 0,
     "homepage": "",
     "language": "C#",
-    "pushed_at": "2026-11-05T23:05:36Z",
-    "size": 11,
+    "pushed_at": "2026-11-25T02:37:58Z",
+    "size": 16,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/tally-energy-billing"
    },
@@ -3041,7 +3301,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T01:57:17Z",
-    "size": 0,
+    "size": 6,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/wholesale-orderbook-django-service"
    },
@@ -3094,7 +3354,7 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 199
+   "public_repos": 219
   }
  },
  "synced": "2026-11-25"

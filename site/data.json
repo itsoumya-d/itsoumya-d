@@ -192,11 +192,11 @@
  },
  "kpis": [
   [
-   "199",
+   "219",
    "public repos"
   ],
   [
-   "16/16",
+   "15/16",
    "CI green"
   ],
   [
@@ -209,8 +209,8 @@
   ]
  ],
  "ticker": [
-  "shipping omnichannel-order-pos-sync \u00b7 pushed 25 Nov",
-  "16/16 flagship systems passing CI right now",
+  "shipping geospatial-chunk-stream-runtime \u00b7 pushed 25 Nov",
+  "15/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
  "projects": [
@@ -226,7 +226,7 @@
     "HMAC"
    ],
    "url": "https://github.com/itsoumya-d/HEROS",
-   "pushed_at": "2026-11-12T09:51:50Z",
+   "pushed_at": "2026-11-25T03:46:55Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -262,7 +262,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/heros-cloud-saas",
    "url": "https://github.com/itsoumya-d/HEROS-Cloud-SaaS",
-   "pushed_at": "2026-11-24T01:17:14Z",
+   "pushed_at": "2026-11-25T07:39:46Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -460,7 +460,7 @@
    "pushed_at": "2026-11-18T13:00:59Z",
    "stars": 0,
    "language": "Rust",
-   "ci": "pass"
+   "ci": "running"
   },
   {
    "name": "autopilot-fde",
@@ -500,46 +500,46 @@
  ],
  "recent": [
   {
-   "name": "omnichannel-order-pos-sync",
-   "description": "Zero-dependency omnichannel online ordering, inventory reservation, webhook HMAC verification, and POS settlement engine (Node / JavaScript / CI).",
-   "pushed_at": "2026-11-25T02:13:18Z",
-   "url": "https://github.com/itsoumya-d/omnichannel-order-pos-sync"
+   "name": "geospatial-chunk-stream-runtime",
+   "description": "High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor",
+   "pushed_at": "2026-11-25T12:48:36Z",
+   "url": "https://github.com/itsoumya-d/geospatial-chunk-stream-runtime"
   },
   {
-   "name": "agritech-consent-data-exchange",
-   "description": "Consent-governed agricultural data exchange, RBAC/purpose-scoped field redaction, and multi-source farm telemetry normalizer (Python / pytest / GitHub Actions CI).",
-   "pushed_at": "2026-11-25T02:08:21Z",
-   "url": "https://github.com/itsoumya-d/agritech-consent-data-exchange"
+   "name": "consumer-lending-risk-engine",
+   "description": "High-throughput consumer lending underwriting risk decision and credit line calculation engine in Python with FastAPI",
+   "pushed_at": "2026-11-25T12:01:55Z",
+   "url": "https://github.com/itsoumya-d/consumer-lending-risk-engine"
   },
   {
-   "name": "offline-field-gps-sync",
-   "description": "Offline-capable field GPS breadcrumb replay, boundary polygon containment, rate-controller drift detection, and job coverage engine (Python / pytest / GitHub Actions CI).",
-   "pushed_at": "2026-11-25T02:02:00Z",
-   "url": "https://github.com/itsoumya-d/offline-field-gps-sync"
+   "name": "bastion-findings-triage",
+   "description": "TypeScript/React security findings triage: CVSS 3.1, risk, dedupe and remediation SLAs",
+   "pushed_at": "2026-11-25T11:55:13Z",
+   "url": "https://github.com/itsoumya-d/bastion-findings-triage"
   },
   {
-   "name": "smb-m365-security-baseline",
-   "description": "Automated SMB Microsoft 365 MFA, email DMARC/DKIM, immutable backup/DR RPO, and VoIP/endpoint cybersecurity posture auditor (Python / pytest / GitHub Actions CI).",
-   "pushed_at": "2026-11-25T01:53:19Z",
-   "url": "https://github.com/itsoumya-d/smb-m365-security-baseline"
+   "name": "composable-marketing-section-engine",
+   "description": "Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation",
+   "pushed_at": "2026-11-25T11:52:00Z",
+   "url": "https://github.com/itsoumya-d/composable-marketing-section-engine"
   },
   {
-   "name": "biometric-kiosk-payroll-sync",
-   "description": "Offline-resilient biometric/kiosk punch ingestion, geofenced mobile attendance reconciliation, and idempotent payroll batch export engine (Python / pytest / GitHub Actions CI).",
-   "pushed_at": "2026-11-25T01:45:26Z",
-   "url": "https://github.com/itsoumya-d/biometric-kiosk-payroll-sync"
+   "name": "fractional-share-order-engine",
+   "description": "High-precision fractional share investment order execution, market hours routing, and pooled custody allocation engine in TypeScript",
+   "pushed_at": "2026-11-25T11:47:38Z",
+   "url": "https://github.com/itsoumya-d/fractional-share-order-engine"
   },
   {
-   "name": "workforce-award-compliance-engine",
-   "description": "Workforce management Award/EBA pay interpretation, haversine geofence attendance validation, fatigue checks, and AI query analytics in Python.",
-   "pushed_at": "2026-11-25T01:34:15Z",
-   "url": "https://github.com/itsoumya-d/workforce-award-compliance-engine"
+   "name": "amr-fleet-telemetry-gateway",
+   "description": "High-throughput Autonomous Mobile Robot (AMR) fleet telemetry ingestion, health monitoring, and remote command dispatch engine",
+   "pushed_at": "2026-11-25T07:42:43Z",
+   "url": "https://github.com/itsoumya-d/amr-fleet-telemetry-gateway"
   }
  ],
  "languages": [
   [
    "Python",
-   46
+   47
   ],
   [
    "TypeScript",
@@ -547,7 +547,7 @@
   ],
   [
    "HTML",
-   6
+   5
   ],
   [
    "JavaScript",
@@ -558,11 +558,11 @@
    4
   ],
   [
-   "Dart",
+   "Go",
    3
   ],
   [
-   "Go",
+   "Dart",
    2
   ],
   [
@@ -571,11 +571,11 @@
   ]
  ],
  "ci": {
-  "ok": 16,
+  "ok": 15,
   "total": 16
  },
  "activity": {
-  "total": 3633,
+  "total": 3721,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[omnichannel-order-pos-sync](https://github.com/itsoumya-d/omnichannel-order-pos-sync)**: Zero-dependency omnichannel online ordering, inventory reservation, webhook HMAC verification, and POS settlement engine (Node / JavaScript / CI). \u00b7 pushed 25 Nov 2026\n- **[agritech-consent-data-exchange](https://github.com/itsoumya-d/agritech-consent-data-exchange)**: Consent-governed agricultural data exchange, RBAC/purpose-scoped field redaction, and multi-source farm telemetry normalizer (Python / pytest / GitHub Actions CI). \u00b7 pushed 25 Nov 2026\n- **[offline-field-gps-sync](https://github.com/itsoumya-d/offline-field-gps-sync)**: Offline-capable field GPS breadcrumb replay, boundary polygon containment, rate-controller drift detection, and job coverage engine (Python / pytest / GitHub Actions CI). \u00b7 pushed 25 Nov 2026\n- **[smb-m365-security-baseline](https://github.com/itsoumya-d/smb-m365-security-baseline)**: Automated SMB Microsoft 365 MFA, email DMARC/DKIM, immutable backup/DR RPO, and VoIP/endpoint cybersecurity posture auditor (Python / pytest / GitHub Actions CI). \u00b7 pushed 25 Nov 2026\n- **[biometric-kiosk-payroll-sync](https://github.com/itsoumya-d/biometric-kiosk-payroll-sync)**: Offline-resilient biometric/kiosk punch ingestion, geofenced mobile attendance reconciliation, and idempotent payroll batch export engine (Python / pytest / GitHub Actions CI). \u00b7 pushed 25 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[geospatial-chunk-stream-runtime](https://github.com/itsoumya-d/geospatial-chunk-stream-runtime)**: High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor \u00b7 pushed 25 Nov 2026\n- **[consumer-lending-risk-engine](https://github.com/itsoumya-d/consumer-lending-risk-engine)**: High-throughput consumer lending underwriting risk decision and credit line calculation engine in Python with FastAPI \u00b7 pushed 25 Nov 2026\n- **[bastion-findings-triage](https://github.com/itsoumya-d/bastion-findings-triage)**: TypeScript/React security findings triage: CVSS 3.1, risk, dedupe and remediation SLAs \u00b7 pushed 25 Nov 2026\n- **[composable-marketing-section-engine](https://github.com/itsoumya-d/composable-marketing-section-engine)**: Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation \u00b7 pushed 25 Nov 2026\n- **[fractional-share-order-engine](https://github.com/itsoumya-d/fractional-share-order-engine)**: High-precision fractional share investment order execution, market hours routing, and pooled custody allocation engine in TypeScript \u00b7 pushed 25 Nov 2026"
   },
   {
    "id": "quality",
@@ -667,7 +667,7 @@
     "bugs",
     "discipline"
    ],
-   "md": "Every flagship repo runs CI on each push. Right now **16 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
+   "md": "Every flagship repo runs CI on each push. Right now **15 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
   },
   {
    "id": "relocation",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 46%, TypeScript 26%, HTML 6%, JavaScript 4%, C# 4%, Dart 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 47%, TypeScript 26%, HTML 5%, JavaScript 4%, C# 4%, Go 3%."
   },
   {
    "id": "apps",
@@ -792,7 +792,7 @@
     "audit",
     "approval"
    ],
-   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 12 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
+   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 25 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 25 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
   },
   {
    "id": "lens:research",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI running \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
@@ -867,18 +867,26 @@
   "aeo_geo",
   "afeedi",
   "agent-runtime-reliability",
+  "agentic-code-context-indexer",
+  "agentic-delivery-workflow-engine",
   "agentic-lead-verifier",
   "agentic-mcp-integration-engine",
   "agri-ops-data-pipeline",
   "agritech-consent-data-exchange",
+  "ai-landing-zone-guardrail",
+  "ai-search-citation-indexer",
   "aimer-pos-settlement",
   "allrtc",
+  "amr-fleet-telemetry-gateway",
+  "android-edge-ai-runtime",
   "android-offline-sync-engine",
   "assessment-platform",
   "assurity-test-intelligence",
   "auction-reliability",
   "autopilot-fde",
   "awesome-zero-server-saas",
+  "azure-resilient-service-runtime",
+  "b2b-growth-activation-engine",
   "backup-verification",
   "bastion-findings-triage",
   "battery-fleet-dispatch-engine",
@@ -901,10 +909,12 @@
   "commerce-erp-sync",
   "commercial-twin-orchestrator",
   "complaintgraph",
+  "composable-marketing-section-engine",
   "compose-cognitive-intervention-engine",
   "connected-erp-workflow-engine",
   "construction-cost-estimator",
   "consumer-financial-agent-copilot",
+  "consumer-lending-risk-engine",
   "craveai-privacy-policy",
   "cross-border-mobility-compliance",
   "cybermentor",
@@ -920,6 +930,7 @@
   "eleven-platform-core",
   "embedded-sensor-core",
   "endpoint-compliance-service",
+  "enterprise-agentic-workflow-mesh",
   "enterprise-ai-workflow-orchestrator",
   "enterprise-iam-scim-core",
   "eplanning-policy-engine",
@@ -931,11 +942,15 @@
   "field-inspection-service",
   "fieldlens__",
   "figured-farm-finance",
+  "financial-product-fraud-evaluator",
   "flux-billing-reconciliation",
   "flux-social",
+  "fractional-share-order-engine",
   "full-stack-open-nextjs",
   "gaming-club-service",
+  "gcp-workspace-identity-governor",
   "genai-tooling-evals",
+  "geospatial-chunk-stream-runtime",
   "ghostsearch",
   "gladeye-experience-lab",
   "go-ledger",
@@ -951,6 +966,7 @@
   "industrial-telemetry-service",
   "infor-erp-supply-chain",
   "infra-integration-assurance",
+  "integration-sync-pipeline-engine",
   "intercoll-repayment-ops",
   "investment-portfolio-valuation-engine",
   "ios-reactive-banking-core",
@@ -968,6 +984,7 @@
   "materials-data-foundry",
   "meeting-context-harness",
   "meshauth",
+  "mlops-cluster-workload-scheduler",
   "mobile-native-design-system",
   "motion-mcp",
   "mscp-game",
@@ -993,11 +1010,13 @@
   "prospex-cloud-api",
   "pulsenet",
   "qsr-drive-thru-analytics",
+  "quantum-hardware-ci-orchestrator",
   "rag-adk-eval-runtime",
   "railway-container-orchestrator",
   "rcs-music-scheduler",
   "recare-ai-platform",
   "rent-reconciliation-service",
+  "retail-inventory-availability-mesh",
   "revenue-watchtower-engine",
   "rlvr-bias-probe",
   "ros2-arm-motion-dispatch",
@@ -1013,6 +1032,7 @@
   "smartly-payroll-engine",
   "smb-m365-security-baseline",
   "solar-telemetry-pipeline",
+  "support-sla-routing-engine",
   "surface-karya",
   "swarmcompute",
   "syncforge",
