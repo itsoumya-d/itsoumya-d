@@ -192,11 +192,11 @@
  },
  "kpis": [
   [
-   "219",
+   "222",
    "public repos"
   ],
   [
-   "15/16",
+   "16/16",
    "CI green"
   ],
   [
@@ -209,8 +209,8 @@
   ]
  ],
  "ticker": [
-  "shipping geospatial-chunk-stream-runtime \u00b7 pushed 25 Nov",
-  "15/16 flagship systems passing CI right now",
+  "shipping data-platform-reference \u00b7 pushed 25 Nov",
+  "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
  "projects": [
@@ -460,7 +460,7 @@
    "pushed_at": "2026-11-18T13:00:59Z",
    "stars": 0,
    "language": "Rust",
-   "ci": "running"
+   "ci": "pass"
   },
   {
    "name": "autopilot-fde",
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
+   "name": "data-platform-reference",
+   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
+   "pushed_at": "2026-11-25T22:27:02Z",
+   "url": "https://github.com/itsoumya-d/data-platform-reference"
+  },
+  {
+   "name": "loanflow",
+   "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
+   "pushed_at": "2026-11-25T15:25:53Z",
+   "url": "https://github.com/itsoumya-d/loanflow"
+  },
+  {
+   "name": "dbt-data-vault-warehouse-orchestrator",
+   "description": "Data Vault 2.0 and dbt-compatible warehouse pipeline transformation engine",
+   "pushed_at": "2026-11-25T13:19:36Z",
+   "url": "https://github.com/itsoumya-d/dbt-data-vault-warehouse-orchestrator"
+  },
+  {
+   "name": "investment-order-settlement-engine",
+   "description": "High-throughput fractional investment order execution, double-entry ledger settlement and Kafka transactional outbox engine in Go",
+   "pushed_at": "2026-11-25T13:17:34Z",
+   "url": "https://github.com/itsoumya-d/investment-order-settlement-engine"
+  },
+  {
+   "name": "mission-telemetry-streaming-engine",
+   "description": "High-throughput mission control telemetry ingestion, frame decoding, limit-checking and streaming pipeline",
+   "pushed_at": "2026-11-25T13:09:44Z",
+   "url": "https://github.com/itsoumya-d/mission-telemetry-streaming-engine"
+  },
+  {
    "name": "geospatial-chunk-stream-runtime",
    "description": "High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor",
    "pushed_at": "2026-11-25T12:48:36Z",
    "url": "https://github.com/itsoumya-d/geospatial-chunk-stream-runtime"
-  },
-  {
-   "name": "consumer-lending-risk-engine",
-   "description": "High-throughput consumer lending underwriting risk decision and credit line calculation engine in Python with FastAPI",
-   "pushed_at": "2026-11-25T12:01:55Z",
-   "url": "https://github.com/itsoumya-d/consumer-lending-risk-engine"
-  },
-  {
-   "name": "bastion-findings-triage",
-   "description": "TypeScript/React security findings triage: CVSS 3.1, risk, dedupe and remediation SLAs",
-   "pushed_at": "2026-11-25T11:55:13Z",
-   "url": "https://github.com/itsoumya-d/bastion-findings-triage"
-  },
-  {
-   "name": "composable-marketing-section-engine",
-   "description": "Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation",
-   "pushed_at": "2026-11-25T11:52:00Z",
-   "url": "https://github.com/itsoumya-d/composable-marketing-section-engine"
-  },
-  {
-   "name": "fractional-share-order-engine",
-   "description": "High-precision fractional share investment order execution, market hours routing, and pooled custody allocation engine in TypeScript",
-   "pushed_at": "2026-11-25T11:47:38Z",
-   "url": "https://github.com/itsoumya-d/fractional-share-order-engine"
-  },
-  {
-   "name": "amr-fleet-telemetry-gateway",
-   "description": "High-throughput Autonomous Mobile Robot (AMR) fleet telemetry ingestion, health monitoring, and remote command dispatch engine",
-   "pushed_at": "2026-11-25T07:42:43Z",
-   "url": "https://github.com/itsoumya-d/amr-fleet-telemetry-gateway"
   }
  ],
  "languages": [
@@ -571,11 +571,11 @@
   ]
  ],
  "ci": {
-  "ok": 15,
+  "ok": 16,
   "total": 16
  },
  "activity": {
-  "total": 3721,
+  "total": 3733,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[geospatial-chunk-stream-runtime](https://github.com/itsoumya-d/geospatial-chunk-stream-runtime)**: High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor \u00b7 pushed 25 Nov 2026\n- **[consumer-lending-risk-engine](https://github.com/itsoumya-d/consumer-lending-risk-engine)**: High-throughput consumer lending underwriting risk decision and credit line calculation engine in Python with FastAPI \u00b7 pushed 25 Nov 2026\n- **[bastion-findings-triage](https://github.com/itsoumya-d/bastion-findings-triage)**: TypeScript/React security findings triage: CVSS 3.1, risk, dedupe and remediation SLAs \u00b7 pushed 25 Nov 2026\n- **[composable-marketing-section-engine](https://github.com/itsoumya-d/composable-marketing-section-engine)**: Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation \u00b7 pushed 25 Nov 2026\n- **[fractional-share-order-engine](https://github.com/itsoumya-d/fractional-share-order-engine)**: High-precision fractional share investment order execution, market hours routing, and pooled custody allocation engine in TypeScript \u00b7 pushed 25 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 25 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 25 Nov 2026\n- **[dbt-data-vault-warehouse-orchestrator](https://github.com/itsoumya-d/dbt-data-vault-warehouse-orchestrator)**: Data Vault 2.0 and dbt-compatible warehouse pipeline transformation engine \u00b7 pushed 25 Nov 2026\n- **[investment-order-settlement-engine](https://github.com/itsoumya-d/investment-order-settlement-engine)**: High-throughput fractional investment order execution, double-entry ledger settlement and Kafka transactional outbox engine in Go \u00b7 pushed 25 Nov 2026\n- **[mission-telemetry-streaming-engine](https://github.com/itsoumya-d/mission-telemetry-streaming-engine)**: High-throughput mission control telemetry ingestion, frame decoding, limit-checking and streaming pipeline \u00b7 pushed 25 Nov 2026"
   },
   {
    "id": "quality",
@@ -667,7 +667,7 @@
     "bugs",
     "discipline"
    ],
-   "md": "Every flagship repo runs CI on each push. Right now **15 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
+   "md": "Every flagship repo runs CI on each push. Right now **16 of 16 are green**.\n\n- Tests ship with the code: 45 in llm-control-plane (93% coverage), 95 in EdgeInfer, 75 in PeerVault, 434 in Factory Monitor.\n- Benchmarks are reproducible and labelled honestly. *Synthetic*, *mock* and *pending* results are marked as such, never passed off as production numbers.\n- Full evidence matrix: [EVIDENCE.md](https://github.com/itsoumya-d/itsoumya-d/blob/main/EVIDENCE.md)"
   },
   {
    "id": "relocation",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI running \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
@@ -920,6 +920,7 @@
   "cybermentor",
   "data-platform-reference",
   "data-quality-service",
+  "dbt-data-vault-warehouse-orchestrator",
   "default-project",
   "distributed-job-crawler-pipeline",
   "document-control-api",
@@ -968,6 +969,7 @@
   "infra-integration-assurance",
   "integration-sync-pipeline-engine",
   "intercoll-repayment-ops",
+  "investment-order-settlement-engine",
   "investment-portfolio-valuation-engine",
   "ios-reactive-banking-core",
   "itsm-integration-reprocessor",
@@ -984,6 +986,7 @@
   "materials-data-foundry",
   "meeting-context-harness",
   "meshauth",
+  "mission-telemetry-streaming-engine",
   "mlops-cluster-workload-scheduler",
   "mobile-native-design-system",
   "motion-mcp",
