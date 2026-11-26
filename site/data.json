@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-25",
+ "synced": "2026-11-26",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "222",
+   "245",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping data-platform-reference \u00b7 pushed 25 Nov",
+  "shipping motion-mcp \u00b7 pushed 26 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -492,7 +492,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/mobbin-ui-compiler",
    "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler",
-   "pushed_at": "2026-11-24T04:36:26Z",
+   "pushed_at": "2026-11-26T00:34:49Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "data-platform-reference",
-   "description": "Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform.",
-   "pushed_at": "2026-11-25T22:27:02Z",
-   "url": "https://github.com/itsoumya-d/data-platform-reference"
+   "name": "motion-mcp",
+   "description": "AI-native, codebase-aware motion generation MCP server.",
+   "pushed_at": "2026-11-26T04:57:15Z",
+   "url": "https://github.com/itsoumya-d/motion-mcp"
   },
   {
-   "name": "loanflow",
-   "description": "Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD",
-   "pushed_at": "2026-11-25T15:25:53Z",
-   "url": "https://github.com/itsoumya-d/loanflow"
+   "name": "certiflow-ai",
+   "description": "AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7",
+   "pushed_at": "2026-11-26T04:25:19Z",
+   "url": "https://github.com/itsoumya-d/certiflow-ai"
   },
   {
-   "name": "dbt-data-vault-warehouse-orchestrator",
-   "description": "Data Vault 2.0 and dbt-compatible warehouse pipeline transformation engine",
-   "pushed_at": "2026-11-25T13:19:36Z",
-   "url": "https://github.com/itsoumya-d/dbt-data-vault-warehouse-orchestrator"
+   "name": "full-stack-open-nextjs",
+   "description": "Full Stack Open: Next.js (University of Helsinki) course solutions",
+   "pushed_at": "2026-11-26T04:10:06Z",
+   "url": "https://github.com/itsoumya-d/full-stack-open-nextjs"
   },
   {
-   "name": "investment-order-settlement-engine",
-   "description": "High-throughput fractional investment order execution, double-entry ledger settlement and Kafka transactional outbox engine in Go",
-   "pushed_at": "2026-11-25T13:17:34Z",
-   "url": "https://github.com/itsoumya-d/investment-order-settlement-engine"
+   "name": "survey-analytics-privacy-runtime",
+   "description": "High-throughput cohort aggregation engine with strict k-anonymity privacy protection and analytical query generation",
+   "pushed_at": "2026-11-26T03:18:55Z",
+   "url": "https://github.com/itsoumya-d/survey-analytics-privacy-runtime"
   },
   {
-   "name": "mission-telemetry-streaming-engine",
-   "description": "High-throughput mission control telemetry ingestion, frame decoding, limit-checking and streaming pipeline",
-   "pushed_at": "2026-11-25T13:09:44Z",
-   "url": "https://github.com/itsoumya-d/mission-telemetry-streaming-engine"
+   "name": "repair-order-reconciliation-engine",
+   "description": "Deterministic collision repair order parts reconciliation and supervised HITL delegation engine in Rust",
+   "pushed_at": "2026-11-26T03:00:59Z",
+   "url": "https://github.com/itsoumya-d/repair-order-reconciliation-engine"
   },
   {
-   "name": "geospatial-chunk-stream-runtime",
-   "description": "High-throughput serverless spatial chunk ingestion and 3D bounding-box stream processor",
-   "pushed_at": "2026-11-25T12:48:36Z",
-   "url": "https://github.com/itsoumya-d/geospatial-chunk-stream-runtime"
+   "name": "industrial-telemetry-sentinel",
+   "description": "Operational technology (OT) time-series telemetry quality validator, hysteresis alarm suppression, and OEE downtime analytics engine.",
+   "pushed_at": "2026-11-26T02:55:51Z",
+   "url": "https://github.com/itsoumya-d/industrial-telemetry-sentinel"
   }
  ],
  "languages": [
@@ -543,22 +543,22 @@
   ],
   [
    "TypeScript",
-   26
+   25
+  ],
+  [
+   "Go",
+   5
   ],
   [
    "HTML",
    5
   ],
   [
-   "JavaScript",
-   4
-  ],
-  [
    "C#",
    4
   ],
   [
-   "Go",
+   "JavaScript",
    3
   ],
   [
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3733,
+  "total": 3849,
   "label": "contributions in the last year",
   "stats": [
    [
-    "189",
+    "190",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "49d",
+    "50d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[data-platform-reference](https://github.com/itsoumya-d/data-platform-reference)**: Testable reference data platform: dbt, Airflow, Spark, Kafka, Snowflake adapter, FastAPI and Terraform. \u00b7 pushed 25 Nov 2026\n- **[loanflow](https://github.com/itsoumya-d/loanflow)**: Clean-room regulated lending platform: Laravel 13 / PHP 8.x, OAuth 2.0, Keap CRM, WordPress intake, BigQuery, GTM, CI/CD \u00b7 pushed 25 Nov 2026\n- **[dbt-data-vault-warehouse-orchestrator](https://github.com/itsoumya-d/dbt-data-vault-warehouse-orchestrator)**: Data Vault 2.0 and dbt-compatible warehouse pipeline transformation engine \u00b7 pushed 25 Nov 2026\n- **[investment-order-settlement-engine](https://github.com/itsoumya-d/investment-order-settlement-engine)**: High-throughput fractional investment order execution, double-entry ledger settlement and Kafka transactional outbox engine in Go \u00b7 pushed 25 Nov 2026\n- **[mission-telemetry-streaming-engine](https://github.com/itsoumya-d/mission-telemetry-streaming-engine)**: High-throughput mission control telemetry ingestion, frame decoding, limit-checking and streaming pipeline \u00b7 pushed 25 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[motion-mcp](https://github.com/itsoumya-d/motion-mcp)**: AI-native, codebase-aware motion generation MCP server. \u00b7 pushed 26 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 26 Nov 2026\n- **[full-stack-open-nextjs](https://github.com/itsoumya-d/full-stack-open-nextjs)**: Full Stack Open: Next.js (University of Helsinki) course solutions \u00b7 pushed 26 Nov 2026\n- **[survey-analytics-privacy-runtime](https://github.com/itsoumya-d/survey-analytics-privacy-runtime)**: High-throughput cohort aggregation engine with strict k-anonymity privacy protection and analytical query generation \u00b7 pushed 26 Nov 2026\n- **[repair-order-reconciliation-engine](https://github.com/itsoumya-d/repair-order-reconciliation-engine)**: Deterministic collision repair order parts reconciliation and supervised HITL delegation engine in Rust \u00b7 pushed 26 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 47%, TypeScript 26%, HTML 5%, JavaScript 4%, C# 4%, Go 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 47%, TypeScript 25%, Go 5%, HTML 5%, C# 4%, JavaScript 3%."
   },
   {
    "id": "apps",
@@ -867,12 +867,15 @@
   "aeo_geo",
   "afeedi",
   "agent-runtime-reliability",
+  "agent-tool-orchestration-engine",
   "agentic-code-context-indexer",
   "agentic-delivery-workflow-engine",
   "agentic-lead-verifier",
   "agentic-mcp-integration-engine",
+  "agentic-workflow-discovery-runtime",
   "agri-ops-data-pipeline",
   "agritech-consent-data-exchange",
+  "ai-governance-compliance-auditor",
   "ai-landing-zone-guardrail",
   "ai-search-citation-indexer",
   "aimer-pos-settlement",
@@ -902,6 +905,7 @@
   "classroom-safety-signal",
   "client-delivery-api",
   "clinical-trial-prescreening",
+  "clinical-whiteboard-sync-runtime",
   "clojure-ledger-query",
   "cloud-agent-policy-guardrail",
   "cloud-security-posture",
@@ -911,15 +915,20 @@
   "complaintgraph",
   "composable-marketing-section-engine",
   "compose-cognitive-intervention-engine",
+  "connected-equipment-safety-runtime",
   "connected-erp-workflow-engine",
   "construction-cost-estimator",
   "consumer-financial-agent-copilot",
   "consumer-lending-risk-engine",
+  "core-ledger-event-gateway",
   "craveai-privacy-policy",
+  "creative-variant-optimization-engine",
   "cross-border-mobility-compliance",
+  "customer-data-webhook-pipeline",
   "cybermentor",
   "data-platform-reference",
   "data-quality-service",
+  "database-operations-sentinel",
   "dbt-data-vault-warehouse-orchestrator",
   "default-project",
   "distributed-job-crawler-pipeline",
@@ -937,6 +946,7 @@
   "eplanning-policy-engine",
   "erp-sync-automation",
   "evaboot-verified-lists",
+  "evm-rpc-security-guardrail",
   "factory-monitor",
   "factory-scheduling-optimization-engine",
   "fhir-interoperability-service",
@@ -944,6 +954,7 @@
   "fieldlens__",
   "figured-farm-finance",
   "financial-product-fraud-evaluator",
+  "fleet-telemetry-event-runtime",
   "flux-billing-reconciliation",
   "flux-social",
   "fractional-share-order-engine",
@@ -961,6 +972,8 @@
   "hb-m365-onboarding",
   "henryschein-dental-practice",
   "hostshift",
+  "iam-directory-federation-guard",
+  "identity-access-diagnostic-engine",
   "image2code-bench",
   "incident-drift-detective",
   "industrial-telemetry-sentinel",
@@ -975,6 +988,7 @@
   "itsm-integration-reprocessor",
   "itsoumya-d",
   "jira-delivery-risk-service",
+  "k8s-runtime-admission-guard",
   "lease-finance-service",
   "legacy-strangler-modernization",
   "link-ecu-calibration",
@@ -982,6 +996,8 @@
   "llm-control-plane",
   "loanflow",
   "manufacturing-mrp-service",
+  "market-execution-risk-engine",
+  "marketplace-order-lifecycle-orchestrator",
   "mastra-trace-autoevals",
   "materials-data-foundry",
   "meeting-context-harness",
@@ -1004,6 +1020,7 @@
   "oracle-oci-cost-guard",
   "p2p-webrtc-session-mesh",
   "parrot-demand-evidence",
+  "parts-catalog-resolution-engine",
   "payment-ledger-pipeline",
   "peervault",
   "planning-assessment-service",
@@ -1017,9 +1034,12 @@
   "rag-adk-eval-runtime",
   "railway-container-orchestrator",
   "rcs-music-scheduler",
+  "realtime-identity-event-pipeline",
   "recare-ai-platform",
   "rent-reconciliation-service",
+  "repair-order-reconciliation-engine",
   "retail-inventory-availability-mesh",
+  "retail-lakehouse-ingestion-engine",
   "revenue-watchtower-engine",
   "rlvr-bias-probe",
   "ros2-arm-motion-dispatch",
@@ -1028,6 +1048,7 @@
   "saas-security-compliance-scanner",
   "school-payments-django",
   "semantic-metric-studio",
+  "serverless-event-order-router",
   "settlement-guard",
   "silverstripe-content-review",
   "simbook",
@@ -1037,6 +1058,7 @@
   "solar-telemetry-pipeline",
   "support-sla-routing-engine",
   "surface-karya",
+  "survey-analytics-privacy-runtime",
   "swarmcompute",
   "syncforge",
   "syncplay",
@@ -1060,6 +1082,7 @@
   "voiceq-dubbing-timeline",
   "vulnhunter",
   "waitless",
+  "warehouse-audience-sync-engine",
   "warehouse-management-service",
   "water-compliance-service",
   "watercare-asset-data-product",

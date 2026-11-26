@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "66c18e054117e755",
+ "hash": "c034f770305a33f5",
  "live": {
   "activity": {
    "days": {
@@ -352,8 +352,8 @@
     "2026-11-03": 31,
     "2026-11-04": 8,
     "2026-11-05": 38,
-    "2026-11-06": 46,
-    "2026-11-07": 11,
+    "2026-11-06": 27,
+    "2026-11-07": 7,
     "2026-11-08": 8,
     "2026-11-09": 21,
     "2026-11-10": 1,
@@ -371,11 +371,12 @@
     "2026-11-22": 27,
     "2026-11-23": 69,
     "2026-11-24": 125,
-    "2026-11-25": 197
+    "2026-11-25": 207,
+    "2026-11-26": 129
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3733
+   "total": 3849
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -415,10 +416,10 @@
     "url": "https://github.com/itsoumya-d/HEROS-RL/actions/runs/45350029923"
    },
    "Mobbin-UI-Compiler": {
-    "at": "2026-11-24",
+    "at": "2026-11-26",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions/runs/45327557164"
+    "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler/actions/runs/45729743703"
    },
    "Reflexion-SWE": {
     "at": "2026-10-31",
@@ -635,8 +636,8 @@
     "forks": 0,
     "homepage": "",
     "language": "JavaScript",
-    "pushed_at": "2026-11-24T04:36:26Z",
-    "size": 34,
+    "pushed_at": "2026-11-26T00:34:49Z",
+    "size": 47,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/Mobbin-UI-Compiler"
    },
@@ -757,6 +758,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agent-runtime-reliability"
    },
+   "agent-tool-orchestration-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FastAPI enterprise agent tool orchestration gateway with MCP integration, sandboxed tool execution, and prompt injection guardrails",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T22:57:31Z",
+    "size": 7,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agent-tool-orchestration-engine"
+   },
    "agentic-code-context-indexer": {
     "archived": false,
     "default_branch": "main",
@@ -809,6 +823,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agentic-mcp-integration-engine"
    },
+   "agentic-workflow-discovery-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deterministic enterprise agent runtime for workflow decomposition, tool orchestration, and human-in-the-loop review escalation",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T01:22:11Z",
+    "size": 17,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/agentic-workflow-discovery-runtime"
+   },
    "agri-ops-data-pipeline": {
     "archived": false,
     "default_branch": "main",
@@ -834,6 +861,19 @@
     "size": 5,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/agritech-consent-data-exchange"
+   },
+   "ai-governance-compliance-auditor": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Continuous compliance and automated control auditing engine for AI agents and model providers (ISO 42001 & SOC 2)",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-26T02:46:22Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ai-governance-compliance-auditor"
    },
    "ai-landing-zone-guardrail": {
     "archived": false,
@@ -1011,9 +1051,9 @@
     "fork": false,
     "forks": 0,
     "homepage": "",
-    "language": null,
-    "pushed_at": "2026-07-26T11:15:57Z",
-    "size": 2,
+    "language": "TypeScript",
+    "pushed_at": "2026-11-26T02:00:03Z",
+    "size": 7,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/awesome-zero-server-saas"
    },
@@ -1181,8 +1221,8 @@
     "forks": 2,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-10-30T07:27:39Z",
-    "size": 490,
+    "pushed_at": "2026-11-26T04:25:19Z",
+    "size": 499,
     "stars": 7,
     "url": "https://github.com/itsoumya-d/certiflow-ai"
    },
@@ -1233,10 +1273,23 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-06T03:31:38Z",
-    "size": 120,
+    "pushed_at": "2026-11-25T23:50:45Z",
+    "size": 125,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/clinical-trial-prescreening"
+   },
+   "clinical-whiteboard-sync-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Swift",
+    "pushed_at": "2026-11-25T23:50:41Z",
+    "size": 9,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/clinical-whiteboard-sync-runtime"
    },
    "clojure-ledger-query": {
     "archived": false,
@@ -1355,6 +1408,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/compose-cognitive-intervention-engine"
    },
+   "connected-equipment-safety-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput stream processing runtime for connected industrial equipment telemetry, safety risk envelope evaluation, and automated mitigation event dispatch",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-26T00:53:55Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/connected-equipment-safety-runtime"
+   },
    "connected-erp-workflow-engine": {
     "archived": false,
     "default_branch": "main",
@@ -1407,6 +1473,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/consumer-lending-risk-engine"
    },
+   "core-ledger-event-gateway": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput idempotent event gateway and posting invariant validation runtime for core banking ledgers",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-26T02:07:04Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/core-ledger-event-gateway"
+   },
    "craveai-privacy-policy": {
     "archived": false,
     "default_branch": "main",
@@ -1420,6 +1499,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/craveai-privacy-policy"
    },
+   "creative-variant-optimization-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Production AI optimization engine for dynamic advertising creative variants, multi-armed bandit allocation, and performance scoring",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T23:13:43Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/creative-variant-optimization-engine"
+   },
    "cross-border-mobility-compliance": {
     "archived": false,
     "default_branch": "main",
@@ -1432,6 +1524,19 @@
     "size": 130,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/cross-border-mobility-compliance"
+   },
+   "customer-data-webhook-pipeline": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-reliability customer data platform webhook ingestion, event normalization, and transactional dispatch engine",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T23:28:55Z",
+    "size": 19,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/customer-data-webhook-pipeline"
    },
    "cybermentor": {
     "archived": false,
@@ -1455,7 +1560,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-25T22:27:02Z",
-    "size": 377,
+    "size": 389,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/data-platform-reference"
    },
@@ -1472,6 +1577,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/data-quality-service"
    },
+   "database-operations-sentinel": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T03:11:22Z",
+    "size": 42,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/database-operations-sentinel"
+   },
    "dbt-data-vault-warehouse-orchestrator": {
     "archived": false,
     "default_branch": "main",
@@ -1480,8 +1598,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T13:19:36Z",
-    "size": 18,
+    "pushed_at": "2026-11-25T23:43:01Z",
+    "size": 23,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/dbt-data-vault-warehouse-orchestrator"
    },
@@ -1693,6 +1811,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/evaboot-verified-lists"
    },
+   "evm-rpc-security-guardrail": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance EVM & zkEVM RPC security proxy with transaction policy validation and cloud IAM verification",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-26T02:25:23Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/evm-rpc-security-guardrail"
+   },
    "factory-monitor": {
     "archived": false,
     "default_branch": "main",
@@ -1784,6 +1915,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/financial-product-fraud-evaluator"
    },
+   "fleet-telemetry-event-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "C#",
+    "pushed_at": "2026-11-25T23:07:30Z",
+    "size": 7,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/fleet-telemetry-event-runtime"
+   },
    "flux-billing-reconciliation": {
     "archived": false,
     "default_branch": "main",
@@ -1831,7 +1975,7 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-24T08:51:42Z",
+    "pushed_at": "2026-11-26T04:10:06Z",
     "size": 123,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/full-stack-open-nextjs"
@@ -1857,8 +2001,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T06:46:05Z",
-    "size": 14,
+    "pushed_at": "2026-11-26T02:47:36Z",
+    "size": 19,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/gcp-workspace-identity-governor"
    },
@@ -2005,6 +2149,32 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/hostshift"
    },
+   "iam-directory-federation-guard": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T23:57:10Z",
+    "size": 6,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/iam-directory-federation-guard"
+   },
+   "identity-access-diagnostic-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enterprise authentication and RBAC diagnostic engine for SAML, OIDC, and SCIM auditing",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T02:38:40Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/identity-access-diagnostic-engine"
+   },
    "image2code-bench": {
     "archived": false,
     "default_branch": "main",
@@ -2039,8 +2209,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T01:14:47Z",
-    "size": 6,
+    "pushed_at": "2026-11-26T02:55:51Z",
+    "size": 11,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/industrial-telemetry-sentinel"
    },
@@ -2169,8 +2339,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T12:55:54Z",
-    "size": 581,
+    "pushed_at": "2026-11-25T22:32:57Z",
+    "size": 584,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2186,6 +2356,19 @@
     "size": 25,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/jira-delivery-risk-service"
+   },
+   "k8s-runtime-admission-guard": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes validating admission controller enforcing pod security standards, privilege escalation prevention, and runtime compliance",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T23:36:52Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/k8s-runtime-admission-guard"
    },
    "lease-finance-service": {
     "archived": false,
@@ -2277,6 +2460,32 @@
     "size": 15,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/manufacturing-mrp-service"
+   },
+   "market-execution-risk-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput pre-trade risk validation and order execution engine",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T02:33:58Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/market-execution-risk-engine"
+   },
+   "marketplace-order-lifecycle-orchestrator": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-25T23:13:13Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/marketplace-order-lifecycle-orchestrator"
    },
    "mastra-trace-autoevals": {
     "archived": false,
@@ -2377,7 +2586,7 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-23T10:31:14Z",
+    "pushed_at": "2026-11-26T04:57:15Z",
     "size": 2280,
     "stars": 3,
     "url": "https://github.com/itsoumya-d/motion-mcp"
@@ -2564,6 +2773,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/parrot-demand-evidence"
    },
+   "parts-catalog-resolution-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Rust",
+    "pushed_at": "2026-11-26T01:04:56Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/parts-catalog-resolution-engine"
+   },
    "payment-ledger-pipeline": {
     "archived": false,
     "default_branch": "main",
@@ -2733,6 +2955,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/rcs-music-scheduler"
    },
+   "realtime-identity-event-pipeline": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput real-time identity graph resolution, touchpoint event streaming and attribution pipeline in TypeScript",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pushed_at": "2026-11-25T23:05:23Z",
+    "size": 20,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/realtime-identity-event-pipeline"
+   },
    "recare-ai-platform": {
     "archived": false,
     "default_branch": "main",
@@ -2759,6 +2994,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/rent-reconciliation-service"
    },
+   "repair-order-reconciliation-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deterministic collision repair order parts reconciliation and supervised HITL delegation engine in Rust",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Rust",
+    "pushed_at": "2026-11-26T03:00:59Z",
+    "size": 10,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/repair-order-reconciliation-engine"
+   },
    "retail-inventory-availability-mesh": {
     "archived": false,
     "default_branch": "main",
@@ -2771,6 +3019,19 @@
     "size": 4,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/retail-inventory-availability-mesh"
+   },
+   "retail-lakehouse-ingestion-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput retail POS transaction ingestion and Medallion architecture (Bronze/Silver/Gold) CDC pipeline in Python.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T00:32:30Z",
+    "size": 7,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/retail-lakehouse-ingestion-engine"
    },
    "revenue-watchtower-engine": {
     "archived": false,
@@ -2875,6 +3136,19 @@
     "size": 12,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/semantic-metric-studio"
+   },
+   "serverless-event-order-router": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-26T00:01:45Z",
+    "size": 5,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/serverless-event-order-router"
    },
    "settlement-guard": {
     "archived": false,
@@ -2993,6 +3267,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/surface-karya"
    },
+   "survey-analytics-privacy-runtime": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput cohort aggregation engine with strict k-anonymity privacy protection and analytical query generation",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T03:18:55Z",
+    "size": 11,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/survey-analytics-privacy-runtime"
+   },
    "swarmcompute": {
     "archived": false,
     "default_branch": "main",
@@ -3053,8 +3340,8 @@
     "forks": 0,
     "homepage": "",
     "language": "C#",
-    "pushed_at": "2026-11-25T02:37:58Z",
-    "size": 16,
+    "pushed_at": "2026-11-26T00:56:51Z",
+    "size": 22,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/tally-energy-billing"
    },
@@ -3292,6 +3579,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/waitless"
    },
+   "warehouse-audience-sync-engine": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-throughput Change Data Capture (CDC) stream consumer and real-time audience segment sync engine for reverse ETL warehouse data activation.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Go",
+    "pushed_at": "2026-11-26T00:18:06Z",
+    "size": 8,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/warehouse-audience-sync-engine"
+   },
    "warehouse-management-service": {
     "archived": false,
     "default_branch": "main",
@@ -3365,8 +3665,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-21T03:15:58Z",
-    "size": 83,
+    "pushed_at": "2026-11-26T00:20:18Z",
+    "size": 90,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/workspace-sync-engine"
    },
@@ -3393,8 +3693,8 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 222
+   "public_repos": 245
   }
  },
- "synced": "2026-11-25"
+ "synced": "2026-11-26"
 }
