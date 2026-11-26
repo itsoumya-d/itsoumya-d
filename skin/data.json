@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "c034f770305a33f5",
+ "hash": "e1f3e3afc5684e20",
  "live": {
   "activity": {
    "days": {
@@ -354,7 +354,7 @@
     "2026-11-05": 38,
     "2026-11-06": 27,
     "2026-11-07": 7,
-    "2026-11-08": 8,
+    "2026-11-08": 7,
     "2026-11-09": 21,
     "2026-11-10": 1,
     "2026-11-11": 14,
@@ -372,11 +372,11 @@
     "2026-11-23": 69,
     "2026-11-24": 125,
     "2026-11-25": 207,
-    "2026-11-26": 129
+    "2026-11-26": 157
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3849
+   "total": 3876
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -440,16 +440,16 @@
     "url": "https://github.com/itsoumya-d/autopilot-fde/actions/runs/44962169106"
    },
    "edgeinfer": {
-    "at": "2026-11-24",
+    "at": "2026-11-26",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/edgeinfer/actions/runs/45323639457"
+    "url": "https://github.com/itsoumya-d/edgeinfer/actions/runs/45810046356"
    },
    "factory-monitor": {
-    "at": "2026-11-25",
+    "at": "2026-11-26",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/factory-monitor/actions/runs/45618242298"
+    "url": "https://github.com/itsoumya-d/factory-monitor/actions/runs/45785166736"
    },
    "go-ledger": {
     "at": "2026-11-24",
@@ -514,26 +514,26 @@
    "ContentForge-AI": {
     "archived": false,
     "default_branch": "main",
-    "description": "Document parsing and structured content analysis pipeline.",
+    "description": "Automated document parsing, structured content analysis, and generation pipeline.",
     "fork": false,
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-10-14T05:08:46Z",
-    "size": 494,
+    "pushed_at": "2026-11-26T07:11:34Z",
+    "size": 501,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/ContentForge-AI"
    },
    "EcoSphere": {
     "archived": false,
     "default_branch": "main",
-    "description": "",
+    "description": "Carbon footprint tracking and sustainability gamification mobile app built with Flutter and Firebase",
     "fork": false,
     "forks": 0,
     "homepage": "",
     "language": "Dart",
-    "pushed_at": "2026-10-08T22:53:27Z",
-    "size": 270,
+    "pushed_at": "2026-11-26T09:05:29Z",
+    "size": 271,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/EcoSphere"
    },
@@ -1689,8 +1689,8 @@
     "forks": 0,
     "homepage": "https://itsoumya-d.github.io/edgeinfer/",
     "language": "JavaScript",
-    "pushed_at": "2026-11-24T04:02:56Z",
-    "size": 2137,
+    "pushed_at": "2026-11-26T11:22:44Z",
+    "size": 2150,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/edgeinfer"
    },
@@ -1772,6 +1772,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/enterprise-iam-scim-core"
    },
+   "entity-embed-eval": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pushed_at": "2026-11-26T06:29:14Z",
+    "size": 12,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/entity-embed-eval"
+   },
    "eplanning-policy-engine": {
     "archived": false,
     "default_branch": "main",
@@ -1832,8 +1845,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Rust",
-    "pushed_at": "2026-11-18T13:00:59Z",
-    "size": 903,
+    "pushed_at": "2026-11-26T08:40:31Z",
+    "size": 966,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/factory-monitor"
    },
@@ -1884,8 +1897,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-10-09T00:11:13Z",
-    "size": 1503,
+    "pushed_at": "2026-11-26T06:16:17Z",
+    "size": 1506,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/fieldlens__"
    },
@@ -1976,7 +1989,7 @@
     "homepage": "",
     "language": "TypeScript",
     "pushed_at": "2026-11-26T04:10:06Z",
-    "size": 123,
+    "size": 212,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/full-stack-open-nextjs"
    },
@@ -2040,8 +2053,8 @@
     "forks": 0,
     "homepage": "https://itsoumya-d.github.io/ghostsearch/",
     "language": "HTML",
-    "pushed_at": "2026-10-31T01:52:13Z",
-    "size": 1854,
+    "pushed_at": "2026-11-26T11:41:48Z",
+    "size": 1891,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/ghostsearch"
    },
@@ -2079,8 +2092,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-10-08T21:50:26Z",
-    "size": 1218,
+    "pushed_at": "2026-11-26T05:56:41Z",
+    "size": 1243,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/govpass"
    },
@@ -2144,8 +2157,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-10-10T04:46:36Z",
-    "size": 774,
+    "pushed_at": "2026-11-26T11:10:28Z",
+    "size": 777,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/hostshift"
    },
@@ -2339,8 +2352,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T22:32:57Z",
-    "size": 584,
+    "pushed_at": "2026-11-26T05:04:32Z",
+    "size": 609,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2581,13 +2594,13 @@
    "motion-mcp": {
     "archived": false,
     "default_branch": "main",
-    "description": "AI-native, codebase-aware motion generation MCP server.",
+    "description": "Production-grade Model Context Protocol (MCP) server for codebase-aware motion graphics and generative animation.",
     "fork": false,
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
     "pushed_at": "2026-11-26T04:57:15Z",
-    "size": 2280,
+    "size": 2282,
     "stars": 3,
     "url": "https://github.com/itsoumya-d/motion-mcp"
    },
@@ -3678,8 +3691,8 @@
     "forks": 0,
     "homepage": "https://itsoumya-d.github.io/zeroq/",
     "language": "HTML",
-    "pushed_at": "2026-11-23T13:20:16Z",
-    "size": 5268,
+    "pushed_at": "2026-11-26T09:46:47Z",
+    "size": 5272,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/zeroq"
    }
@@ -3693,7 +3706,7 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 245
+   "public_repos": 246
   }
  },
  "synced": "2026-11-26"

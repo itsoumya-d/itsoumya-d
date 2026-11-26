@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "245",
+   "246",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping motion-mcp \u00b7 pushed 26 Nov",
+  "shipping ghostsearch \u00b7 pushed 26 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -404,7 +404,7 @@
    ],
    "demo": "https://huggingface.co/spaces/itssoumyad/edgeinfer-v2",
    "url": "https://github.com/itsoumya-d/edgeinfer",
-   "pushed_at": "2026-11-24T04:02:56Z",
+   "pushed_at": "2026-11-26T11:22:44Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -457,7 +457,7 @@
     "OPC UA"
    ],
    "url": "https://github.com/itsoumya-d/factory-monitor",
-   "pushed_at": "2026-11-18T13:00:59Z",
+   "pushed_at": "2026-11-26T08:40:31Z",
    "stars": 0,
    "language": "Rust",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "motion-mcp",
-   "description": "AI-native, codebase-aware motion generation MCP server.",
-   "pushed_at": "2026-11-26T04:57:15Z",
-   "url": "https://github.com/itsoumya-d/motion-mcp"
+   "name": "ghostsearch",
+   "description": "Client-side full-text and multimodal document retrieval engine",
+   "pushed_at": "2026-11-26T11:41:48Z",
+   "url": "https://github.com/itsoumya-d/ghostsearch"
   },
   {
-   "name": "certiflow-ai",
-   "description": "AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7",
-   "pushed_at": "2026-11-26T04:25:19Z",
-   "url": "https://github.com/itsoumya-d/certiflow-ai"
+   "name": "edgeinfer",
+   "description": "Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine",
+   "pushed_at": "2026-11-26T11:22:44Z",
+   "url": "https://github.com/itsoumya-d/edgeinfer"
   },
   {
-   "name": "full-stack-open-nextjs",
-   "description": "Full Stack Open: Next.js (University of Helsinki) course solutions",
-   "pushed_at": "2026-11-26T04:10:06Z",
-   "url": "https://github.com/itsoumya-d/full-stack-open-nextjs"
+   "name": "hostshift",
+   "description": "HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal.",
+   "pushed_at": "2026-11-26T11:10:28Z",
+   "url": "https://github.com/itsoumya-d/hostshift"
   },
   {
-   "name": "survey-analytics-privacy-runtime",
-   "description": "High-throughput cohort aggregation engine with strict k-anonymity privacy protection and analytical query generation",
-   "pushed_at": "2026-11-26T03:18:55Z",
-   "url": "https://github.com/itsoumya-d/survey-analytics-privacy-runtime"
+   "name": "zeroq",
+   "description": "\ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS.",
+   "pushed_at": "2026-11-26T09:46:47Z",
+   "url": "https://github.com/itsoumya-d/zeroq"
   },
   {
-   "name": "repair-order-reconciliation-engine",
-   "description": "Deterministic collision repair order parts reconciliation and supervised HITL delegation engine in Rust",
-   "pushed_at": "2026-11-26T03:00:59Z",
-   "url": "https://github.com/itsoumya-d/repair-order-reconciliation-engine"
+   "name": "EcoSphere",
+   "description": "Carbon footprint tracking and sustainability gamification mobile app built with Flutter and Firebase",
+   "pushed_at": "2026-11-26T09:05:29Z",
+   "url": "https://github.com/itsoumya-d/EcoSphere"
   },
   {
-   "name": "industrial-telemetry-sentinel",
-   "description": "Operational technology (OT) time-series telemetry quality validator, hysteresis alarm suppression, and OEE downtime analytics engine.",
-   "pushed_at": "2026-11-26T02:55:51Z",
-   "url": "https://github.com/itsoumya-d/industrial-telemetry-sentinel"
+   "name": "ContentForge-AI",
+   "description": "Automated document parsing, structured content analysis, and generation pipeline.",
+   "pushed_at": "2026-11-26T07:11:34Z",
+   "url": "https://github.com/itsoumya-d/ContentForge-AI"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3849,
+  "total": 3876,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[motion-mcp](https://github.com/itsoumya-d/motion-mcp)**: AI-native, codebase-aware motion generation MCP server. \u00b7 pushed 26 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 26 Nov 2026\n- **[full-stack-open-nextjs](https://github.com/itsoumya-d/full-stack-open-nextjs)**: Full Stack Open: Next.js (University of Helsinki) course solutions \u00b7 pushed 26 Nov 2026\n- **[survey-analytics-privacy-runtime](https://github.com/itsoumya-d/survey-analytics-privacy-runtime)**: High-throughput cohort aggregation engine with strict k-anonymity privacy protection and analytical query generation \u00b7 pushed 26 Nov 2026\n- **[repair-order-reconciliation-engine](https://github.com/itsoumya-d/repair-order-reconciliation-engine)**: Deterministic collision repair order parts reconciliation and supervised HITL delegation engine in Rust \u00b7 pushed 26 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[ghostsearch](https://github.com/itsoumya-d/ghostsearch)**: Client-side full-text and multimodal document retrieval engine \u00b7 pushed 26 Nov 2026\n- **[edgeinfer](https://github.com/itsoumya-d/edgeinfer)**: Client-side WebGPU/WASM ONNX inference and Matryoshka embedding engine \u00b7 pushed 26 Nov 2026\n- **[hostshift](https://github.com/itsoumya-d/hostshift)**: HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal. \u00b7 pushed 26 Nov 2026\n- **[zeroq](https://github.com/itsoumya-d/zeroq)**: \ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS. \u00b7 pushed 26 Nov 2026\n- **[EcoSphere](https://github.com/itsoumya-d/EcoSphere)**: Carbon footprint tracking and sustainability gamification mobile app built with Flutter and Firebase \u00b7 pushed 26 Nov 2026"
   },
   {
    "id": "quality",
@@ -827,7 +827,7 @@
     "p2p",
     "crypto"
    ],
-   "md": "**Performance & edge**: Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.\n\n1. **[PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench)**: Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.  \n  `Up to 11.8\u00d7 faster than scalar on Apple Silicon` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)\n2. **[EdgeInfer](https://github.com/itsoumya-d/edgeinfer)**: Runs AI models and semantic search entirely in the browser, with no server.  \n  `95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)\n3. **[PeerVault](https://github.com/itsoumya-d/peervault)**: Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.  \n  `100/100 NIST test vectors \u00b7 75 tests` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/peervault-pqc)"
+   "md": "**Performance & edge**: Making AI run fast and private: SIMD kernels, in-browser inference and post-quantum P2P.\n\n1. **[PerfBench](https://github.com/itsoumya-d/Anthropic-PerfBench)**: Hand-tuned CPU kernels for the maths inside transformer models, each checked against a reference.  \n  `Up to 11.8\u00d7 faster than scalar on Apple Silicon` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/anthropic-perfbench)\n2. **[EdgeInfer](https://github.com/itsoumya-d/edgeinfer)**: Runs AI models and semantic search entirely in the browser, with no server.  \n  `95 tests \u00b7 WebGPU/WASM \u00b7 synthetic 100k-chunk benchmark` \u00b7 CI passing \u00b7 last push 26 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/edgeinfer-v2)\n3. **[PeerVault](https://github.com/itsoumya-d/peervault)**: Peer-to-peer file transfer in the browser with post-quantum encryption and no server in the middle.  \n  `100/100 NIST test vectors \u00b7 75 tests` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/peervault-pqc)"
   },
   {
    "id": "lens:backend",
@@ -846,7 +846,7 @@
     "erp",
     "api"
    ],
-   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 18 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
+   "md": "**Backend, payments & integration**: Correctness-first services: idempotency, ledgers, outbox patterns and industrial integrations.\n\n1. **[go-ledger](https://github.com/itsoumya-d/go-ledger)**: A payment service that cannot double-charge: idempotent requests and a double-entry ledger that always balances.  \n  `go test -race \u00b7 capture-once under concurrency` \u00b7 CI passing \u00b7 last push 24 Nov 2026 \u00b7 [live demo](https://itsoumya-d.github.io/go-ledger/)\n2. **[Factory Monitor](https://github.com/itsoumya-d/factory-monitor)**: Software that watches factory machines and cameras in real time and plugs into ERP/MES systems.  \n  `13-crate Rust workspace \u00b7 434 tests \u00b7 7/7 CI jobs` \u00b7 CI passing \u00b7 last push 26 Nov 2026\n3. **[AutoPilot FDE](https://github.com/itsoumya-d/autopilot-fde)**: Finds repetitive work in a company's emails and tickets, then drafts automations for it (prototype).  \n  `Doc-extraction eval harness \u00b7 Python 3.12\u20133.14 CI` \u00b7 CI passing \u00b7 last push 21 Nov 2026"
   }
  ],
  "repo_names": [
@@ -943,6 +943,7 @@
   "enterprise-agentic-workflow-mesh",
   "enterprise-ai-workflow-orchestrator",
   "enterprise-iam-scim-core",
+  "entity-embed-eval",
   "eplanning-policy-engine",
   "erp-sync-automation",
   "evaboot-verified-lists",
