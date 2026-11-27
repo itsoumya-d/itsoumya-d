@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping zeroq \u00b7 pushed 27 Nov",
+  "shipping hostshift \u00b7 pushed 27 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -226,7 +226,7 @@
     "HMAC"
    ],
    "url": "https://github.com/itsoumya-d/HEROS",
-   "pushed_at": "2026-11-25T03:46:55Z",
+   "pushed_at": "2026-11-27T12:01:33Z",
    "stars": 0,
    "language": "JavaScript",
    "ci": "pass"
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-27T04:08:29Z",
+   "pushed_at": "2026-11-27T12:56:19Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -500,40 +500,40 @@
  ],
  "recent": [
   {
-   "name": "zeroq",
-   "description": "\ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS.",
-   "pushed_at": "2026-11-27T04:43:21Z",
-   "url": "https://github.com/itsoumya-d/zeroq"
-  },
-  {
-   "name": "mobile-native-design-system",
-   "description": "Flutter-first native mobile design, motion, token, and audit plugin for Codex.",
-   "pushed_at": "2026-11-27T04:25:03Z",
-   "url": "https://github.com/itsoumya-d/mobile-native-design-system"
-  },
-  {
-   "name": "llm-control-plane",
-   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-27T04:08:29Z",
-   "url": "https://github.com/itsoumya-d/llm-control-plane"
+   "name": "hostshift",
+   "description": "HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal.",
+   "pushed_at": "2026-11-27T13:39:54Z",
+   "url": "https://github.com/itsoumya-d/hostshift"
   },
   {
    "name": "certiflow-ai",
    "description": "AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7",
-   "pushed_at": "2026-11-27T01:53:06Z",
+   "pushed_at": "2026-11-27T13:09:27Z",
    "url": "https://github.com/itsoumya-d/certiflow-ai"
   },
   {
-   "name": "cybermentor",
-   "description": "AI-powered OWASP security learning platform \u2014 learn to hack, then fix. Built for NextDev Hackathon 2026.",
-   "pushed_at": "2026-11-27T00:24:31Z",
-   "url": "https://github.com/itsoumya-d/cybermentor"
+   "name": "llm-control-plane",
+   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
+   "pushed_at": "2026-11-27T12:56:19Z",
+   "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
-   "name": "vulnhunter",
-   "description": "AI-powered OWASP security scanner for public GitHub repos \u2014 paste a URL, get a full vulnerability report in seconds. Built for Quantum Sprint 2026.",
-   "pushed_at": "2026-11-27T00:20:04Z",
-   "url": "https://github.com/itsoumya-d/vulnhunter"
+   "name": "ContentForge-AI",
+   "description": "Automated document parsing, structured content analysis, and generation pipeline.",
+   "pushed_at": "2026-11-27T12:19:57Z",
+   "url": "https://github.com/itsoumya-d/ContentForge-AI"
+  },
+  {
+   "name": "HEROS",
+   "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
+   "pushed_at": "2026-11-27T12:01:33Z",
+   "url": "https://github.com/itsoumya-d/HEROS"
+  },
+  {
+   "name": "zeroq",
+   "description": "\ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS.",
+   "pushed_at": "2026-11-27T04:43:21Z",
+   "url": "https://github.com/itsoumya-d/zeroq"
   }
  ],
  "languages": [
@@ -575,7 +575,7 @@
   "total": 16
  },
  "activity": {
-  "total": 3894,
+  "total": 3908,
   "label": "contributions in the last year",
   "stats": [
    [
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[zeroq](https://github.com/itsoumya-d/zeroq)**: \ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS. \u00b7 pushed 27 Nov 2026\n- **[mobile-native-design-system](https://github.com/itsoumya-d/mobile-native-design-system)**: Flutter-first native mobile design, motion, token, and audit plugin for Codex. \u00b7 pushed 27 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 27 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 27 Nov 2026\n- **[cybermentor](https://github.com/itsoumya-d/cybermentor)**: AI-powered OWASP security learning platform \u2014 learn to hack, then fix. Built for NextDev Hackathon 2026. \u00b7 pushed 27 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[hostshift](https://github.com/itsoumya-d/hostshift)**: HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal. \u00b7 pushed 27 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 27 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 27 Nov 2026\n- **[ContentForge-AI](https://github.com/itsoumya-d/ContentForge-AI)**: Automated document parsing, structured content analysis, and generation pipeline. \u00b7 pushed 27 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 27 Nov 2026"
   },
   {
    "id": "quality",
@@ -792,7 +792,7 @@
     "audit",
     "approval"
    ],
-   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 25 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 25 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
+   "md": "**Agent safety & security**: Rails for AI agents that touch real systems: approvals, policy checks and cryptographic receipts.\n\n1. **[HEROS](https://github.com/itsoumya-d/HEROS)**: A safety layer for AI agents: risky actions need a human OK, and every action leaves a tamper-proof receipt.  \n  `MCP 2025-11-25 runtime \u00b7 19 MCP tests \u00b7 macOS/Linux/Windows CI` \u00b7 CI passing \u00b7 last push 27 Nov 2026\n2. **[HEROS Firewall](https://github.com/itsoumya-d/HEROS-Firewall)**: A security guard between an AI agent and its tools that blocks dangerous calls before they run.  \n  `1,000 attack payloads blocked \u00b7 0 false positives \u00b7 p99 0.10 ms` \u00b7 CI passing \u00b7 last push 31 Oct 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-firewall)\n3. **[HEROS Cloud](https://github.com/itsoumya-d/HEROS-Cloud-SaaS)**: A workflow studio where the AI writes plain-English safety rules from its own failures, and a human approves them.  \n  `Task completion 70% \u2192 100% after 4 approved rules (simulated)` \u00b7 CI passing \u00b7 last push 25 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/heros-cloud-saas)"
   },
   {
    "id": "lens:research",
