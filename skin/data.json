@@ -1,6 +1,6 @@
 {
  "answered": 0,
- "hash": "d18a51f0dd949f8a",
+ "hash": "d1a58921ccc109f0",
  "live": {
   "activity": {
    "days": {
@@ -355,7 +355,7 @@
     "2026-11-06": 27,
     "2026-11-07": 7,
     "2026-11-08": 6,
-    "2026-11-09": 21,
+    "2026-11-09": 20,
     "2026-11-10": 1,
     "2026-11-11": 14,
     "2026-11-12": 6,
@@ -374,11 +374,11 @@
     "2026-11-25": 207,
     "2026-11-26": 157,
     "2026-11-27": 32,
-    "2026-11-28": 12
+    "2026-11-28": 74
    },
    "label": "contributions in the last year",
    "source": "calendar",
-   "total": 3919
+   "total": 3980
   },
   "ci": {
    "Anthropic-PerfBench": {
@@ -442,10 +442,10 @@
     "url": "https://github.com/itsoumya-d/autopilot-fde/actions/runs/44962169106"
    },
    "edgeinfer": {
-    "at": "2026-11-26",
+    "at": "2026-11-28",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/edgeinfer/actions/runs/45810046356"
+    "url": "https://github.com/itsoumya-d/edgeinfer/actions/runs/46098074782"
    },
    "factory-monitor": {
     "at": "2026-11-26",
@@ -463,7 +463,7 @@
     "at": "2026-11-28",
     "conclusion": "success",
     "state": "pass",
-    "url": "https://github.com/itsoumya-d/llm-control-plane/actions/runs/46092016874"
+    "url": "https://github.com/itsoumya-d/llm-control-plane/actions/runs/46126277126"
    },
    "peervault": {
     "at": "2026-11-04",
@@ -521,8 +521,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-27T12:19:57Z",
-    "size": 507,
+    "pushed_at": "2026-11-28T02:23:50Z",
+    "size": 516,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/ContentForge-AI"
    },
@@ -534,8 +534,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Dart",
-    "pushed_at": "2026-11-26T09:05:29Z",
-    "size": 271,
+    "pushed_at": "2026-11-28T03:23:02Z",
+    "size": 279,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/EcoSphere"
    },
@@ -911,8 +911,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-06T01:09:25Z",
-    "size": 32,
+    "pushed_at": "2026-11-28T07:58:29Z",
+    "size": 37,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/aimer-pos-settlement"
    },
@@ -1144,9 +1144,9 @@
     "fork": false,
     "forks": 0,
     "homepage": "",
-    "language": "TypeScript",
-    "pushed_at": "2026-11-06T10:47:27Z",
-    "size": 3749,
+    "language": "JavaScript",
+    "pushed_at": "2026-11-28T09:39:51Z",
+    "size": 3760,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/bitwarden-desktop-vault-ipc"
    },
@@ -1184,8 +1184,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-28T00:58:26Z",
-    "size": 32,
+    "pushed_at": "2026-11-28T08:37:19Z",
+    "size": 45,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/broadcast-control-service"
    },
@@ -1262,7 +1262,7 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-24T04:49:09Z",
+    "pushed_at": "2026-11-28T02:23:35Z",
     "size": 171,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/client-delivery-api"
@@ -1522,8 +1522,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Java",
-    "pushed_at": "2026-11-23T12:49:56Z",
-    "size": 130,
+    "pushed_at": "2026-11-28T09:13:30Z",
+    "size": 135,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/cross-border-mobility-compliance"
    },
@@ -1587,7 +1587,7 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-26T03:11:22Z",
+    "pushed_at": "2026-11-28T09:38:57Z",
     "size": 42,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/database-operations-sentinel"
@@ -1665,7 +1665,7 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-25T01:02:02Z",
+    "pushed_at": "2026-11-28T06:43:29Z",
     "size": 120,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/durable-agentic-dag"
@@ -1691,8 +1691,8 @@
     "forks": 0,
     "homepage": "https://itsoumya-d.github.io/edgeinfer/",
     "language": "JavaScript",
-    "pushed_at": "2026-11-26T11:22:44Z",
-    "size": 2150,
+    "pushed_at": "2026-11-28T02:26:26Z",
+    "size": 2172,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/edgeinfer"
    },
@@ -1782,8 +1782,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-28T00:52:44Z",
-    "size": 18,
+    "pushed_at": "2026-11-28T10:05:27Z",
+    "size": 35,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/entity-embed-eval"
    },
@@ -2016,8 +2016,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-26T02:47:36Z",
-    "size": 19,
+    "pushed_at": "2026-11-28T02:46:56Z",
+    "size": 27,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/gcp-workspace-identity-governor"
    },
@@ -2094,8 +2094,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-26T05:56:41Z",
-    "size": 1243,
+    "pushed_at": "2026-11-28T05:52:49Z",
+    "size": 1347,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/govpass"
    },
@@ -2159,8 +2159,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-28T01:42:30Z",
-    "size": 781,
+    "pushed_at": "2026-11-28T09:41:42Z",
+    "size": 807,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/hostshift"
    },
@@ -2354,8 +2354,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-27T18:59:29Z",
-    "size": 683,
+    "pushed_at": "2026-11-28T01:59:50Z",
+    "size": 704,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/itsoumya-d"
    },
@@ -2445,8 +2445,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Python",
-    "pushed_at": "2026-11-28T01:13:32Z",
-    "size": 1088,
+    "pushed_at": "2026-11-28T08:32:13Z",
+    "size": 1152,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/llm-control-plane"
    },
@@ -2601,8 +2601,8 @@
     "forks": 0,
     "homepage": "",
     "language": "TypeScript",
-    "pushed_at": "2026-11-26T04:57:15Z",
-    "size": 2282,
+    "pushed_at": "2026-11-28T04:44:25Z",
+    "size": 2315,
     "stars": 3,
     "url": "https://github.com/itsoumya-d/motion-mcp"
    },
@@ -2641,7 +2641,7 @@
     "homepage": "",
     "language": "Python",
     "pushed_at": "2026-11-28T01:07:25Z",
-    "size": 0,
+    "size": 11,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/multi-currency-recon"
    },
@@ -3212,8 +3212,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Dart",
-    "pushed_at": "2026-10-08T22:51:03Z",
-    "size": 12047,
+    "pushed_at": "2026-11-28T02:49:45Z",
+    "size": 12052,
     "stars": 1,
     "url": "https://github.com/itsoumya-d/simbook"
    },
@@ -3289,9 +3289,9 @@
     "fork": false,
     "forks": 0,
     "homepage": "",
-    "language": null,
-    "pushed_at": "2026-08-19T00:08:48Z",
-    "size": 12,
+    "language": "Python",
+    "pushed_at": "2026-11-28T04:17:38Z",
+    "size": 17,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/surface-karya"
    },
@@ -3516,6 +3516,19 @@
     "stars": 0,
     "url": "https://github.com/itsoumya-d/tycoon-sim-core"
    },
+   "ui-pattern-indexer": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "JavaScript",
+    "pushed_at": "2026-11-28T06:10:45Z",
+    "size": 16,
+    "stars": 0,
+    "url": "https://github.com/itsoumya-d/ui-pattern-indexer"
+   },
    "ultimatrix": {
     "archived": false,
     "default_branch": "main",
@@ -3524,8 +3537,8 @@
     "forks": 0,
     "homepage": "",
     "language": "Rust",
-    "pushed_at": "2026-11-08T12:17:55Z",
-    "size": 233255,
+    "pushed_at": "2026-11-28T05:14:47Z",
+    "size": 233261,
     "stars": 0,
     "url": "https://github.com/itsoumya-d/ultimatrix"
    },
@@ -3721,7 +3734,7 @@
    "location": "Kolkata, India \u2192 Open to NZ & Singapore",
    "login": "itsoumya-d",
    "name": "Soumya Debnath",
-   "public_repos": 247
+   "public_repos": 248
   }
  },
  "synced": "2026-11-28"
