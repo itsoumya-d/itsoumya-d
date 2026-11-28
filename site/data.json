@@ -1,5 +1,5 @@
 {
- "synced": "2026-11-27",
+ "synced": "2026-11-28",
  "profile": {
   "login": "itsoumya-d",
   "hf": "itssoumyad",
@@ -192,7 +192,7 @@
  },
  "kpis": [
   [
-   "246",
+   "247",
    "public repos"
   ],
   [
@@ -209,7 +209,7 @@
   ]
  ],
  "ticker": [
-  "shipping hostshift \u00b7 pushed 27 Nov",
+  "shipping hostshift \u00b7 pushed 28 Nov",
   "16/16 flagship systems passing CI right now",
   "2 apps live on the App Store & Google Play"
  ],
@@ -297,7 +297,7 @@
     "Prometheus"
    ],
    "url": "https://github.com/itsoumya-d/llm-control-plane",
-   "pushed_at": "2026-11-27T12:56:19Z",
+   "pushed_at": "2026-11-28T01:13:32Z",
    "stars": 0,
    "language": "Python",
    "ci": "pass"
@@ -502,20 +502,26 @@
   {
    "name": "hostshift",
    "description": "HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal.",
-   "pushed_at": "2026-11-27T13:39:54Z",
+   "pushed_at": "2026-11-28T01:42:30Z",
    "url": "https://github.com/itsoumya-d/hostshift"
+  },
+  {
+   "name": "llm-control-plane",
+   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
+   "pushed_at": "2026-11-28T01:13:32Z",
+   "url": "https://github.com/itsoumya-d/llm-control-plane"
+  },
+  {
+   "name": "broadcast-control-service",
+   "description": "Broadcast rundown/graphics control: preview, take, clear, payload updates, audit",
+   "pushed_at": "2026-11-28T00:58:26Z",
+   "url": "https://github.com/itsoumya-d/broadcast-control-service"
   },
   {
    "name": "certiflow-ai",
    "description": "AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7",
    "pushed_at": "2026-11-27T13:09:27Z",
    "url": "https://github.com/itsoumya-d/certiflow-ai"
-  },
-  {
-   "name": "llm-control-plane",
-   "description": "Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability",
-   "pushed_at": "2026-11-27T12:56:19Z",
-   "url": "https://github.com/itsoumya-d/llm-control-plane"
   },
   {
    "name": "ContentForge-AI",
@@ -528,22 +534,16 @@
    "description": "Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts.",
    "pushed_at": "2026-11-27T12:01:33Z",
    "url": "https://github.com/itsoumya-d/HEROS"
-  },
-  {
-   "name": "zeroq",
-   "description": "\ud83d\udce8 Serverless P2P message queue. Pub/sub + work queues. Replaces Kafka & AWS SQS.",
-   "pushed_at": "2026-11-27T04:43:21Z",
-   "url": "https://github.com/itsoumya-d/zeroq"
   }
  ],
  "languages": [
   [
    "Python",
-   47
+   48
   ],
   [
    "TypeScript",
-   25
+   24
   ],
   [
    "Go",
@@ -575,11 +575,11 @@
   "total": 16
  },
  "activity": {
-  "total": 3908,
+  "total": 3919,
   "label": "contributions in the last year",
   "stats": [
    [
-    "191",
+    "192",
     "active days"
    ],
    [
@@ -587,7 +587,7 @@
     "best day"
    ],
    [
-    "51d",
+    "52d",
     "current streak"
    ]
   ]
@@ -647,7 +647,7 @@
     "this week",
     "today"
    ],
-   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[hostshift](https://github.com/itsoumya-d/hostshift)**: HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal. \u00b7 pushed 27 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 27 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 27 Nov 2026\n- **[ContentForge-AI](https://github.com/itsoumya-d/ContentForge-AI)**: Automated document parsing, structured content analysis, and generation pipeline. \u00b7 pushed 27 Nov 2026\n- **[HEROS](https://github.com/itsoumya-d/HEROS)**: Deterministic MCP 2025-11-25 agent runtime with human approval gates, idempotent writes, and cryptographic audit receipts. \u00b7 pushed 27 Nov 2026"
+   "md": "Most recent pushes, straight from the GitHub API:\n\n- **[hostshift](https://github.com/itsoumya-d/hostshift)**: HostShift: Cross-Platform Multi-Host UI Evaluation Harness for Autonomous Computer-Use Agents. 142/142 CI tests passed. Web, Android, macOS, Terminal. \u00b7 pushed 28 Nov 2026\n- **[llm-control-plane](https://github.com/itsoumya-d/llm-control-plane)**: Provider-agnostic LLM gateway and evaluation control plane with audit-grade traceability \u00b7 pushed 28 Nov 2026\n- **[broadcast-control-service](https://github.com/itsoumya-d/broadcast-control-service)**: Broadcast rundown/graphics control: preview, take, clear, payload updates, audit \u00b7 pushed 28 Nov 2026\n- **[certiflow-ai](https://github.com/itsoumya-d/certiflow-ai)**: AI-powered compliance automation platform \u2014 autonomous agents verify SOC 2, ISO 27001 controls 24/7 \u00b7 pushed 27 Nov 2026\n- **[ContentForge-AI](https://github.com/itsoumya-d/ContentForge-AI)**: Automated document parsing, structured content analysis, and generation pipeline. \u00b7 pushed 27 Nov 2026"
   },
   {
    "id": "quality",
@@ -722,7 +722,7 @@
     "tools",
     "know"
    ],
-   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 47%, TypeScript 25%, Go 5%, HTML 5%, C# 4%, JavaScript 3%."
+   "md": "- **Applied AI & agents**: LangGraph, MCP, Claude, Gemini, OpenAI, tool calling, structured outputs, retrieval, evals, Transformers\n- **Full-stack & real-time**: TypeScript, Next.js, React, Python/FastAPI, Node.js, SSE, WebSockets, PostgreSQL, Supabase, Redis\n- **Mobile**: Flutter, Dart, React Native, Expo, HealthKit, Health Connect, App Store Connect, Play Console\n- **Systems & performance**: Rust, Go, C (ARM NEON), WebGPU/WGSL, WASM, WebRTC, WebCrypto\n- **.NET & integration**: C#, .NET 10, ASP.NET Core, EF Core, SQL Server, webhooks, HMAC, idempotency, outbox\n- **Delivery**: Docker, GitHub Actions, Azure Container Apps, Bicep, Linux, threat modeling\n\nPrimary language across my repos (live): Python 48%, TypeScript 24%, Go 5%, HTML 5%, C# 4%, JavaScript 3%."
   },
   {
    "id": "apps",
@@ -777,7 +777,7 @@
     "cost",
     "observability"
    ],
-   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 27 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
+   "md": "**AI / LLM platform**: Gateways, routing and retrieval that make LLM features cheaper, observable and auditable.\n\n1. **[LLM Control Plane](https://github.com/itsoumya-d/llm-control-plane)**: One gateway in front of every LLM provider, with failover, rate limits, cost tracking and an audit log.  \n  `45 tests \u00b7 93% coverage \u00b7 Python 3.9\u20133.12 CI` \u00b7 CI passing \u00b7 last push 28 Nov 2026\n2. **[RouteLLM Gateway](https://github.com/itsoumya-d/RouteLLM-Gateway)**: Sends easy prompts to a cheap model and hard ones to a frontier model, so you pay less for the same answers.  \n  `\u221269% cost \u00b7 98% of frontier accuracy kept (synthetic harness)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/routellm-gateway)\n3. **[GraphRAG CodeAudit](https://github.com/itsoumya-d/GraphRAG-CodeAudit)**: Turns a codebase into a knowledge graph so an AI can answer big-picture audit questions, not just keyword lookups.  \n  `Beats flat RAG on 64 of 100 questions (deterministic rubric)` \u00b7 CI passing \u00b7 last push 4 Nov 2026 \u00b7 [live demo](https://huggingface.co/spaces/itssoumyad/graphrag-codeaudit)"
   },
   {
    "id": "lens:safety",
@@ -1009,6 +1009,7 @@
   "motion-mcp",
   "mscp-game",
   "msp-network-ops",
+  "multi-currency-recon",
   "multi-tenant-saas-postgres-rls",
   "n8n-nodes-gov-guard",
   "namespace-ci-wait-analyzer",
